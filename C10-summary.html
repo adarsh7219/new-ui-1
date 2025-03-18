@@ -1,252 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>C10 Summary</title>
 
-    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>C10 Summary</title>
 
-    <link href="css/style.css" rel="stylesheet" />
+  <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
 
-    <link href="css/02-create-life-with-sdg.css" rel="stylesheet" />
-    <link href="css/be-born.css" rel="stylesheet" />
-    <link href="css/01-design-life.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
 
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/theme-change.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
+  <link href="css/02-create-life-with-sdg.css" rel="stylesheet" />
+  <link href="css/be-born.css" rel="stylesheet" />
+  <link href="css/01-design-life.css" rel="stylesheet" />
 
-  <body>
-    <header class="sticky-top">
-      <nav class="navbar navbar-light navbar-expand-lg navbar-theme">
-        <div class="container-fluid">
-          <div>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#navbarOffcanvasLg"
-              aria-controls="navbarOffcanvasLg"
-            >
-              <i class="fa-solid fa-bars"></i>
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/theme-change.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class="sticky-top">
+    <nav class="navbar navbar-light navbar-expand-lg navbar-theme">
+      <div class="container-fluid">
+        <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
+            aria-controls="navbarOffcanvasLg">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <a class="navbar-brand" href="#">
+            <img src="images/Logo.svg" alt="Gameplay" />
+          </a>
+        </div>
+
+        <ul class="nav right-nav d-flex">
+          <li class="nav-item">
+            <button class="btn" href="#">
+              <i class="fa fa-times" aria-hidden="true"></i>
             </button>
+          </li>
+        </ul>
 
-            <a class="navbar-brand" href="#">
-              <img src="images/Logo.svg" alt="Gameplay" />
-            </a>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="navbarOffcanvasLg"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header background-color-web">
+            <div>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <img src="images/Logo.svg" alt="Gameplay" />
+              </h5>
+              <p class="offcanvas-title">ThoughtCraft</p>
+            </div>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div class="offcanvas-body background-color-web">
+            <ul class="navbar-nav offcanvas-nav justify-content-end flex-grow-1 pe-3 content-font">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <img src="images/globe-gray.svg" class="me-3" />
+                  <span>
+                    <p class="mb-0">Set Language</p>
+                    <p class="mb-0 fw-light">Set your default language</p>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img src="images/flag.svg" class="me-3" />
+                  <span>
+                    <p class="mb-0">Choose Country</p>
+                    <p class="mb-0 fw-light">
+                      You can choose a different country as your registered
+                      country.
+                    </p>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img src="images/screenn-setting.svg" class="me-3" />
+                  <span>
+                    <p class="mb-0">Born Screen Settings</p>
+                    <p class="mb-0 fw-light">
+                      Select a screen to see in the game
+                    </p>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img src="images/log-out.svg" class="me-3" /> Log Out
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="clearfix"></div>
+
+  <main>
+    <section class="container white-title">
+      <div class="page-heading">
+        <p>Summary of Choices</p>
+      </div>
+      <div class="page-heading text-blue pb-2">
+        <p>You are born as a boy in Ireland</p>
+      </div>
+
+      <div class="country-flex-box-outer">
+        <div class="country-flex-box-inner">
+          <div class="country-flex-box-flag">
+            <img src="images/01-design-life/Iceland-flag.svg" />
           </div>
 
-          <ul class="nav right-nav d-flex">
-            <li class="nav-item">
-              <button class="btn" href="#">
-                <i class="fa fa-times" aria-hidden="true"></i>
-              </button>
-            </li>
-          </ul>
+          <div class="country-flex-box-flag-text">
+            <p class="mb-0">Iceland</p>
+            <a href=""> Know more </a>
+          </div>
+        </div>
 
-          <div
-            class="offcanvas offcanvas-start"
-            tabindex="-1"
-            id="navbarOffcanvasLg"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header background-color-web">
-              <div>
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                  <img src="images/Logo.svg" alt="Gameplay" />
-                </h5>
-                <p class="offcanvas-title">ThoughtCraft</p>
+        <div class="info-section summery-btm">
+          <div class="info-section-content">
+            <p>
+              Iceland's history is bound up with its harsh environment, its
+              Viking heritage, and its language. The whole country is
+              essentially 'alive' with volcanic activity, the nation harnesses
+              hydro and geothermal energy to power more than 80% of the
+              country. Self-sufficiency, work ethic, and independence are
+              strongly valued here, and the brusque manners of Icelanders hide
+              a friendly, helpful nature reflected in dedication to the
+              immediate community. Conservation of the environment is a high
+              priority for Iceland, a country that depends on natural
+              resources and their sustainable management. One of the most
+              serious environmental problems in Iceland is the loss of
+              vegetation by wind erosion. Icelandic waters are among the
+              cleanest in the world. Iceland has taken an active role in
+              international fora on the issue of persistent organic
+              pollutants.
+            </p>
+
+            <div class="title-img text-center mb-4 pt-4">
+              <img src="images/title-image.svg" alt="Gameplay" />
+            </div>
+            <div class="page-heading pt-2">
+              <p>Your SDG Goal & Subgoal</p>
+            </div>
+            <div class="container sdg-subgoal-top mt-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <div class="subgoal-color-box lifebox-1 me-4">
+                  <div class="d-flex text-center">
+                    <p class="subgoal-sr mb-0">1</p>
+                    <img src="images/sdg-life/1.svg" alt="Gameplay" class="m-auto" />
+                  </div>
+                  <div class="subgoal-box-content text-center">
+                    <p class="subgoal-text">
+                      No <br />
+                      Poverty
+                    </p>
+                    <p class="fw-bold content-font mb-0">0</p>
+                  </div>
+                </div>
+
+                <div class="sdg-subgoal-right-text">
+                  <p class="content-font fw-semibold text-start">
+                    1.1 : Poverty headcount ratio at $1.90/day (%)
+                  </p>
+                </div>
               </div>
-              <button
-                type="button"
-                class="btn-close text-reset"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              >
-                <i class="fa fa-times" aria-hidden="true"></i>
-              </button>
             </div>
-            <div class="offcanvas-body background-color-web">
-              <ul
-                class="navbar-nav offcanvas-nav justify-content-end flex-grow-1 pe-3 content-font"
-              >
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">
-                    <img src="images/globe-gray.svg" class="me-3" />
-                    <span>
-                      <p class="mb-0">Set Language</p>
-                      <p class="mb-0 fw-light">Set your default language</p>
-                    </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <img src="images/flag.svg" class="me-3" />
-                    <span>
-                      <p class="mb-0">Choose Country</p>
-                      <p class="mb-0 fw-light">
-                        You can choose a different country as your registered
-                        country.
-                      </p>
-                    </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <img src="images/screenn-setting.svg" class="me-3" />
-                    <span>
-                      <p class="mb-0">Born Screen Settings</p>
-                      <p class="mb-0 fw-light">
-                        Select a screen to see in the game
-                      </p>
-                    </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <img src="images/log-out.svg" class="me-3" /> Log Out
-                  </a>
-                </li>
-              </ul>
+
+            <p class="d-inline m-auto mt-4 mb-2">Your Name</p>
+            <p class="d-inline m-auto fw-bold">Abbondanzio Agosti</p>
+          </div>
+
+          <div class="profile-info-outer">
+            <div class="profile-info-box background-color-web">
+              <p class="mb-0">Gender:</p>
+              <p class="mb-0">Male</p>
             </div>
+            <div class="profile-info-box background-color-web">
+              <p class="mb-0">Country:</p>
+              <p class="mb-0">Ireland</p>
+            </div>
+            <div class="profile-info-box background-color-web">
+              <p class="mb-0">City:</p>
+              <p class="mb-0">Bakersfield</p>
+            </div>
+            <div class="profile-info-box background-color-web">
+              <p class="mb-0">State:</p>
+              <p class="mb-0">Santa Cruz</p>
+            </div>
+          </div>
+
+          <div class="page-bottom-text">
+            <p>You are born into a family which practices Catholicism.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="clearfix"></div>
+
+  <footer>
+    <div class="footer">
+      <nav class="bottom-nav z-index-1">
+        <a href="a02-gamescreen.html" class="footer-icon z-index-10">
+          <img src="images/play-btn-1.svg" alt="Gameplay" />
+        </a>
+        <!-- <p class="mb-0">Live a <a href="#">Life</a> </p> -->
+        <div class="bottom-nav-item">
+          <div class="bottom-nav-link  background-color-web border-none ">
+            <p class="mb-0">Live a <a href="#">Life</a></p>
           </div>
         </div>
       </nav>
-    </header>
-    <div class="clearfix"></div>
+    </div>
+  </footer>
 
-    <main>
-      <section class="container white-title">
-        <div class="page-heading">
-          <p>Summary of Choices</p>
-        </div>
-        <div class="page-heading text-blue pb-2">
-          <p>You are born as a boy in Ireland</p>
-        </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
 
-        <div class="country-flex-box-outer">
-          <div class="country-flex-box-inner">
-            <div class="country-flex-box-flag">
-              <img src="images/01-design-life/Iceland-flag.svg" />
-            </div>
-
-            <div class="country-flex-box-flag-text">
-              <p class="mb-0">Iceland</p>
-              <a href=""> Know more </a>
-            </div>
-          </div>
-
-          <div class="info-section summery-btm">
-            <div class="info-section-content">
-              <p>
-                Iceland's history is bound up with its harsh environment, its
-                Viking heritage, and its language. The whole country is
-                essentially 'alive' with volcanic activity, the nation harnesses
-                hydro and geothermal energy to power more than 80% of the
-                country. Self-sufficiency, work ethic, and independence are
-                strongly valued here, and the brusque manners of Icelanders hide
-                a friendly, helpful nature reflected in dedication to the
-                immediate community. Conservation of the environment is a high
-                priority for Iceland, a country that depends on natural
-                resources and their sustainable management. One of the most
-                serious environmental problems in Iceland is the loss of
-                vegetation by wind erosion. Icelandic waters are among the
-                cleanest in the world. Iceland has taken an active role in
-                international fora on the issue of persistent organic
-                pollutants.
-              </p>
-
-              <div class="title-img text-center mb-4 pt-4">
-                <img src="images/title-image.svg" alt="Gameplay" />
-              </div>
-              <div class="page-heading pt-2">
-                <p>Your SDG Goal & Subgoal</p>
-              </div>
-              <div class="container sdg-subgoal-top mt-3">
-                <div class="d-flex align-items-center justify-content-center">
-                  <div class="subgoal-color-box lifebox-1 me-4">
-                    <div class="d-flex text-center">
-                      <p class="subgoal-sr mb-0">1</p>
-                      <img
-                        src="images/sdg-life/1.svg"
-                        alt="Gameplay"
-                        class="m-auto"
-                      />
-                    </div>
-                    <div class="subgoal-box-content text-center">
-                      <p class="subgoal-text">
-                        No <br />
-                        Poverty
-                      </p>
-                      <p class="fw-bold content-font mb-0">0</p>
-                    </div>
-                  </div>
-
-                  <div class="sdg-subgoal-right-text">
-                    <p class="content-font fw-semibold text-start">
-                      1.1 : Poverty headcount ratio at $1.90/day (%)
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <p class="d-inline m-auto mt-4 mb-2">Your Name</p>
-              <p class="d-inline m-auto fw-bold">Abbondanzio Agosti</p>
-            </div>
-
-            <div class="profile-info-outer">
-              <div class="profile-info-box background-color-web">
-                <p class="mb-0">Gender:</p>
-                <p class="mb-0">Male</p>
-              </div>
-              <div class="profile-info-box background-color-web">
-                <p class="mb-0">Country:</p>
-                <p class="mb-0">Ireland</p>
-              </div>
-              <div class="profile-info-box background-color-web">
-                <p class="mb-0">City:</p>
-                <p class="mb-0">Bakersfield</p>
-              </div>
-              <div class="profile-info-box background-color-web">
-                <p class="mb-0">State:</p>
-                <p class="mb-0">Santa Cruz</p>
-              </div>
-            </div>
-
-            <div class="page-bottom-text">
-              <p>You are born into a family which practices Catholicism.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <div class="clearfix"></div>
-
-    <footer>
-      <div class="footer">
-        <nav class="bottom-nav z-index-1">
-          <a href="a02-gamescreen.html" class="footer-icon z-index-10">
-            <img src="images/play-btn-1.svg" alt="Gameplay" />
-          </a>
-          <!-- <p class="mb-0">Live a <a href="#">Life</a> </p> -->
-          <div class="bottom-nav-item">
-            <div class="bottom-nav-link background-color-web">
-              <p class="mb-0">Live a <a href="#">Life</a></p>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </footer>
-
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
 </html>

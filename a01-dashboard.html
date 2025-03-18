@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A01 Dashboard</title>
+
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/theme-change.css">
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <header class="sticky-top">
+        <nav class="navbar navbar-light navbar-expand-lg navabr-theme ">
+            <div class="container-fluid">
+
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+
+                    <a class="navbar-brand" href="#">
+                        <img src="images/Logo.svg" alt="Gameplay" />
+                    </a>
+                </div>
+
+
+                <ul class="nav right-nav d-flex">
+                    <li class="nav-item ">
+                        <button class="btn " href="#"> <img src="images/globe.svg" alt="Gameplay" /> </button>
+                    </li>
+                    <li class="nav-item ">
+                        <button type="button" class="btn position-relative">
+                            <!-- <i class="fas fa-bell"></i> -->
+                            <img src="images/bell.svg" alt="" />
+                            <span class="position-absolute  badge rounded-pill bg-success">
+
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+
+                            <!-- <div class="badge-wrap">
+                        <i class="fas fa-bell"></i>
+                        <div class="badge-without-number"></div>
+                    </div> -->
+
+                        </button>
+                    </li>
+                    <li class="nav-item ">
+                        <button class="btn " href="#"><img src="images/user.svg" alt="Gameplay" /></button>
+                    </li>
+                </ul>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="navbarOffcanvasLg"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <div>
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                                <img src="images/Logo.svg" alt="Gameplay" />
+                            </h5>
+                            <p class="offcanvas-title">ThoughtCraft</p>
+                        </div>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav offcanvas-nav justify-content-end flex-grow-1 pe-3 content-font">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">
+                                    <img src="images/globe-gray.svg" class="me-3" />
+                                    <span>
+                                        <p class="mb-0">Set Language </p>
+                                        <p class="mb-0 fw-light"> Set your default language </p>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="images/flag.svg" class="me-3" />
+                                    <span>
+                                        <p class="mb-0">Choose Country </p>
+                                        <p class="mb-0 fw-light"> You can choose a different country as your registered
+                                            country.</p>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="images/screenn-setting.svg" class="me-3" />
+                                    <span>
+                                        <p class="mb-0">Born Screen Settings </p>
+                                        <p class="mb-0 fw-light"> Select a screen to see in the game</p>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="images/log-out.svg" class="me-3" /> Log Out
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="clear-both"> </div>
+    <main>
+
+        <section class="show-location position-relative">
+            <div class="">
+                <div class="location-title">
+                    <p class="mb-0">Jem's Gameplay Dashboard</p>
+                </div>
+                <div class="show-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.14199614953!2d73.72288117003453!3d18.524564859944654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1690635113665!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <div class="clear-both"> </div>
+
+        <section class="container pt-4 white-title">
+            <div class="title-img text-center mb-2">
+                <img src="images/title-image.svg" alt="Gameplay" />
+            </div>
+            <p class="section-title mb-0 white-title">SDG's chosen by me while creating a life</p>
+            <div class="life-content">
+                <div class="row flex-nowrap gap-2 mb-2">
+                    <div class="lifebox lifebox-1 col-3">
+                        <div class="d-flex text-center white-title">
+                            <p class="lifebox-sr mb-0 white-title">1</p>
+                            <img src="images/sdg-life/1.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text white-title">No <br> Poverty </p>
+                            <p class="fw-bold content-font mb-0 white-title">0</p>
+                        </div>
+                    </div>
+
+                    <div class="lifebox lifebox-2 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0 white-title">2</p>
+                            <img src="images/sdg-life/2.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text white-title">Zero <br> Hunger </p>
+                            <p class="fw-bold content-font mb-0 white-title">0</p>
+                        </div>
+                    </div>
+
+                    <div class="lifebox lifebox-3 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">3</p>
+                            <img src="images/sdg-life/3.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text white-title">Good Health <br> & Well-being </p>
+                            <p class="fw-bold content-font mb-0">0</p>
+                        </div>
+                    </div>
+
+                    <div class="lifebox lifebox-4 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">4</p>
+                            <img src="images/sdg-life/4.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text white-title">Quality <br> Education </p>
+                            <p class="fw-bold content-font mb-0 white-title">0</p>
+                        </div>
+                    </div>
+
+                    <div class="lifebox lifebox-5 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">5</p>
+                            <img src="images/sdg-life/5.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text white-title">Gender <br> Equality </p>
+                            <p class="fw-bold content-font mb-0">0</p>
+                        </div>
+                    </div>
+
+                    <div class="lifebox lifebox-6 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">6</p>
+                            <img src="images/sdg-life/6.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text white-title">Clean Water <br> & Sanitation </p>
+                            <p class="fw-bold content-font mb-0">0</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row flex-nowrap gap-2 mb-2">
+                    <div class="lifebox lifebox-7 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">7</p>
+                            <img src="images/sdg-life/7.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text white-title">Affordable & <br> Clean Energy </p>
+                            <p class="fw-bold content-font mb-0">0</p>
+                        </div>
+                    </div>
+
+                    <div class="lifebox lifebox-8 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">8</p>
+                            <img src="images/sdg-life/8.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text white-title">Decent Work & <br> Economic Growth </p>
+                            <p class="fw-bold content-font mb-0">0</p>
+                        </div>
+                    </div>
+
+                    <div class="lifebox lifebox-9 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">9</p>
+                            <img src="images/sdg-life/9.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text white-title">Industry Innovation <br> & Infrastructure </p>
+                            <p class="fw-bold content-font mb-0">0</p>
+                        </div>
+                    </div>
+
+                    <div class="lifebox lifebox-10 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">10</p>
+                            <img src="images/sdg-life/10.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text white-title">Reduced <br> Inequalities </p>
+                            <p class="fw-bold content-font mb-0">0</p>
+                        </div>
+                    </div>
+
+                    <div class="lifebox lifebox-11 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">11</p>
+                            <img src="images/sdg-life/11.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text white-title">Sustainable Cities <br> & Communities</p>
+                            <p class="fw-bold content-font mb-0">0</p>
+                        </div>
+                    </div>
+
+                    <div class="lifebox lifebox-12 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">12</p>
+                            <img src="images/sdg-life/12.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text lifebox-small-text">Responsible Consumption <br> & Production </p>
+                            <p class="fw-bold content-font mb-0">0</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row flex-nowrap gap-2">
+                    <div class="lifebox lifebox-13 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">13</p>
+                            <img src="images/sdg-life/13.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text">Clemet <br> Action </p>
+                            <p class="fw-bold content-font mb-0">0</p>
+                        </div>
+                    </div>
+
+                    <div class="lifebox lifebox-14 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">14</p>
+                            <img src="images/sdg-life/14.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text">Life Below <br> Water </p>
+                            <p class="fw-bold content-font mb-0">0</p>
+                        </div>
+                    </div>
+
+                    <div class="lifebox lifebox-15 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">15</p>
+                            <img src="images/sdg-life/15.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text">Life On <br> Land </p>
+                            <p class="fw-bold content-font mb-0">0</p>
+                        </div>
+                    </div>
+
+                    <div class="lifebox lifebox-16 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">16</p>
+                            <img src="images/sdg-life/16.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text">Peace, Justice & <br> Strong Intuitions </p>
+                            <p class="fw-bold content-font mb-0">0</p>
+                        </div>
+                    </div>
+
+                    <div class="lifebox lifebox-17 col-3">
+                        <div class="d-flex">
+                            <p class="lifebox-sr mb-0">17</p>
+                            <img src="images/sdg-life/17.svg" alt="Gameplay" class="m-auto" />
+                        </div>
+                        <div class="box-content text-center">
+                            <p class="lifebox-text"> Partnerships <br> for the Goals </p>
+                            <p class="fw-bold content-font mb-0">0</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <div class="clear-both"> </div>
+
+        <section class="container pt-3 text-center">
+            <p class="section-title">Organs Donated By You</p>
+            <div class="row row-gutter">
+                <div class="col center-text-box">
+                    <!-- <div class="d-inline-flex">
+                <img src="images/organs/liver.svg" alt="Gameplay" />
+            </div> -->
+
+                    <div class="icon-wrapper">
+                        <img src="images/organs/liver.svg" alt="Gameplay" />
+                    </div>
+
+                    <div class="w-100">
+                        <p class="fw-medium mb-0">Liver</p>
+                        <p class="tag">Donated : 3</p>
+                    </div>
+                </div>
+
+                <div class="col center-text-box">
+                    <div class="icon-wrapper">
+                        <img src="images/organs/eyes.svg" alt="Gameplay" />
+                    </div>
+                    <div class="w-100">
+                        <p class="fw-medium mb-0">Eyes</p>
+                        <p class="tag">Donated : 3</p>
+                    </div>
+                </div>
+
+                <div class="col center-text-box">
+                    <div class="icon-wrapper">
+                        <img src="images/organs/heart.svg" alt="Gameplay" />
+                    </div>
+                    <div class="w-100">
+                        <p class="fw-medium mb-0">Heatr</p>
+                        <p class="tag">Donated : 3</p>
+                    </div>
+                </div>
+
+                <div class="col center-text-box">
+                    <div class="icon-wrapper">
+                        <img src="images/organs/kidney.svg" alt="Gameplay" />
+                    </div>
+                    <div class="w-100">
+                        <p class="fw-medium mb-0">Kidney</p>
+                        <p class="tag">Donated : 3</p>
+                    </div>
+                </div>
+
+                <div class="col center-text-box">
+                    <div class="icon-wrapper">
+                        <img src="images/organs/lungs.svg" alt="Gameplay" />
+                    </div>
+                    <div class="w-100">
+                        <p class="fw-medium mb-0">Lungs</p>
+                        <p class="tag">Donated : 3</p>
+                    </div>
+                </div>
+
+                <div class="col center-text-box">
+                    <div class="icon-wrapper">
+                        <img src="images/organs/skin.svg" alt="Gameplay" />
+                    </div>
+                    <div class="w-100">
+                        <p class="fw-medium mb-0">Skin</p>
+                        <p class="tag">Donated : 3</p>
+                    </div>
+                </div>
+
+                <div class="col center-text-box">
+                    <div class="icon-wrapper">
+                        <img src="images/organs/blood.svg" alt="Gameplay" />
+                    </div>
+                    <div class="w-100">
+                        <p class="fw-medium mb-0">Blood</p>
+                        <p class="tag">Donated : 3</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="clear-both"> </div>
+        <section class="container game-play text-center pt-3 mt-3">
+            <p class="section-title">My Gameplay Data</p>
+            <div class="row ">
+                <div class="col-4 center-text-box">
+                    <div class="w-100">
+                        <p class="gameplay-text"> Lives in Progress </p>
+                        <p class="fw-medium blue-title mb-0"> 4 </p>
+                    </div>
+                </div>
+
+                <div class="col-4 center-text-box">
+                    <div class="w-100">
+                        <p class="gameplay-text"> Lives Completed </p>
+                        <p class="fw-medium blue-title mb-0"> 4 </p>
+                    </div>
+                </div>
+
+                <div class="col-4 center-text-box">
+                    <div class="w-100">
+                        <p class="gameplay-text"> Male Lives </p>
+                        <p class="fw-medium blue-title mb-0"> 4 </p>
+                    </div>
+                </div>
+
+                <div class="col-4 center-text-box">
+                    <div class="w-100">
+                        <p class="gameplay-text"> Female Lives </p>
+                        <p class="fw-medium blue-title mb-0"> 4 </p>
+                    </div>
+                </div>
+
+                <div class="col-4 center-text-box">
+                    <div class="w-100">
+                        <p class="gameplay-text"> Countries Covered </p>
+                        <p class="fw-medium blue-title mb-0"> 4 </p>
+                    </div>
+                </div>
+
+                <div class="col-4 center-text-box">
+                    <div class="w-100">
+                        <p class="gameplay-text"> Obituaries Written </p>
+                        <p class="fw-medium blue-title mb-0"> 4 </p>
+                    </div>
+                </div>
+
+                <div class="col-4 center-text-box">
+                    <div class="w-100">
+                        <p class="gameplay-text"> Letters Written </p>
+                        <p class="fw-medium blue-title mb-0"> 4 </p>
+                    </div>
+                </div>
+
+                <div class="col-4 center-text-box">
+                    <div class="w-100">
+                        <p class="gameplay-text"> SDG Comments </p>
+                        <p class="fw-medium blue-title mb-0"> 4 </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="clear-both"> </div>
+
+
+    </main>
+
+    <div class="clear-both"> </div>
+    <footer>
+        <!-- <div class="footer">
+        <nav class="footer-nav text-center">
+            <a href="#" class="footer-icon">
+                
+                <img src="images/play-btn-1.svg" alt="Gameplay" />
+            </a>
+            
+            <p class="mb-0">Live a <a href="#">Life</a> </p>
+        </nav>
+    </div> -->
+
+        <div class="footer">
+            <nav class="bottom-nav">
+                <a href="#" class="footer-icon">
+
+                    <img src="images/play-btn-1.svg" alt="Gameplay" />
+                </a>
+                <!-- <p class="mb-0">Live a <a href="#">Life</a> </p> -->
+                <div class="bottom-nav-item ">
+                    <div class="bottom-nav-link">
+                        <p class="mb-0">Live a <a href="#">Life</a> </p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login OTP</title>
+
+
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/theme-change.css">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/08-login.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+
+    <div class="clearfix"> </div>
+
+    <main>
+        <section class="container">
+            <div class="login-form-outer">
+                <div class="login-form-inner bg-white">
+                    <div class="login-form-logo text-center">
+                        <img src="images/Logo-dark.svg" class="img img-fluid" />
+                    </div>
+                    <div class="page-heading">
+                        <p class=" ">Verify if this account is yours</p>
+                    </div>
+                    <div class="login-info-text content-font text-center">
+                        <p>Enter 6 digits code we've delivered through <br> SMS to ****-****-*198</p>
+                    </div>
+                    <div class="login-form-holder">
+                        <div class=" d-flex justify-content-center align-items-center">
+                            <div class="position-relative text-center">
+                                <div id="otp"
+                                    class="otp-inputs d-flex flex-row justify-content-center align-items-center mt-2">
+                                    <input class="m-1 text-center form-control rounded" type="text" id="first"
+                                        maxlength="1" />
+                                    <input class="m-1 text-center form-control rounded" type="text" id="second"
+                                        maxlength="1" />
+                                    <input class="m-1 text-center form-control rounded" type="text" id="third"
+                                        maxlength="1" />
+                                    <input class="m-1 text-center form-control rounded" type="text" id="fourth"
+                                        maxlength="1" />
+                                    <input class="m-1 text-center form-control rounded" type="text" id="fifth"
+                                        maxlength="1" />
+                                    <input class="m-1 text-center form-control rounded" type="text" id="sixth"
+                                        maxlength="1" />
+                                </div>
+
+                                <div class="mt-4">
+                                    <button class="btn px-4 btn-disable btn-login-otp">Verification</button>
+                                </div>
+                                <div class="mt-4">
+                                    <div class="content d-flex justify-content-center align-items-center">
+                                        <span>Please wait 28 seconds to <a href="#" class="text-decoration-none">Resend
+                                            </a> the code</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

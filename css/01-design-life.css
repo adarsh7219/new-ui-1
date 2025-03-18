@@ -1,0 +1,1493 @@
+
+
+.select-info-option label{
+    user-select: none;
+}
+.select-info-option input[type="radio"] {
+    display: none;
+}
+  
+.select-info-option input[type="radio"] + label {
+    z-index: 10;
+    margin: 0 10px 10px 0;
+    position: relative;
+    color: #ACACAC;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: 1px solid #ADADAD;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+  
+.select-info-option input[type="radio"]:checked + label {
+    color: #00434D;
+    background-color: #04DDFC;
+}
+  
+.select-info-option input[type="radio"] + label {
+    /* padding: 5px 20px; */
+    width: 88px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+
+@media (max-width: 991px) {
+    /* B02 Select Continent start */
+    .flex-box-outer{
+        display: flex;
+        flex-wrap: wrap;
+        grid-column-gap: 36px;
+        justify-content: center;
+        margin-bottom: 20%;
+    }
+    .flex-box-inner{
+        width: 94px;
+        text-align: center;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .flag-box-outer{
+        padding: 0;
+    }
+    .country-name{
+        font-size: 11px;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #ADADAD;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .flag-box-link{
+        text-decoration: none;
+        color: #707070;
+        width: 100%;
+    }
+    .flag-box-link:hover{
+        text-decoration: none;
+        color: #fff;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+    }
+
+    /* B03 SelectCountry start */
+    .b3-select-country{
+        margin-bottom: 11%;
+    }
+    .select-country-btn-outer{
+        padding: 15px;
+        background: #3C3C3C;
+        border-top: 1px solid #05DEFC;
+    }
+    .top-btn-box-outer{
+        display: flex;
+    }
+    .vertical-scroll{
+        height: 272px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 10px;
+    }
+    /* B03 SelectCountry end */
+
+    .summery-btm{
+        margin-bottom: 36% !important;
+    }
+
+    /* B03 Select city start */
+    .b3-select-city{
+        margin-bottom: 15%;
+    }
+    .select-city-btns{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .select-city-btns button{
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .select-city-map iframe{
+        height: 426px;
+    }
+    /* B03 Select city end */
+
+    /* B05 Select Religion start */
+    .select-religion-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 18px;
+    }
+    
+    /* .religion-text{
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+        color: #707070;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 148px;
+        height: 74px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .religion-text:hover{
+        font-size: 14px;
+        font-weight: 500;
+        color: #707070;
+        text-decoration: none;
+        background: #04DDFC;
+        border: none;
+    } */
+
+    .button-group__btn input[type=radio] {
+        opacity: 0;
+        position: absolute;
+      }
+      .button-group__label {
+        /* background-color: #04DDFC; */
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        color: #707070;
+        display: block;
+        width: 151px;
+        height: 74px;
+        /* line-height: 50px; */
+        padding: 0 20px;
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      input:checked + .button-group__label {
+        background-color: #04DDFC;
+        border: 1px solid #ADADAD;
+        color: #707070;
+      }
+
+    .wiki-section{
+        margin-bottom: 17%;
+        margin-top: 24px;
+    }
+    /* B05 Select Religion end */
+
+    /* B06 Select Attributes start */
+    .select-user-info{
+        display: flex;
+    }
+    .select-info-option{
+        display: flex;
+    }
+    .select-gender:first-child{
+        border-right: 1px solid #B8B8B8;
+        margin-right: 10px;
+    }
+    .choose-option-radio{
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 24px;
+    }
+    .choose-option-name{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .choose-option-scroll{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 0 5px 0 5px;
+        padding: 19px;
+        height: 200px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 6px;
+    }
+    /* .select-name-btn{
+        width: 130px;
+        border: 1px solid #ADADAD;
+        text-align: center;
+        padding: 7px;
+        margin-bottom: 7px;
+        border-radius: 6px;
+        font-size: 12px;
+    } */
+    .select-attributes-outer{
+        margin-bottom: 10%;
+    }
+    .select-attributes-content{
+        border-radius: 10px;
+        margin-top: 30px;
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+    }
+    .attributes-status-title{
+        padding: 15px;
+        background: #F7F7F7;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .attributes-status{
+        padding: 20px;
+    }
+    .range-slider input{
+        width: 100%;
+    }
+
+    /* character or let RealLives choose start */
+    .select-name-btn label{
+        user-select: none;
+    }
+    .select-name-btn input[type="radio"] {
+        display: none;
+    }
+    
+    .select-name-btn input[type="radio"] + label {
+        /* z-index: 10; */
+        /* margin: 0 2px 2px 0; */
+        position: relative;
+        color: #ACACAC;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #ffffff;
+        border: 1px solid #ADADAD;
+        cursor: pointer;
+        transition: all 200ms ease;
+    }
+    
+    .select-name-btn input[type="radio"]:checked + label {
+        color: #00434D;
+        background-color: #04DDFC;
+    }
+    
+    .select-name-btn input[type="radio"] + label {
+            width: 130px;
+            border: 1px solid #ADADAD;
+            text-align: center;
+            padding: 3px;
+            margin-bottom: 7px;
+            border-radius: 6px;
+            font-size: 11px;
+    }
+    /* character or let RealLives choose end */
+    
+    /* B06 Select Attributes end */
+
+}
+
+@media (max-width: 768px) {
+    /* B02 Select Continent start */
+    .flex-box-outer{
+        display: flex;
+        flex-wrap: wrap;
+        grid-column-gap: 36px;
+        justify-content: center;
+        margin-bottom: 20%;
+    }
+    .flex-box-inner{
+        width: 94px;
+        text-align: center;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .flag-box-outer{
+        padding: 0;
+    }
+    .country-name{
+        font-size: 11px;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #ADADAD;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .flag-box-link{
+        text-decoration: none;
+        color: #707070;
+        width: 100%;
+    }
+    .flag-box-link:hover{
+        text-decoration: none;
+        color: #fff;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+    }
+
+    /* B03 SelectCountry start */
+    .b3-select-country{
+        margin-bottom: 11%;
+    }
+    .select-country-btn-outer{
+        padding: 15px;
+        background: #3C3C3C;
+        border-top: 1px solid #05DEFC;
+    }
+    .top-btn-box-outer{
+        display: flex;
+    }
+    .vertical-scroll{
+        height: 272px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 10px;
+    }
+    /* B03 SelectCountry end */
+
+    .summery-btm{
+        margin-bottom: 36% !important;
+    }
+
+    /* B03 Select city start */
+    .b3-select-city{
+        margin-bottom: 15%;
+    }
+    .select-city-btns{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .select-city-btns button{
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .select-city-map iframe{
+        height: 426px;
+    }
+    /* B03 Select city end */
+
+    /* B05 Select Religion start */
+    .select-religion-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 18px;
+    }
+    
+    /* .religion-text{
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+        color: #707070;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 148px;
+        height: 74px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .religion-text:hover{
+        font-size: 14px;
+        font-weight: 500;
+        color: #707070;
+        text-decoration: none;
+        background: #04DDFC;
+        border: none;
+    } */
+
+    .button-group__btn input[type=radio] {
+        opacity: 0;
+        position: absolute;
+      }
+      .button-group__label {
+        /* background-color: #04DDFC; */
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        color: #707070;
+        display: block;
+        width: 151px;
+        height: 74px;
+        /* line-height: 50px; */
+        padding: 0 20px;
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      input:checked + .button-group__label {
+        background-color: #04DDFC;
+        border: 1px solid #ADADAD;
+        color: #707070;
+      }
+
+    .wiki-section{
+        margin-bottom: 17%;
+        margin-top: 24px;
+    }
+    /* B05 Select Religion end */
+
+    /* B06 Select Attributes start */
+    .select-user-info{
+        display: flex;
+    }
+    .select-info-option{
+        display: flex;
+    }
+    .select-gender:first-child{
+        border-right: 1px solid #B8B8B8;
+        margin-right: 10px;
+    }
+    .choose-option-radio{
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 24px;
+    }
+    .choose-option-name{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .choose-option-scroll{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 0 5px 0 5px;
+        padding: 19px;
+        height: 200px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 6px;
+    }
+    /* .select-name-btn{
+        width: 130px;
+        border: 1px solid #ADADAD;
+        text-align: center;
+        padding: 7px;
+        margin-bottom: 7px;
+        border-radius: 6px;
+        font-size: 12px;
+    } */
+    .select-attributes-outer{
+        margin-bottom: 10%;
+    }
+    .select-attributes-content{
+        border-radius: 10px;
+        margin-top: 30px;
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+    }
+    .attributes-status-title{
+        padding: 15px;
+        background: #F7F7F7;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .attributes-status{
+        padding: 20px;
+    }
+    .range-slider input{
+        width: 100%;
+    }
+
+    /* character or let RealLives choose start */
+    .select-name-btn label{
+        user-select: none;
+    }
+    .select-name-btn input[type="radio"] {
+        display: none;
+    }
+    
+    .select-name-btn input[type="radio"] + label {
+        /* z-index: 10; */
+        /* margin: 0 2px 2px 0; */
+        position: relative;
+        color: #ACACAC;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #ffffff;
+        border: 1px solid #ADADAD;
+        cursor: pointer;
+        transition: all 200ms ease;
+    }
+    
+    .select-name-btn input[type="radio"]:checked + label {
+        color: #00434D;
+        background-color: #04DDFC;
+    }
+    
+    .select-name-btn input[type="radio"] + label {
+            width: 130px;
+            border: 1px solid #ADADAD;
+            text-align: center;
+            padding: 3px;
+            margin-bottom: 7px;
+            border-radius: 6px;
+            font-size: 11px;
+    }
+    /* character or let RealLives choose end */
+    
+    /* B06 Select Attributes end */
+
+}
+
+@media (max-width: 576px) {
+    /* B02 Select Continent start */
+    .flex-box-outer{
+        display: flex;
+        flex-wrap: wrap;
+        grid-column-gap: 36px;
+        justify-content: center;
+        margin-bottom: 20%;
+    }
+    .flex-box-inner{
+        width: 94px;
+        text-align: center;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .flag-box-outer{
+        padding: 0;
+    }
+    .country-name{
+        font-size: 11px;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #ADADAD;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .flag-box-link{
+        text-decoration: none;
+        color: #707070;
+        width: 100%;
+    }
+    .flag-box-link:hover{
+        text-decoration: none;
+        color: #fff;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+    }
+
+    /* B03 SelectCountry start */
+    .b3-select-country{
+        margin-bottom: 11%;
+    }
+    .select-country-btn-outer{
+        padding: 15px;
+        background: #3C3C3C;
+        border-top: 1px solid #05DEFC;
+    }
+    .top-btn-box-outer{
+        display: flex;
+    }
+    .vertical-scroll{
+        height: 243px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 10px;
+    }
+    /* B03 SelectCountry end */
+
+    .summery-btm{
+        margin-bottom: 36% !important;
+    }
+
+    /* B03 Select city start */
+    .b3-select-city{
+        margin-bottom: 15%;
+    }
+    .select-city-btns{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .select-city-btns button{
+        width: 115px;
+        font-size: 11px;
+    }
+
+    .select-city-map iframe{
+        height: 578px;
+    }
+    /* B03 Select city end */
+
+    /* B05 Select Religion start */
+    .select-religion-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 18px;
+    }
+    
+    /* .religion-text{
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+        color: #707070;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 148px;
+        height: 74px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .religion-text:hover{
+        font-size: 14px;
+        font-weight: 500;
+        color: #707070;
+        text-decoration: none;
+        background: #04DDFC;
+        border: none;
+    } */
+
+    .button-group__btn input[type=radio] {
+        opacity: 0;
+        position: absolute;
+      }
+      .button-group__label {
+        /* background-color: #04DDFC; */
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        color: #707070;
+        display: block;
+        width: 140px;
+        height: 74px;
+        /* line-height: 50px; */
+        padding: 0 20px;
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      input:checked + .button-group__label {
+        background-color: #04DDFC;
+        border: 1px solid #ADADAD;
+        color: #707070;
+      }
+
+    .wiki-section{
+        margin-bottom: 17%;
+        margin-top: 24px;
+    }
+    /* B05 Select Religion end */
+
+    /* B06 Select Attributes start */
+    .select-user-info{
+        display: flex;
+    }
+    .select-info-option{
+        display: flex;
+    }
+    .select-gender:first-child{
+        border-right: 1px solid #B8B8B8;
+        margin-right: 10px;
+    }
+    .choose-option-radio{
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 26px;
+    }
+    .choose-option-name{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .choose-option-scroll{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 0 5px 0 5px;
+        padding: 10px;
+        height: 170px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 6px;
+    }
+    /* .select-name-btn{
+        width: 104px;
+        border: 1px solid #ADADAD;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 7px;
+        border-radius: 6px;
+        font-size: 11px;
+    } */
+    .select-attributes-outer{
+        margin-bottom: 13%;
+    }
+    .select-attributes-content{
+        border-radius: 10px;
+        margin-top: 30px;
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+    }
+    .attributes-status-title{
+        padding: 15px;
+        background: #F7F7F7;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .attributes-status{
+        padding: 20px;
+    }
+    .range-slider input{
+        width: 100%;
+    }
+
+    /* character or let RealLives choose start */
+    .select-name-btn label{
+        user-select: none;
+    }
+    .select-name-btn input[type="radio"] {
+        display: none;
+    }
+    
+    .select-name-btn input[type="radio"] + label {
+        /* z-index: 10; */
+        /* margin: 0 2px 2px 0; */
+        position: relative;
+        color: #ACACAC;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #ffffff;
+        border: 1px solid #ADADAD;
+        cursor: pointer;
+        transition: all 200ms ease;
+    }
+    
+    .select-name-btn input[type="radio"]:checked + label {
+        color: #00434D;
+        background-color: #04DDFC;
+    }
+    
+    .select-name-btn input[type="radio"] + label {
+            width: 104px;
+            border: 1px solid #ADADAD;
+            text-align: center;
+            padding: 3px;
+            margin-bottom: 7px;
+            border-radius: 6px;
+            font-size: 11px;
+    }
+    /* character or let RealLives choose end */
+    
+    /* B06 Select Attributes end */
+
+}
+
+@media (max-width: 485px) {
+    /* B02 Select Continent start */
+    .flex-box-outer{
+        display: flex;
+        flex-wrap: wrap;
+        grid-column-gap: 57px;
+        justify-content: center;
+        margin-bottom: 20%;
+    }
+    .flex-box-inner{
+        width: 94px;
+        text-align: center;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .flag-box-outer{
+        padding: 0;
+    }
+    .country-name{
+        font-size: 11px;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #ADADAD;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .flag-box-link{
+        text-decoration: none;
+        color: #707070;
+        width: 100%;
+    }
+    .flag-box-link:hover{
+        text-decoration: none;
+        color: #fff;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+    }
+
+    /* B02 Select Continent end */
+
+    /* B03 SelectCountry start */
+    .b3-select-country{
+        margin-bottom: 14%;
+    }
+    .select-country-btn-outer{
+        padding: 15px;
+        background: #3C3C3C;
+        border-top: 1px solid #05DEFC;
+    }
+    .top-btn-box-outer{
+        display: flex;
+    }
+    .vertical-scroll{
+        height: 355px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 10px;
+    }
+    /* B03 SelectCountry end */
+
+    .summery-btm{
+        margin-bottom: 36% !important;
+    }
+
+    /* B03 Select city start */
+    .b3-select-city{
+        margin-bottom: 15%;
+    }
+    .select-city-btns{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .select-city-btns button{
+        width: 115px;
+        font-size: 11px;
+    }
+
+    .select-city-map iframe{
+        height: 522px;
+    }
+    /* B03 Select city end */
+
+    /* B05 Select Religion start */
+    .select-religion-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    
+    /* .religion-text{
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+        color: #707070;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 140px;
+        height: 74px;
+        display: flex;
+        align-items: center;
+    }
+    .religion-text:hover{
+        font-size: 14px;
+        font-weight: 500;
+        color: #707070;
+        text-decoration: none;
+        background: #04DDFC;
+        border: none;
+    } */
+
+    .button-group__btn input[type=radio] {
+        opacity: 0;
+        position: absolute;
+      }
+      .button-group__label {
+        /* background-color: #04DDFC; */
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        color: #707070;
+        display: block;
+        width: 140px;
+        height: 74px;
+        /* line-height: 50px; */
+        padding: 0 20px;
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      input:checked + .button-group__label {
+        background-color: #04DDFC;
+        border: 1px solid #ADADAD;
+        color: #707070;
+      }
+
+    .wiki-section{
+        margin-bottom: 17%;
+        margin-top: 24px;
+    }
+    /* B05 Select Religion end */
+
+    /* B06 Select Attributes start */
+    .select-user-info{
+        display: flex;
+    }
+    .select-info-option{
+        display: flex;
+    }
+    .select-gender:first-child{
+        border-right: 1px solid #B8B8B8;
+        margin-right: 10px;
+    }
+    .choose-option-radio{
+        display: flex;
+        justify-content: space-between;
+    }
+    .choose-option-name{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .choose-option-scroll{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 0 5px 0 5px;
+        padding: 7px;
+        height: 170px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 6px;
+    }
+    /* .select-name-btn{
+        width: 70px;
+        border: 1px solid #ADADAD;
+        text-align: center;
+        padding: 3px;
+        margin-bottom: 7px;
+        border-radius: 6px;
+        font-size: 11px;
+    } */
+    .select-attributes-outer{
+        margin-bottom: 20%;
+    }
+    .select-attributes-content{
+        border-radius: 10px;
+        margin-top: 30px;
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+    }
+    .attributes-status-title{
+        padding: 15px;
+        background: #F7F7F7;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .attributes-status{
+        padding: 20px;
+    }
+    .range-slider input{
+        width: 100%;
+    }
+
+    /* character or let RealLives choose start */
+    .select-name-btn label{
+        user-select: none;
+    }
+    .select-name-btn input[type="radio"] {
+        display: none;
+    }
+    
+    .select-name-btn input[type="radio"] + label {
+        /* z-index: 10; */
+        /* margin: 0 2px 2px 0; */
+        position: relative;
+        color: #ACACAC;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #ffffff;
+        border: 1px solid #ADADAD;
+        cursor: pointer;
+        transition: all 200ms ease;
+    }
+    
+    .select-name-btn input[type="radio"]:checked + label {
+        color: #00434D;
+        background-color: #04DDFC;
+    }
+    
+    .select-name-btn input[type="radio"] + label {
+            width: 70px;
+            border: 1px solid #ADADAD;
+            text-align: center;
+            padding: 3px;
+            margin-bottom: 7px;
+            border-radius: 6px;
+            font-size: 11px;
+    }
+    /* character or let RealLives choose end */
+    
+    /* B06 Select Attributes end */
+
+}
+
+@media (max-width: 395px) {
+
+    /* B02 Select Continent start */
+    .flex-box-outer{
+        display: flex;
+        flex-wrap: wrap;
+        grid-column-gap: 36px;
+        justify-content: center;
+        margin-bottom: 20%;
+    }
+    .flex-box-inner{
+        width: 94px;
+        text-align: center;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .flag-box-outer{
+        padding: 0;
+    }
+    .country-name{
+        font-size: 11px;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #ADADAD;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .flag-box-link{
+        text-decoration: none;
+        color: #707070;
+    }
+    .flag-box-link:hover{
+        text-decoration: none;
+        color: #fff;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+    }
+
+    /* B02 Select Continent end */
+
+    /* B03 Select Country start */
+    .b3-select-country{
+        margin-bottom: 16%;
+    }
+    .select-country-btn-outer{
+        padding: 15px;
+        background: #3C3C3C;
+        border-top: 1px solid #05DEFC;
+    }
+    .top-btn-box-outer{
+        display: flex;
+    }
+    .vertical-scroll{
+        height: 290px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 10px;
+    }
+    /* B03 SelectCountry end */
+
+    .summery-btm{
+        margin-bottom: 36% !important;
+    }
+
+    /* B03 Select city start */
+    .b3-select-city{
+        margin-bottom: 15%;
+    }
+    .select-city-btns{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .select-city-btns button{
+        width: 102px;
+        font-size: 11px;
+    }
+
+    .select-city-map iframe{
+        height: 426px;
+    }
+    /* B03 Select city end */
+
+    /* B05 Select Religion start */
+    .select-religion-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    
+    /* .religion-text{
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+        color: #707070;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 140px;
+        height: 74px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .religion-text:hover{
+        font-size: 14px;
+        font-weight: 500;
+        color: #707070;
+        text-decoration: none;
+        background: #04DDFC;
+        border: none;
+    }
+
+    .religion-text-active{
+        font-size: 14px;
+        font-weight: 500;
+        color: #707070;
+        text-decoration: none;
+        background: #04DDFC;
+        border: none;
+    } */
+
+    .wiki-section{
+        margin-bottom: 17%;
+        margin-top: 24px;
+    }
+
+
+
+      /* .button-group__btn {
+        cursor: pointer;
+        display: table-cell;
+        position: relative;
+      } */
+      .button-group__btn input[type=radio] {
+        opacity: 0;
+        position: absolute;
+      }
+      .button-group__label {
+        /* background-color: #04DDFC; */
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        color: #707070;
+        display: block;
+        width: 140px;
+        height: 74px;
+        /* line-height: 50px; */
+        padding: 0 8px;
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      input:checked + .button-group__label {
+        background-color: #04DDFC;
+        border: 1px solid #ADADAD;
+        color: #707070;
+      }
+
+
+    /* B05 Select Religion end */
+
+    /* B06 Select Attributes start */
+    .select-user-info{
+        display: flex;
+    }
+    .select-info-option{
+        display: flex;
+    }
+    .select-gender:first-child{
+        border-right: 1px solid #B8B8B8;
+        margin-right: 10px;
+    }
+    .choose-option-radio{
+        display: flex;
+        justify-content: space-between;
+    }
+    .choose-option-name{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .choose-option-scroll{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 0 5px 0 5px;
+        padding: 7px;
+        height: 170px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 6px;
+    }
+    /* .select-name-btn{
+        width: 70px;
+        border: 1px solid #ADADAD;
+        text-align: center;
+        padding: 3px;
+        margin-bottom: 7px;
+        border-radius: 6px;
+        font-size: 11px;
+    } */
+    .select-attributes-outer{
+        margin-bottom: 20%;
+    }
+    .select-attributes-content{
+        border-radius: 10px;
+        margin-top: 30px;
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+    }
+    .attributes-status-title{
+        padding: 15px;
+        background: #F7F7F7;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .attributes-status{
+        padding: 20px;
+    }
+    .range-slider input{
+        width: 100%;
+    }
+
+
+    /* character or let RealLives choose start */
+    .select-name-btn label{
+        user-select: none;
+    }
+    .select-name-btn input[type="radio"] {
+        display: none;
+    }
+    
+    .select-name-btn input[type="radio"] + label {
+        /* z-index: 10; */
+        /* margin: 0 2px 2px 0; */
+        position: relative;
+        color: #ACACAC;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #ffffff;
+        border: 1px solid #ADADAD;
+        cursor: pointer;
+        transition: all 200ms ease;
+    }
+    
+    .select-name-btn input[type="radio"]:checked + label {
+        color: #00434D;
+        background-color: #04DDFC;
+    }
+    
+    .select-name-btn input[type="radio"] + label {
+            width: 70px;
+            border: 1px solid #ADADAD;
+            text-align: center;
+            padding: 3px;
+            margin-bottom: 7px;
+            border-radius: 6px;
+            font-size: 11px;
+    }
+    /* character or let RealLives choose end */
+    
+    /* B06 Select Attributes end */
+
+}
+
+@media (max-width: 320px) {
+    .select-city-btns button {
+        width: 93px;
+        font-size: 11px;
+    }
+    .select-city-map iframe{
+        height: 350px;
+    }
+
+    .wiki-section {
+        margin-bottom: 25%;
+        margin-top: 24px;
+    }
+
+    /* B05 Select Religion start */
+    /* .religion-text{
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        color: #707070;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 125px;
+        height: 74px;
+        display: flex;
+        align-items: center;
+    } */
+
+    .button-group__btn input[type=radio] {
+        opacity: 0;
+        position: absolute;
+      }
+      .button-group__label {
+        /* background-color: #04DDFC; */
+        font-size: 12px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        color: #707070;
+        display: block;
+        width: 121px;
+        height: 68px;
+        /* line-height: 50px; */
+        padding: 0 20px;
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      input:checked + .button-group__label {
+        background-color: #04DDFC;
+        border: 1px solid #ADADAD;
+        color: #707070;
+      }
+
+    /* B05 Select Religion end */
+
+
+    /* B06 Select Attributes start */
+    .choose-option-scroll {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 0;
+        padding: 5px;
+        height: 170px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 6px;
+    }
+    /* .select-name-btn {
+        width: 66px;
+        border: 1px solid #ADADAD;
+        text-align: center;
+        padding: 2px 0;
+        margin-bottom: 7px;
+        border-radius: 6px;
+        font-size: 11px;
+    } */
+
+    /* character or let RealLives choose start */
+    .select-name-btn label{
+        user-select: none;
+    }
+    .select-name-btn input[type="radio"] {
+        display: none;
+    }
+    
+    .select-name-btn input[type="radio"] + label {
+        /* z-index: 10; */
+        /* margin: 0 2px 2px 0; */
+        position: relative;
+        color: #ACACAC;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #ffffff;
+        border: 1px solid #ADADAD;
+        cursor: pointer;
+        transition: all 200ms ease;
+    }
+    
+    .select-name-btn input[type="radio"]:checked + label {
+        color: #00434D;
+        background-color: #04DDFC;
+    }
+    
+    .select-name-btn input[type="radio"] + label {
+            width: 64px;
+            border: 1px solid #ADADAD;
+            text-align: center;
+            padding: 3px;
+            margin-bottom: 7px;
+            border-radius: 6px;
+            font-size: 10px;
+    }
+    /* character or let RealLives choose end */
+
+    /* B06 Select Attributes end */
+}
+

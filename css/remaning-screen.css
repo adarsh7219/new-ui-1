@@ -1,0 +1,2779 @@
+
+/* progress bar section start */
+/* .progress-title{
+    font-size: 10px;
+}
+.indicator-prgress-holder .progress{
+    height: 0.9rem; 
+    background: #343434;
+}
+.indicator-prgress-holder .progress span{
+    margin: auto;
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+}
+.green-progressbar{
+    background: #00B92B !important;
+    border: 1px solid #00B92B !important;
+    text-align: center;
+}
+.greenborder-progressbar{ 
+    border: 1px solid #00B92B !important; 
+}
+.blue-progressbar{
+    background: #0272D8 !important;
+    border: 1px solid #0272D8 !important;
+    text-align: center;
+}
+.blueborder-progressbar{ 
+    border: 1px solid #0272D8 !important; 
+}
+.red-progressbar{
+    background: #FF3232 !important;
+    border: 1px solid #FF3232 !important;
+    text-align: center;
+}
+.redborder-progressbar{ 
+    border: 1px solid #FF3232 !important; 
+} */
+
+
+/*Glossy Button start*/
+.button-yes-no{    
+    pointer-events: auto;
+        position: absolute;
+        background-image: url(../images/Pasted-53.png);
+        background-repeat: no-repeat;
+        overflow: visible;
+        background-size: 100% 100%;
+        z-index: 1;
+        display: inline;
+        opacity: 0.9;
+        width: 141px;
+        height: 64px;
+        transform-origin: 50% 50%;
+        transform: translateX(0px) translateY(0px) rotateY(0deg);
+}
+    
+.button-yes{
+    pointer-events: auto;
+        position: absolute;
+        z-index: 3;
+        border-style: none;
+        border-width: 0px;
+        background-color: rgb(242, 242, 242);
+        border-radius: 50%;
+        box-shadow: rgb(197, 197, 197) 0px 2px 9px;
+        border-color: rgb(216, 221, 228);
+        line-height: 50px;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        font-size: 14px;
+        text-align: center;
+        font-weight: normal;
+        cursor: pointer;
+        overflow: visible;
+        width: 49px;
+        height: 49px;
+        color: #000;
+        font-weight: 600;
+        transform-origin: 50% 50%;
+        transform: translateX(84px) translateY(8px) rotateY(0deg);
+}
+.button-yes:hover{
+    background: #0272D8;
+    color: #fff;
+}
+.button-yes:focus{
+    background: #0272D8;
+    color: #fff;
+}
+.button-no {pointer-events: auto;
+        position: absolute;
+        z-index: 2;
+        border-style: none;
+        border-width: 0px;
+        background-color: rgb(242, 242, 242);
+        border-radius: 50%;
+        box-shadow: rgb(197, 197, 197) 0px 2px 9px;
+        border-color: rgb(216, 221, 228);
+        line-height: 50px;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        font-size: 14px;
+        text-align: center;
+        font-weight: normal;
+        overflow: visible;
+        width: 49px;
+        height: 49px;
+        color: #000;
+        font-weight: 600;
+        transform-origin: 50% 50%;
+        transform: translateX(8px) translateY(8px) rotateY(0deg);
+}
+.button-no:hover{
+    background: #0272D8;
+    color: #fff;
+}
+.button-no:focus{
+    background: #0272D8;
+    color: #fff;
+}
+
+.button-positions{
+    position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 2;
+}
+/*Glossy button end*/
+
+    .progress-title{
+        font-size: 10px;
+    }
+    .cssProgress {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    
+    .cssProgress .progress2 {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+    .cssProgress .cssProgress-bar {
+        display: block;
+        float: left;
+        width: 0%;
+        height: 100%;
+        background: #3798d9;
+        box-shadow: inset 0px -1px 2px rgba(0, 0, 0, 0.1);
+        transition: width 0.8s ease-in-out;
+    }
+    .cssProgress .cssProgress-label {
+        position: absolute;
+        overflow: hidden;
+        left: 0px;
+        right: 0px;
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
+        text-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+    }
+    .cssProgress .blue-progressbar {
+        background-color: #0272D8 !important;
+    }
+    .cssProgress .red-progressbar {
+        background-color: #FF3232 !important;
+    }
+    .cssProgress .green-progressbar {
+        background-color: #00B92B !important;
+    }
+    .cssProgress .yellow-progressbar {
+        background-color: #ffb74d !important;
+    }
+  
+
+    .progress2 {
+        background-color: #EEE;
+        border-radius: 9px;
+        box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+    }
+    .progress2 .cssProgress-bar {
+        height: 18px;
+        border-radius: 9px;
+    }
+    .progress2 .cssProgress-label {
+        line-height: 18px;
+    }
+    
+    
+/* progress bar section end */
+
+@media (max-width: 991px) {
+    /* vertical layout start */
+    .iinstallment-section-holder{
+        height: 550px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .installment-box-outer{
+        padding: 6px;
+        border-radius: 6px;
+        background: #d5d5d5;
+        -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+    }
+    .installment-box-holder{
+        border-radius: 6px;
+    }
+    .installment-box-title{
+        color: #181818;
+    }
+    .installment-box-head{
+        display: flex;
+        justify-content: space-between;
+        background: #00376C;
+        color: #fff;
+        padding: 5px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    .installment-box-pgcount{
+        background: #fff;
+        color: #181818;
+        border-radius: 4px;
+        padding: 3px 5px;
+    }
+    .installment-box-content{
+        background: #fff;
+        color: #181818;
+        padding: 5px;
+        font-weight: 500;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .installment-content-row{
+        display: flex;
+        border-bottom: 1px solid #181818;
+        /* margin-bottom: 5px; */
+        padding: 5px 5px;
+    }
+    .installment-content-row:last-child{
+        border-bottom: 0;
+    }
+    .installment-box-btn{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px 15px;
+        margin-top: 10px;
+    }
+    .installment-box-btn button{
+        font-size: 11px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+    }
+    .installment-save-btn button{
+        font-size: 11px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+    }
+    /* vertical layout end */
+
+    /* horizontal layout start */
+    .iinstallment-horsection-holder{
+        display: flex;
+        column-gap: 20px;
+        overflow: hidden;
+        overflow-x: scroll;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+    .installment-horbox-outer{
+        min-width: 320px;
+        padding: 6px;
+        border-radius: 6px;
+        background: #d5d5d5;
+        -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+    }
+    /* horizontal layout end */
+
+    /* manage payment popup section start */
+    .managepayment-section-top{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+    }
+    .managepayment-flex-holder{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+    }
+    .managepayment-table-holder{
+        padding: 0 !important;
+    }
+    /* manage payment popup section end */
+
+
+    /* testimonials Factoid popup start */
+    .lifedecision-input-holder{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+    }
+    .lifedecision-inputbtn input[type=radio] {
+        opacity: 0;
+        position: absolute;
+    }
+    .lifedecision-inputlabel {
+        background-color: #d5d5d5;
+        font-size: 12px;
+        font-weight: 500;
+        border: 1px solid #181818;
+        border-radius: 6px;
+        color: #181818;
+        display: block;
+        width: 104px;
+        /* height: 74px; */
+        padding: 7px 8px;
+        text-align: center; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      
+    input:checked + .lifedecision-inputlabel {
+        background-color: #adadad;
+        border: 1px solid #181818;
+        color: #181818;
+    }
+    .lifedecision-clm-box{
+        text-align: left;
+    }
+    /* testimonials Factoid popup end */
+
+    /* Financial status (Current economic status) popup start */
+    .financialstatus-section-top{
+        background: #00376C;
+        margin-bottom: 10px;
+        padding: 5px;
+        border-radius: 6px;
+    }
+    .financialstatus-section-title{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 20px;
+        padding-bottom: 7px;
+    }
+    /* Financial status (Current economic status) popup start */
+
+    /* Financial status (life events) Popup start  */
+    .financialstatus-topsec-outer{
+        background: #d5d5d5;
+        padding: 7px;
+        color: #181818;
+        height: 450px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 6px;
+    }
+    .financialstatus-row-holder{
+        border-bottom: 1px solid #181818;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+    .financialstatus-row-holder:last-child{
+        margin-bottom: 5px;
+        border-bottom: 0;
+    }
+    .financialstatus-row-head{
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .financialstatus-row-content{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .financialstatus-btmsec-outer{
+        background: #d5d5d5;
+        padding: 7px;
+        color: #181818;
+        border-radius: 6px;
+    }
+    .financialstatus-inputholder input::placeholder{
+        font-size: 12px;
+    }
+    .financialstatus-input-btn button{
+        padding: 5px 16px !important;
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+    /* Financial status (life events) Popup end  */
+
+    /* financial location status popup start */
+    .locationinfo-topsec{
+        background: #181818;
+        color: #fff;
+        padding: 10px;
+    }
+    .loc-name{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        font-size: 12px;
+    }
+    .loc-nameimg img{
+        width: 48px;
+    }
+    .location-showlink button{
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+        background: none !important;
+        color: #fff !important;
+    }
+    .location-mapsec iframe{
+        width: 100%;
+        height: 300px;
+        font-size: 14px !important;
+    }
+    .loctab-li .nav-item .nav-link{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .loctab-li img{
+        width: 36px;
+    }
+    .location-table-tabholder table th{
+        font-weight: 500 !important;
+        background: #3E6991;
+        color: #fff;
+    }
+    .location-table-tabholder .scroll-locationtable{
+        max-height: clamp(11em,10vh,250px);
+        overflow: hidden;
+        overflow-y: scroll;
+    } 
+    /* financial location status popup end */ 
+
+    /* financial location know more popup start */
+    .location-btmtable-outer{
+        padding: 10px;
+        background: #adadad;
+        border-radius: 6px;
+    }
+    .knowmorelocinfo-topsec{
+        border-bottom: 1px solid #181818;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        color: #181818;
+        font-weight: 500;
+    }
+    .knowmorebtmtab-btn .nav-item .nav-link{
+        color: #181818;
+    }
+    /* financial location know more popup end */
+
+    /* certificate popup start */
+    .crft-popup-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/crft-popup1-bg.jpeg);
+        background-size: cover;
+        background-position: center; 
+    }
+    .crft-opt-inner{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .crft-optholder{
+        width: 82px;
+        height: 82px;
+        background: #fff;
+        text-align: center;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .crft-opt-btn{
+        border: 0;
+        background: none;
+        padding: 10px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .crft-opt-btn img{
+        width: 36px;
+        margin-bottom: 10px;
+    }
+    .crft-inspword{
+        font-size: 14px;
+        color: #717171;
+        text-align: center;
+        font-weight: 600;
+        /* margin-bottom: 30px; */
+    }
+    .crft-sec-footer{
+        background: #fff;
+        color: #000000;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px;
+    }
+    /* certificate popup end */
+
+    /* certificate 2 popup start */
+    .crft-popup2-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/crft-popup2-bg.jpeg);
+        background-size: cover;
+        background-position: center; 
+    }
+    .crft-midtext{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .crft-donarname{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .crft-btmtext{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    /* certificate 2 popup end */
+
+    /* Indicators over age popup start */
+    .overage-lifeevent-holder{
+        display: flex;
+        gap: 10px;
+    }
+    .overage-lifeevent-left{
+        padding: 10px;
+        background: #0272D8;
+        text-align: center;
+    }
+    .overage-lifeevent-text{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    /* Indicators over age popup end */
+
+    /* deadlife summery tab content start */
+    .deadLife-summary-graphsection{
+        background: #343434;
+        padding: 20px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 6px;
+    }
+    .write-text-sec textarea::placeholder{
+        font-size: 11px !important;
+    }
+    .summary-graphsection-scroll{
+        height: 350px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    /* deadlife summery tab content end */
+
+    /* license setting popup start */
+    .licenseset-sec-holder{
+        border-bottom: 1px solid #adadad;
+        margin-bottom: 10px;
+    }
+    /* license setting popup end */
+
+
+    /* Play life start */
+    .play-life-table table th img{
+        width: 36px;
+    }
+    .play-life-table table textarea{
+        font-size: 12px !important;
+        width: 13rem;
+    }
+    .textarea-expand {
+        width: 10rem;
+        -webkit-transition: height .35s ease-out-in;
+        transition: height .35s ease-out-in;
+    }
+    .textarea-expand:focus {
+        height: auto;
+        width: 300px;
+    }
+    .play-life-listbox ul{
+        padding-left: 15px;
+    }
+    .play-life-table .playlife-graph-box{
+        width: 200px;
+    }
+    .play-life-table .playlife-graph-textbox{
+        width: 150px;
+    }
+    .play-life-table .play-life-rowhover:hover{
+        color: #3798d9;
+    }
+    .play-life-table .sdgdata-tdimg{
+        width: 42px;
+    }
+    .play-life-table .tdyellow{
+        background: rgb(255, 193, 7);
+    }
+    .play-life-table .tdorange{
+        background: rgb(237, 124, 28);
+    }
+    .play-life-table .tdred{
+        background: rgb(211, 39, 13);
+    }
+    .play-life-table .tdgreen{
+        background: rgb(54, 173, 31);
+    }
+    /* Play life end */
+
+    /* life data inner pages */
+    .lifedata-inpage-outer{
+        margin-bottom: 25%;
+    }
+    .lifedata-box-outer{
+        margin-top: 20px;
+        margin-bottom: 30%;
+    }
+    .lifedata-box-head{
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .lifedata-box-holder{
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .lifedata-box-flag{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .lifedata-box-content{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .lifedata-box-flag a {
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .lifedata-country-boxholder{
+        margin-bottom: 20px;
+    }
+    .lifedata-country-btns {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .lifedata-country-btns button {
+        width: 95px;
+        min-height: 80px;
+        font-size: 11px;
+    }
+    .lifedata-inpageuser-info{
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    /* life data inner pages */
+}
+
+@media (max-width: 768px) {
+    /* vertical layout start */
+    .iinstallment-section-holder{
+        height: 550px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .installment-box-outer{
+        padding: 6px;
+        border-radius: 6px;
+        background: #d5d5d5;
+        -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+    }
+    .installment-box-holder{
+        border-radius: 6px;
+    }
+    .installment-box-title{
+        color: #181818;
+    }
+    .installment-box-head{
+        display: flex;
+        justify-content: space-between;
+        background: #00376C;
+        color: #fff;
+        padding: 5px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    .installment-box-pgcount{
+        background: #fff;
+        color: #181818;
+        border-radius: 4px;
+        padding: 3px 5px;
+    }
+    .installment-box-content{
+        background: #fff;
+        color: #181818;
+        padding: 5px;
+        font-weight: 500;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .installment-content-row{
+        display: flex;
+        border-bottom: 1px solid #181818;
+        /* margin-bottom: 5px; */
+        padding: 5px 5px;
+    }
+    .installment-content-row:last-child{
+        border-bottom: 0;
+    }
+    .installment-box-btn{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px 15px;
+        margin-top: 10px;
+    }
+    .installment-box-btn button{
+        font-size: 11px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+    }
+    .installment-save-btn button{
+        font-size: 11px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+    }
+    /* vertical layout end */
+
+    /* horizontal layout start */
+    .iinstallment-horsection-holder{
+        display: flex;
+        column-gap: 20px;
+        overflow: hidden;
+        overflow-x: scroll;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+    .installment-horbox-outer{
+        min-width: 320px;
+        padding: 6px;
+        border-radius: 6px;
+        background: #d5d5d5;
+        -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+    }
+    /* horizontal layout end */
+
+    /* manage payment popup section start */
+    .managepayment-section-top{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+    }
+    .managepayment-flex-holder{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+    }
+    .managepayment-table-holder{
+        padding: 0 !important;
+    }
+    /* manage payment popup section end */
+
+
+    /* testimonials Factoid popup start */
+    .lifedecision-input-holder{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+    }
+    .lifedecision-inputbtn input[type=radio] {
+        opacity: 0;
+        position: absolute;
+    }
+    .lifedecision-inputlabel {
+        background-color: #d5d5d5;
+        font-size: 12px;
+        font-weight: 500;
+        border: 1px solid #181818;
+        border-radius: 6px;
+        color: #181818;
+        display: block;
+        width: 104px;
+        /* height: 74px; */
+        padding: 7px 8px;
+        text-align: center; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      
+    input:checked + .lifedecision-inputlabel {
+        background-color: #adadad;
+        border: 1px solid #181818;
+        color: #181818;
+    }
+    .lifedecision-clm-box{
+        text-align: left;
+    }
+    /* testimonials Factoid popup end */
+
+    /* Financial status (Current economic status) popup start */
+    .financialstatus-section-top{
+        background: #00376C;
+        margin-bottom: 10px;
+        padding: 5px;
+        border-radius: 6px;
+    }
+    .financialstatus-section-title{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 20px;
+        padding-bottom: 7px;
+    }
+    /* Financial status (Current economic status) popup start */
+
+    /* Financial status (life events) Popup start  */
+    .financialstatus-topsec-outer{
+        background: #d5d5d5;
+        padding: 7px;
+        color: #181818;
+        height: 450px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 6px;
+    }
+    .financialstatus-row-holder{
+        border-bottom: 1px solid #181818;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+    .financialstatus-row-holder:last-child{
+        margin-bottom: 5px;
+        border-bottom: 0;
+    }
+    .financialstatus-row-head{
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .financialstatus-row-content{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .financialstatus-btmsec-outer{
+        background: #d5d5d5;
+        padding: 7px;
+        color: #181818;
+        border-radius: 6px;
+    }
+    .financialstatus-inputholder input::placeholder{
+        font-size: 12px;
+    }
+    .financialstatus-input-btn button{
+        padding: 5px 16px !important;
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+    /* Financial status (life events) Popup end  */
+
+    /* financial location status popup start */
+    .locationinfo-topsec{
+        background: #181818;
+        color: #fff;
+        padding: 10px;
+    }
+    .loc-name{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        font-size: 12px;
+    }
+    .loc-nameimg img{
+        width: 48px;
+    }
+    .location-showlink button{
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+        background: none !important;
+        color: #fff !important;
+    }
+    .location-mapsec iframe{
+        width: 100%;
+        height: 300px;
+        font-size: 14px !important;
+    }
+    .loctab-li .nav-item .nav-link{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .loctab-li img{
+        width: 36px;
+    }
+    .location-table-tabholder table th{
+        font-weight: 500 !important;
+        background: #3E6991;
+        color: #fff;
+    }
+    .location-table-tabholder .scroll-locationtable{
+        max-height: clamp(11em,10vh,250px);
+        overflow: hidden;
+        overflow-y: scroll;
+    } 
+    /* financial location status popup end */ 
+
+    /* financial location know more popup start */
+    .location-btmtable-outer{
+        padding: 10px;
+        background: #adadad;
+        border-radius: 6px;
+    }
+    .knowmorelocinfo-topsec{
+        border-bottom: 1px solid #181818;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        color: #181818;
+        font-weight: 500;
+    }
+    .knowmorebtmtab-btn .nav-item .nav-link{
+        color: #181818;
+    }
+    /* financial location know more popup end */
+
+    /* certificate popup start */
+    .crft-popup-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/crft-popup1-bg.jpeg);
+        background-size: cover;
+        background-position: center; 
+    }
+    .crft-opt-inner{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .crft-optholder{
+        width: 82px;
+        height: 82px;
+        background: #fff;
+        text-align: center;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .crft-opt-btn{
+        border: 0;
+        background: none;
+        padding: 10px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .crft-opt-btn img{
+        width: 36px;
+        margin-bottom: 10px;
+    }
+    .crft-inspword{
+        font-size: 14px;
+        color: #717171;
+        text-align: center;
+        font-weight: 600;
+        /* margin-bottom: 30px; */
+    }
+    .crft-sec-footer{
+        background: #fff;
+        color: #000000;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px;
+    }
+    /* certificate popup end */
+
+    /* certificate 2 popup start */
+    .crft-popup2-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/crft-popup2-bg.jpeg);
+        background-size: cover;
+        background-position: center; 
+    }
+    .crft-midtext{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .crft-donarname{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .crft-btmtext{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    /* certificate 2 popup end */
+
+    /* Indicators over age popup start */
+    .overage-lifeevent-holder{
+        display: flex;
+        gap: 10px;
+    }
+    .overage-lifeevent-left{
+        padding: 10px;
+        background: #0272D8;
+        text-align: center;
+    }
+    .overage-lifeevent-text{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    /* Indicators over age popup end */
+
+    /* deadlife summery tab content start */
+    .deadLife-summary-graphsection{
+        background: #343434;
+        padding: 20px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 6px;
+    }
+    .write-text-sec textarea::placeholder{
+        font-size: 11px !important;
+    }
+    .summary-graphsection-scroll{
+        height: 350px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    /* deadlife summery tab content end */
+
+    /* license setting popup start */
+    .licenseset-sec-holder{
+        border-bottom: 1px solid #adadad;
+        margin-bottom: 10px;
+    }
+    /* license setting popup end */
+
+
+    /* Play life start */
+    .play-life-table table th img{
+        width: 36px;
+    }
+    .play-life-table table textarea{
+        font-size: 12px !important;
+        width: 14rem;
+    }
+    .textarea-expand {
+        width: 10rem;
+        -webkit-transition: height .35s ease-out-in;
+        transition: height .35s ease-out-in;
+    }
+    .textarea-expand:focus {
+        height: auto;
+        width: 300px;
+    }
+    .play-life-listbox ul{
+        padding-left: 15px;
+    }
+    .play-life-table .playlife-graph-box{
+        width: 200px;
+    }
+    .play-life-table .playlife-graph-textbox{
+        width: 150px;
+    }
+    .play-life-table .play-life-rowhover:hover{
+        color: #3798d9;
+    }
+    .play-life-table .sdgdata-tdimg{
+        width: 42px;
+    }
+    .play-life-table .tdyellow{
+        background: rgb(255, 193, 7);
+    }
+    .play-life-table .tdorange{
+        background: rgb(237, 124, 28);
+    }
+    .play-life-table .tdred{
+        background: rgb(211, 39, 13);
+    }
+    .play-life-table .tdgreen{
+        background: rgb(54, 173, 31);
+    }
+    /* Play life end */
+
+    /* life data inner pages */
+    .lifedata-inpage-outer{
+        margin-bottom: 25%;
+    }
+    .lifedata-box-outer{
+        margin-top: 20px;
+        margin-bottom: 30%;
+    }
+    .lifedata-box-head{
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .lifedata-box-holder{
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .lifedata-box-flag{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .lifedata-box-content{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .lifedata-box-flag a {
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .lifedata-country-boxholder{
+        margin-bottom: 20px;
+    }
+    .lifedata-country-btns {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .lifedata-country-btns button {
+        width: 95px;
+        min-height: 80px;
+        font-size: 11px;
+    }
+    .lifedata-inpageuser-info{
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+    /* life data inner pages */
+}
+
+@media (max-width: 576px) {
+    /* vertical layout start */
+    .iinstallment-section-holder{
+        height: 450px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .installment-box-outer{
+        padding: 6px;
+        border-radius: 6px;
+        background: #d5d5d5;
+        -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+    }
+    .installment-box-holder{
+        border-radius: 6px;
+    }
+    .installment-box-title{
+        color: #181818;
+    }
+    .installment-box-head{
+        display: flex;
+        justify-content: space-between;
+        background: #00376C;
+        color: #fff;
+        padding: 5px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    .installment-box-pgcount{
+        background: #fff;
+        color: #181818;
+        border-radius: 4px;
+        padding: 3px 5px;
+    }
+    .installment-box-content{
+        background: #fff;
+        color: #181818;
+        padding: 5px;
+        font-weight: 500;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .installment-content-row{
+        display: flex;
+        border-bottom: 1px solid #181818;
+        /* margin-bottom: 5px; */
+        padding: 5px 5px;
+    }
+    .installment-content-row:last-child{
+        border-bottom: 0;
+    }
+    .installment-box-btn{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px 15px;
+        margin-top: 10px;
+    }
+    .installment-box-btn button{
+        font-size: 11px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+    }
+    .installment-save-btn button{
+        font-size: 11px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+    }
+    /* vertical layout end */
+
+    /* horizontal layout start */
+    .iinstallment-horsection-holder{
+        display: flex;
+        column-gap: 20px;
+        overflow: hidden;
+        overflow-x: scroll;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+    .installment-horbox-outer{
+        min-width: 320px;
+        padding: 6px;
+        border-radius: 6px;
+        background: #d5d5d5;
+        -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+    }
+    /* horizontal layout end */
+
+    /* manage payment popup section start */
+    .managepayment-section-top{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+    }
+    .managepayment-flex-holder{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+    }
+    .managepayment-table-holder{
+        padding: 0 !important;
+    }
+    /* manage payment popup section end */
+
+
+    /* testimonials Factoid popup start */
+    .lifedecision-input-holder{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+    }
+    .lifedecision-inputbtn input[type=radio] {
+        opacity: 0;
+        position: absolute;
+    }
+    .lifedecision-inputlabel {
+        background-color: #d5d5d5;
+        font-size: 11px;
+        font-weight: 500;
+        border: 1px solid #181818;
+        border-radius: 6px;
+        color: #181818;
+        display: block;
+        width: 104px;
+        /* height: 74px; */
+        padding: 7px 8px;
+        text-align: center; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      
+    input:checked + .lifedecision-inputlabel {
+        background-color: #adadad;
+        border: 1px solid #181818;
+        color: #181818;
+    }
+    .lifedecision-clm-box{
+        text-align: left;
+    }
+    /* testimonials Factoid popup end */
+
+    /* Financial status (Current economic status) popup start */
+    .financialstatus-section-top{
+        background: #00376C;
+        margin-bottom: 10px;
+        padding: 5px;
+        border-radius: 6px;
+    }
+    .financialstatus-section-title{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 20px;
+        padding-bottom: 7px;
+    }
+    /* Financial status (Current economic status) popup start */
+
+    /* Financial status (life events) Popup start  */
+    .financialstatus-topsec-outer{
+        background: #d5d5d5;
+        padding: 7px;
+        color: #181818;
+        height: 450px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 6px;
+    }
+    .financialstatus-row-holder{
+        border-bottom: 1px solid #181818;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+    .financialstatus-row-holder:last-child{
+        margin-bottom: 5px;
+        border-bottom: 0;
+    }
+    .financialstatus-row-head{
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .financialstatus-row-content{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .financialstatus-btmsec-outer{
+        background: #d5d5d5;
+        padding: 7px;
+        color: #181818;
+        border-radius: 6px;
+    }
+    .financialstatus-inputholder input::placeholder{
+        font-size: 12px;
+    }
+    .financialstatus-input-btn button{
+        padding: 5px 16px !important;
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+    /* Financial status (life events) Popup end  */
+
+    /* financial location status popup start */
+    .locationinfo-topsec{
+        background: #181818;
+        color: #fff;
+        padding: 10px;
+    }
+    .loc-name{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        font-size: 12px;
+    }
+    .loc-nameimg img{
+        width: 48px;
+    }
+    .location-showlink button{
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+        background: none !important;
+        color: #fff !important;
+    }
+    .location-mapsec iframe{
+        width: 100%;
+        height: 300px;
+        font-size: 14px !important;
+    }
+    .loctab-li .nav-item .nav-link{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .loctab-li img{
+        width: 36px;
+    }
+    .location-table-tabholder table th{
+        font-weight: 500 !important;
+        background: #3E6991;
+        color: #fff;
+    }
+    .location-table-tabholder .scroll-locationtable{
+        max-height: clamp(11em,10vh,250px);
+        overflow: hidden;
+        overflow-y: scroll;
+    } 
+    /* financial location status popup end */ 
+
+    /* financial location know more popup start */
+    .location-btmtable-outer{
+        padding: 10px;
+        background: #adadad;
+        border-radius: 6px;
+    }
+    .knowmorelocinfo-topsec{
+        border-bottom: 1px solid #181818;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        color: #181818;
+        font-weight: 500;
+    }
+    .knowmorebtmtab-btn .nav-item .nav-link{
+        color: #181818;
+    }
+    /* financial location know more popup end */
+
+    /* certificate popup start */
+    .crft-popup-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/crft-popup1-bg.jpeg);
+        background-size: cover;
+        background-position: center; 
+    }
+    .crft-opt-inner{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .crft-optholder{
+        width: 82px;
+        height: 82px;
+        background: #fff;
+        text-align: center;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .crft-opt-btn{
+        border: 0;
+        background: none;
+        padding: 10px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .crft-opt-btn img{
+        width: 36px;
+        margin-bottom: 10px;
+    }
+    .crft-inspword{
+        font-size: 14px;
+        color: #717171;
+        text-align: center;
+        font-weight: 600;
+        /* margin-bottom: 30px; */
+    }
+    .crft-sec-footer{
+        background: #fff;
+        color: #000000;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px;
+    }
+    /* certificate popup end */
+
+    /* certificate 2 popup start */
+    .crft-popup2-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/crft-popup2-bg.jpeg);
+        background-size: cover;
+        background-position: center; 
+    }
+    .crft-midtext{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .crft-donarname{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .crft-btmtext{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    /* certificate 2 popup end */
+
+    /* Indicators over age popup start */
+    .overage-lifeevent-holder{
+        display: flex;
+        gap: 10px;
+    }
+    .overage-lifeevent-left{
+        padding: 10px;
+        background: #0272D8;
+        text-align: center;
+    }
+    .overage-lifeevent-text{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    /* Indicators over age popup end */
+
+    /* deadlife summery tab content start */
+    .deadLife-summary-graphsection{
+        background: #343434;
+        padding: 20px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 6px;
+    }
+    .write-text-sec textarea::placeholder{
+        font-size: 11px !important;
+    }
+    .summary-graphsection-scroll{
+        height: 350px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    /* deadlife summery tab content end */
+
+    /* license setting popup start */
+    .licenseset-sec-holder{
+        border-bottom: 1px solid #adadad;
+        margin-bottom: 10px;
+    }
+    /* license setting popup end */
+
+
+    /* Play life start */
+    .play-life-table table th img{
+        width: 36px;
+    }
+    .play-life-table table textarea{
+        font-size: 12px !important;
+        width: 13rem;
+    }
+    .textarea-expand {
+        width: 10rem;
+        -webkit-transition: height .35s ease-out-in;
+        transition: height .35s ease-out-in;
+    }
+    .textarea-expand:focus {
+        height: auto;
+        width: 300px;
+    }
+    .play-life-listbox ul{
+        padding-left: 15px;
+    }
+    .play-life-table .playlife-graph-box{
+        width: 200px;
+    }
+    .play-life-table .playlife-graph-textbox{
+        width: 150px;
+    }
+    .play-life-table .play-life-rowhover:hover{
+        color: #3798d9;
+    }
+    .play-life-table .sdgdata-tdimg{
+        width: 42px;
+    }
+    .play-life-table .tdyellow{
+        background: rgb(255, 193, 7);
+    }
+    .play-life-table .tdorange{
+        background: rgb(237, 124, 28);
+    }
+    .play-life-table .tdred{
+        background: rgb(211, 39, 13);
+    }
+    .play-life-table .tdgreen{
+        background: rgb(54, 173, 31);
+    }
+    /* Play life end */
+
+    /* life data inner pages */
+    .lifedata-inpage-outer{
+        margin-bottom: 25%;
+    }
+    .lifedata-box-outer{
+        margin-top: 20px;
+        margin-bottom: 30%;
+    }
+    .lifedata-box-head{
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .lifedata-box-holder{
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .lifedata-box-flag{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .lifedata-box-content{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .lifedata-box-flag a {
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .lifedata-country-boxholder{
+        margin-bottom: 20px;
+    }
+    .lifedata-country-btns {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .lifedata-country-btns button {
+        width: 95px;
+        min-height: 80px;
+        font-size: 11px;
+    }
+    .lifedata-inpageuser-info{
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+    }
+    /* life data inner pages */
+}
+
+@media (max-width: 485px) {
+    /* vertical layout start */
+    .iinstallment-section-holder{
+        height: 550px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .installment-box-outer{
+        padding: 6px;
+        border-radius: 6px;
+        background: #d5d5d5;
+        -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+    }
+    .installment-box-holder{
+        border-radius: 6px;
+    }
+    .installment-box-title{
+        color: #181818;
+    }
+    .installment-box-head{
+        display: flex;
+        justify-content: space-between;
+        background: #00376C;
+        color: #fff;
+        padding: 5px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    .installment-box-pgcount{
+        background: #fff;
+        color: #181818;
+        border-radius: 4px;
+        padding: 3px 5px;
+    }
+    .installment-box-content{
+        background: #fff;
+        color: #181818;
+        padding: 5px;
+        font-weight: 500;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .installment-content-row{
+        display: flex;
+        border-bottom: 1px solid #181818;
+        /* margin-bottom: 5px; */
+        padding: 5px 5px;
+    }
+    .installment-content-row:last-child{
+        border-bottom: 0;
+    }
+    .installment-box-btn{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px 15px;
+        margin-top: 10px;
+    }
+    .installment-box-btn button{
+        font-size: 10px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+    }
+    .installment-save-btn button{
+        font-size: 11px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+    }
+    /* vertical layout end */
+
+    /* horizontal layout start */
+    .iinstallment-horsection-holder{
+        display: flex;
+        column-gap: 20px;
+        overflow: hidden;
+        overflow-x: scroll;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+    .installment-horbox-outer{
+        min-width: 275px;
+        padding: 6px;
+        border-radius: 6px;
+        background: #d5d5d5;
+        -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+    }
+    /* horizontal layout end */
+
+    /* manage payment popup section start */
+    .managepayment-section-top{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+    }
+    .managepayment-flex-holder{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+    }
+    .managepayment-table-holder{
+        padding: 0 !important;
+    }
+    /* manage payment popup section end */
+
+
+    /* testimonials Factoid popup start */
+    .lifedecision-input-holder{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+    }
+    .lifedecision-inputbtn input[type=radio] {
+        opacity: 0;
+        position: absolute;
+    }
+    .lifedecision-inputlabel {
+        background-color: #d5d5d5;
+        font-size: 11px;
+        font-weight: 500;
+        border: 1px solid #181818;
+        border-radius: 6px;
+        color: #181818;
+        display: block;
+        width: 120px;
+        /* height: 74px; */
+        padding: 7px 8px;
+        text-align: center; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      
+    input:checked + .lifedecision-inputlabel {
+        background-color: #adadad;
+        border: 1px solid #181818;
+        color: #181818;
+    }
+    .lifedecision-clm-box{
+        text-align: left;
+    }
+    /* testimonials Factoid popup end */
+
+    /* Financial status (Current economic status) popup start */
+    .financialstatus-section-top{
+        background: #00376C;
+        margin-bottom: 10px;
+        padding: 5px;
+        border-radius: 6px;
+    }
+    .financialstatus-section-title{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 20px;
+        padding-bottom: 7px;
+    }
+    /* Financial status (Current economic status) popup start */
+
+    /* Financial status (life events) Popup start  */
+    .financialstatus-topsec-outer{
+        background: #d5d5d5;
+        padding: 7px;
+        color: #181818;
+        height: 450px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 6px;
+    }
+    .financialstatus-row-holder{
+        border-bottom: 1px solid #181818;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+    .financialstatus-row-holder:last-child{
+        margin-bottom: 5px;
+        border-bottom: 0;
+    }
+    .financialstatus-row-head{
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .financialstatus-row-content{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .financialstatus-btmsec-outer{
+        background: #d5d5d5;
+        padding: 7px;
+        color: #181818;
+        border-radius: 6px;
+    }
+    .financialstatus-inputholder input::placeholder{
+        font-size: 12px;
+    }
+    .financialstatus-input-btn button{
+        padding: 5px 16px !important;
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+    /* Financial status (life events) Popup end  */
+
+    /* financial location status popup start */
+    .locationinfo-topsec{
+        background: #181818;
+        color: #fff;
+        padding: 10px;
+    }
+    .loc-name{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        font-size: 12px;
+    }
+    .loc-nameimg img{
+        width: 48px;
+    }
+    .location-showlink button{
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+        background: none !important;
+        color: #fff !important;
+    }
+    .location-mapsec iframe{
+        width: 100%;
+        height: 300px;
+        font-size: 14px !important;
+    }
+    .loctab-li .nav-item .nav-link{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .loctab-li img{
+        width: 36px;
+    }
+    .location-table-tabholder table th{
+        font-weight: 500 !important;
+        background: #3E6991;
+        color: #fff;
+    }
+    .location-table-tabholder .scroll-locationtable{
+        max-height: clamp(11em,10vh,250px);
+        overflow: hidden;
+        overflow-y: scroll;
+    } 
+    /* financial location status popup end */ 
+
+    /* financial location know more popup start */
+    .location-btmtable-outer{
+        padding: 10px;
+        background: #adadad;
+        border-radius: 6px;
+    }
+    .knowmorelocinfo-topsec{
+        border-bottom: 1px solid #181818;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        color: #181818;
+        font-weight: 500;
+    }
+    .knowmorebtmtab-btn .nav-item .nav-link{
+        color: #181818;
+    }
+    /* financial location know more popup end */
+
+    /* certificate popup start */
+    .crft-popup-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/crft-popup1-bg.jpeg);
+        background-size: cover;
+        background-position: center; 
+    }
+    .crft-opt-inner{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .crft-optholder{
+        width: 82px;
+        height: 82px;
+        background: #fff;
+        text-align: center;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .crft-opt-btn{
+        border: 0;
+        background: none;
+        padding: 10px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .crft-opt-btn img{
+        width: 36px;
+        margin-bottom: 10px;
+    }
+    .crft-inspword{
+        font-size: 14px;
+        color: #717171;
+        text-align: center;
+        font-weight: 600;
+        /* margin-bottom: 30px; */
+    }
+    .crft-sec-footer{
+        background: #fff;
+        color: #000000;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px;
+    }
+    /* certificate popup end */
+
+    /* certificate 2 popup start */
+    .crft-popup2-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/crft-popup2-bg.jpeg);
+        background-size: cover;
+        background-position: center; 
+    }
+    .crft-midtext{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .crft-donarname{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .crft-btmtext{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    /* certificate 2 popup end */
+
+    /* Indicators over age popup start */
+    .overage-lifeevent-holder{
+        display: flex;
+        gap: 10px;
+    }
+    .overage-lifeevent-left{
+        padding: 10px;
+        background: #0272D8;
+        text-align: center;
+    }
+    .overage-lifeevent-text{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    /* Indicators over age popup end */
+
+    /* deadlife summery tab content start */
+    .deadLife-summary-graphsection{
+        background: #343434;
+        padding: 20px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 6px;
+    }
+    .write-text-sec textarea::placeholder{
+        font-size: 11px !important;
+    }
+    .summary-graphsection-scroll{
+        height: 350px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    /* deadlife summery tab content end */
+
+    /* license setting popup start */
+    .licenseset-sec-holder{
+        border-bottom: 1px solid #adadad;
+        margin-bottom: 10px;
+    }
+    /* license setting popup end */
+
+
+    /* Play life start */
+    .play-life-table table th img{
+        width: 36px;
+    }
+    .play-life-table table textarea{
+        font-size: 12px !important;
+        width: 13rem;
+    }
+    .textarea-expand {
+        width: 10rem;
+        -webkit-transition: height .35s ease-out-in;
+        transition: height .35s ease-out-in;
+    }
+    .textarea-expand:focus {
+        height: auto;
+        width: 300px;
+    }
+    .play-life-listbox ul{
+        padding-left: 15px;
+    }
+    .play-life-table .playlife-graph-box{
+        width: 200px;
+    }
+    .play-life-table .playlife-graph-textbox{
+        width: 150px;
+    }
+    .play-life-table .play-life-rowhover:hover{
+        color: #3798d9;
+    }
+    .play-life-table .sdgdata-tdimg{
+        width: 42px;
+    }
+    .play-life-table .tdyellow{
+        background: rgb(255, 193, 7);
+    }
+    .play-life-table .tdorange{
+        background: rgb(237, 124, 28);
+    }
+    .play-life-table .tdred{
+        background: rgb(211, 39, 13);
+    }
+    .play-life-table .tdgreen{
+        background: rgb(54, 173, 31);
+    }
+    /* Play life end */
+
+    /* life data inner pages */
+    .lifedata-inpage-outer{
+        margin-bottom: 25%;
+    }
+    .lifedata-box-outer{
+        margin-top: 20px;
+        margin-bottom: 30%;
+    }
+    .lifedata-box-head{
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .lifedata-box-holder{
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .lifedata-box-flag{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .lifedata-box-content{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .lifedata-box-flag a {
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .lifedata-country-boxholder{
+        margin-bottom: 20px;
+    }
+    .lifedata-country-btns {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .lifedata-country-btns button {
+        width: 95px;
+        min-height: 80px;
+        font-size: 11px;
+    }
+    .lifedata-inpageuser-info{
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+    }
+    /* life data inner pages */
+}
+
+@media (max-width: 395px) {
+    /* vertical layout start */
+    .iinstallment-section-holder{
+        height: 550px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .installment-box-outer{
+        padding: 6px;
+        border-radius: 6px;
+        background: #d5d5d5;
+        -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+    }
+    .installment-box-holder{
+        border-radius: 6px;
+    }
+    .installment-box-title{
+        color: #181818;
+    }
+    .installment-box-head{
+        display: flex;
+        justify-content: space-between;
+        background: #00376C;
+        color: #fff;
+        padding: 5px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    .installment-box-pgcount{
+        background: #fff;
+        color: #181818;
+        border-radius: 4px;
+        padding: 3px 5px;
+    }
+    .installment-box-content{
+        background: #fff;
+        color: #181818;
+        padding: 5px;
+        font-weight: 500;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .installment-content-row{
+        display: flex;
+        border-bottom: 1px solid #181818;
+        /* margin-bottom: 5px; */
+        padding: 5px 5px;
+    }
+    .installment-content-row:last-child{
+        border-bottom: 0;
+    }
+    .installment-box-btn{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px 15px;
+        margin-top: 10px;
+    }
+    .installment-box-btn button{
+        font-size: 9px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+    }
+    .installment-save-btn button{
+        font-size: 11px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+    }
+    /* vertical layout end */
+
+    /* horizontal layout start */
+    .iinstallment-horsection-holder{
+        display: flex;
+        column-gap: 15px;
+        overflow: hidden;
+        overflow-x: scroll;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+    .installment-horbox-outer{
+        min-width: 250px;
+        padding: 6px;
+        border-radius: 6px;
+        background: #d5d5d5;
+        -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+    }
+    /* horizontal layout end */
+
+    /* manage payment popup section start */
+    .managepayment-section-top{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+    }
+    .managepayment-flex-holder{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+    }
+    .managepayment-table-holder{
+        padding: 0 !important;
+    }
+    /* manage payment popup section end */
+
+
+    /* testimonials Factoid popup start */
+    .lifedecision-input-holder{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+        gap: 15px;
+    }
+    .lifedecision-inputbtn input[type=radio] {
+        opacity: 0;
+        position: absolute;
+    }
+    .lifedecision-inputlabel {
+        background-color: #d5d5d5;
+        font-size: 10px;
+        font-weight: 500;
+        border: 1px solid #181818;
+        border-radius: 6px;
+        color: #181818;
+        display: block;
+        width: 120px;
+        /* height: 74px; */
+        padding: 7px 8px;
+        text-align: center; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      
+    input:checked + .lifedecision-inputlabel {
+        background-color: #adadad;
+        border: 1px solid #181818;
+        color: #181818;
+    }
+    .lifedecision-clm-box{
+        text-align: center;
+    }
+    /* testimonials Factoid popup end */
+
+    /* Financial status (Current economic status) popup start */
+    .financialstatus-section-top{
+        background: #00376C;
+        margin-bottom: 10px;
+        padding: 5px;
+        border-radius: 6px;
+    }
+    .financialstatus-section-title{
+        border-bottom: 1px solid #ADADAD;
+        margin-bottom: 20px;
+        padding-bottom: 7px;
+    }
+    /* Financial status (Current economic status) popup start */
+
+    /* Financial status (life events) Popup start  */
+    .financialstatus-topsec-outer{
+        background: #d5d5d5;
+        padding: 7px;
+        color: #181818;
+        height: 450px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border-radius: 6px;
+    }
+    .financialstatus-row-holder{
+        border-bottom: 1px solid #181818;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+    .financialstatus-row-holder:last-child{
+        margin-bottom: 5px;
+        border-bottom: 0;
+    }
+    .financialstatus-row-head{
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .financialstatus-row-content{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .financialstatus-btmsec-outer{
+        background: #d5d5d5;
+        padding: 7px;
+        color: #181818;
+        border-radius: 6px;
+    }
+    .financialstatus-inputholder input::placeholder{
+        font-size: 12px;
+    }
+    .financialstatus-input-btn button{
+        padding: 5px 16px !important;
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+    /* Financial status (life events) Popup end  */
+
+    /* financial location status popup start */
+    .locationinfo-topsec{
+        background: #181818;
+        color: #fff;
+        padding: 10px;
+    }
+    .loc-name{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        font-size: 12px;
+    }
+    .loc-nameimg img{
+        width: 48px;
+    }
+    .location-showlink button{
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        padding: 5px 16px !important;
+        background: none !important;
+        color: #fff !important;
+    }
+    .location-mapsec iframe{
+        width: 100%;
+        height: 300px;
+        font-size: 14px !important;
+    }
+    .loctab-li .nav-item .nav-link{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .loctab-li img{
+        width: 36px;
+    }
+    .location-table-tabholder table th{
+        font-weight: 500 !important;
+        background: #3E6991;
+        color: #fff;
+    }
+    .location-table-tabholder .scroll-locationtable{
+        max-height: clamp(11em,10vh,250px);
+        overflow: hidden;
+        overflow-y: scroll;
+    } 
+    /* financial location status popup end */ 
+
+    /* financial location know more popup start */
+    .location-btmtable-outer{
+        padding: 10px;
+        background: #adadad;
+        border-radius: 6px;
+    }
+    .knowmorelocinfo-topsec{
+        border-bottom: 1px solid #181818;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        color: #181818;
+        font-weight: 500;
+    }
+    .knowmorebtmtab-btn .nav-item .nav-link{
+        color: #181818;
+    }
+    /* financial location know more popup end */
+
+    /* certificate popup start */
+    .crft-popup-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/crft-popup1-bg.jpeg);
+        background-size: cover;
+        background-position: center; 
+    }
+    .crft-opt-inner{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .crft-optholder{
+        width: 82px;
+        height: 82px;
+        background: #fff;
+        text-align: center;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .crft-opt-btn{
+        border: 0;
+        background: none;
+        padding: 10px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .crft-opt-btn img{
+        width: 36px;
+        margin-bottom: 10px;
+    }
+    .crft-inspword{
+        font-size: 14px;
+        color: #717171;
+        text-align: center;
+        font-weight: 600;
+        /* margin-bottom: 30px; */
+    }
+    .crft-sec-footer{
+        background: #fff;
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px;
+    }
+    /* certificate popup end */
+
+    /* certificate 2 popup start */
+    .crft-popup2-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/crft-popup2-bg.jpeg);
+        background-size: cover;
+        background-position: center; 
+    }
+    .crft-midtext{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .crft-donarname{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .crft-btmtext{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    /* certificate 2 popup end */
+
+    /* Indicators over age popup start */
+    .overage-lifeevent-holder{
+        display: flex;
+        gap: 10px;
+    }
+    .overage-lifeevent-left{
+        padding: 10px;
+        background: #0272D8;
+        text-align: center;
+    }
+    .overage-lifeevent-text{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    /* Indicators over age popup end */
+
+    /* deadlife summery tab content start */
+    .deadLife-summary-graphsection{
+        background: #343434;
+        padding: 20px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 6px;
+    }
+    .write-text-sec textarea::placeholder{
+        font-size: 11px !important;
+    }
+    .summary-graphsection-scroll{
+        height: 350px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    /* deadlife summery tab content end */
+
+    /* license setting popup start */
+    .licenseset-sec-holder{
+        border-bottom: 1px solid #adadad;
+        margin-bottom: 10px;
+    }
+    /* license setting popup end */
+
+
+    /* Play life start */
+    .play-life-table table th img{
+        width: 36px;
+    }
+    .play-life-table table textarea{
+        font-size: 11px !important;
+        width: 13rem;
+    }
+    .textarea-expand {
+        width: 10rem;
+        -webkit-transition: height .35s ease-out-in;
+        transition: height .35s ease-out-in;
+    }
+    .textarea-expand:focus {
+        height: auto;
+        width: 300px;
+    }
+    .play-life-listbox ul{
+        padding-left: 15px;
+    }
+    .play-life-table .playlife-graph-box{
+        width: 200px;
+    }
+    .play-life-table .playlife-graph-textbox{
+        width: 150px;
+    }
+    .play-life-table .play-life-rowhover:hover{
+        color: #3798d9;
+    }
+    .play-life-table .sdgdata-tdimg{
+        width: 42px;
+    }
+    .play-life-table .tdyellow{
+        background: rgb(255, 193, 7);
+    }
+    .play-life-table .tdorange{
+        background: rgb(237, 124, 28);
+    }
+    .play-life-table .tdred{
+        background: rgb(211, 39, 13);
+    }
+    .play-life-table .tdgreen{
+        background: rgb(54, 173, 31);
+    }
+    /* Play life end */
+
+    /* life data inner pages */
+    .lifedata-inpage-outer{
+        margin-bottom: 25%;
+    }
+    .lifedata-box-outer{
+        margin-top: 20px;
+        margin-bottom: 30%;
+    }
+    .lifedata-box-head{
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .lifedata-box-holder{
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .lifedata-box-flag{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .lifedata-box-content{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .lifedata-box-flag a {
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .lifedata-country-boxholder{
+        margin-bottom: 20px;
+    }
+    .lifedata-country-btns {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .lifedata-country-btns button {
+        width: 95px;
+        min-height: 80px;
+        font-size: 11px;
+    }
+    .lifedata-inpageuser-info{
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .first-clmfixed table {  
+        width: 100%;
+        /* padding-bottom: 1rem; */
+    }
+    .first-clmfixed table > thead > tr > th:first-child,
+    .first-clmfixed table > tbody > tr > td:first-child {
+        position: sticky;
+        left: 0; 
+        font-weight: 600;
+    }
+    
+    /* life data inner pages */
+
+}
+
+@media (max-width: 320px) { 
+    /* testimonials Factoid popup start */
+    .lifedecision-inputlabel {
+        background-color: #d5d5d5;
+        font-size: 10px;
+        font-weight: 500;
+        border: 1px solid #181818;
+        border-radius: 6px;
+        color: #181818;
+        display: block;
+        width: 106px;
+        /* height: 74px; */
+        padding: 7px 8px;
+        text-align: center; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* testimonials Factoid popup end */ 
+
+    .first-clmfixed table {  
+        width: 100%;
+        /* padding-bottom: 1rem; */
+    }
+    .first-clmfixed table > thead > tr > th:first-child,
+    .first-clmfixed table > tbody > tr > td:first-child {
+        position: sticky;
+        left: 0; 
+        font-weight: 600;
+    }
+}
+
+
+.text-color-cyen{color: #52deff;
+    font-weight: bold;}
+.bold {font-weight: bold;}
+.text-redlight{
+    color: #ff2100;
+}
+.textunderline-red {text-decoration: underline;
+    text-decoration-color: #ff2100;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}
+
+.textunderline-green {text-decoration: underline;
+    text-decoration-color: #54DD00;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}
+
+/* Play life start */
+.play-life-table table th img{
+    width: 36px;
+}
+.play-life-table table textarea{
+    font-size: 12px !important;
+    width: 10.5rem;
+}
+.textarea-expand {
+    width: 10rem;
+    -webkit-transition: height .35s ease-out-in;
+    transition: height .35s ease-out-in;
+}
+.textarea-expand:focus {
+    height: auto;
+    width: 300px;
+}
+.play-life-listbox ul{
+    padding-left: 15px;
+}
+.play-life-table .playlife-graph-box{
+    width: 200px;
+}
+.play-life-table .playlife-graph-textbox{
+    width: 150px;
+}
+.play-life-table .play-life-rowhover:hover{
+    color: #3798d9;
+}
+.play-life-table .sdgdata-tdimg{
+    width: 42px;
+}
+.play-life-table .tdyellow{
+    background: rgb(255, 193, 7);
+}
+.play-life-table .tdorange{
+    background: rgb(237, 124, 28);
+}
+.play-life-table .tdred{
+    background: rgb(211, 39, 13);
+}
+.play-life-table .tdgreen{
+    background: rgb(54, 173, 31);
+}
+/* Play life end */

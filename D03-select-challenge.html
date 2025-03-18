@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D03 Select Challenge</title>
+
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/theme-change.css" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/04-challenge-yourself.css" rel="stylesheet" />
+
+    <link href="css/be-born.css" rel="stylesheet" />
+    <link href="css/01-design-life.css" rel="stylesheet" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-light navbar-expand-lg navbar-theme">
+        <div class="container-fluid">
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#navbarOffcanvasLg"
+              aria-controls="navbarOffcanvasLg"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <a class="navbar-brand" href="#"> Select a Challenge </a>
+          </div>
+
+          <ul class="nav right-nav d-flex">
+            <li class="nav-item">
+              <button class="btn" href="#">
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </button>
+            </li>
+          </ul>
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="navbarOffcanvasLg"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header background-color-web">
+              <div>
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  <img src="images/Logo.svg" alt="Gameplay" />
+                </h5>
+                <p class="offcanvas-title">ThoughtCraft</p>
+              </div>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body background-color-web">
+              <ul
+                class="navbar-nav offcanvas-nav justify-content-end flex-grow-1 pe-3 content-font"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">
+                    <img src="images/globe-gray.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Set Language</p>
+                      <p class="mb-0 fw-light">Set your default language</p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/flag.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Choose Country</p>
+                      <p class="mb-0 fw-light">
+                        You can choose a different country as your registered
+                        country.
+                      </p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/screenn-setting.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Born Screen Settings</p>
+                      <p class="mb-0 fw-light">
+                        Select a screen to see in the game
+                      </p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/log-out.svg" class="me-3" /> Log Out
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="clearfix"></div>
+
+    <main>
+      <section class="container white-title">
+        <div class="page-heading">
+          <p>Health and Diseases Challenges</p>
+        </div>
+
+        <div class="challenges-list-outer">
+          <div class="challenges-list-inner">
+            <!-- <div>
+                        <button class="d-flex justify-content-between align-items-center">Be born in a country with the lowest infant mortality rate (IMR)
+                            <span class=""><i class="fas fa-chevron-right"></i></span></button>
+                    </div> -->
+
+            <ul class="list-group">
+              <li class="list-group-item">
+                <button
+                  class="list-btn white-title"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Be born in a country with the lowest infant mortality rate
+                  (IMR)
+                  <span class=""><i class="fas fa-chevron-right"></i></span>
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                <button
+                  class="list-btn white-title"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-1"
+                >
+                  Be born in a country with the highest infant mortality rate
+                  (IMR).
+                  <span class=" "><i class="fas fa-chevron-right"></i></span>
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                <button
+                  class="list-btn white-title"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-2"
+                >
+                  Be born in a country with the highest life expectancy.
+                  <span class=" "><i class="fas fa-chevron-right"></i></span>
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                <button class="list-btn white-title">
+                  Be born in a country that is worst affected by hunger and
+                  malnutrition.
+                  <span class=""><i class="fas fa-chevron-right"></i></span>
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                <button class="list-btn white-title">
+                  Be born in a country that has most doctors and nurses in
+                  healthcare services.
+                  <span class=" "><i class="fas fa-chevron-right"></i></span>
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                <button class="list-btn white-title">
+                  Be born in the cleanest country in the world.
+                  <span class=" "><i class="fas fa-chevron-right"></i></span>
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                <button class="list-btn white-title">
+                  Be born in a country where the majority of the population
+                  lives in slums.
+                  <span class=""><i class="fas fa-chevron-right"></i></span>
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                <button class="list-btn white-title">
+                  Be born in a country where the self-reported feeling of
+                  loneliness is high.
+                  <span class=" "><i class="fas fa-chevron-right"></i></span>
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                <button class="list-btn white-title">
+                  Be born in a country that has the world's worst health
+                  conditions.
+                  <span class=" "><i class="fas fa-chevron-right"></i></span>
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                <button class="list-btn white-title">
+                  Be born in a country where farmers use a high level of
+                  pesticides per acre.
+                  <span class=" "><i class="fas fa-chevron-right"></i></span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- D05 Select Challenge Popup start 1 -->
+
+        <div
+          class="modal fade family-popup-modal popup-modal-bg"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+          >
+            <div class="modal-content background-color-web">
+              <div class="modal-header border-0">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                >
+                  X
+                </button>
+                <h5 class="modal-title content-font" id="exampleModalLabel">
+                  Guess the country
+                </h5>
+              </div>
+
+              <div class="modal-body">
+                <form>
+                  <div class="challenge-popup-input mb-3">
+                    <input
+                      type="text"
+                      class="form-control text-center"
+                      id="nameCountry"
+                      placeholder="Please enter your country here"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </form>
+              </div>
+
+              <div class="modal-footer border-0 text-center mb-3">
+                <button
+                  type="button"
+                  class="btn background-button m-auto content-font fw-medium"
+                >
+                  <a
+                    href="08-know-your-family.html"
+                    class="list-style white-title"
+                  >
+                    Next
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- D05 Select Challenge Popup end 1-->
+
+        <!-- D05 Select Challenge Popup start 2 -->
+
+        <div
+          class="modal fade family-popup-modal popup-modal-bg"
+          id="exampleModal-1"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+          >
+            <div class="modal-content background-color-web">
+              <div class="modal-header border-0">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                >
+                  X
+                </button>
+                <h5 class="modal-title content-font" id="exampleModalLabel">
+                  Correct!
+                </h5>
+              </div>
+
+              <div class="modal-body">
+                <form>
+                  <div class="text-center mb-3">
+                    <p class="content-font fw-medium">
+                      You will be born in Denmark.
+                    </p>
+                  </div>
+                </form>
+              </div>
+
+              <div class="modal-footer border-0 text-center mb-3">
+                <button
+                  type="button"
+                  class="btn popup-btn-linear m-auto content-font fw-medium"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- D05 Select Challenge Popup end 2-->
+
+        <!-- D05 Select Challenge Popup start 3 -->
+
+        <div
+          class="modal fade family-popup-modal popup-modal-bg"
+          id="exampleModal-2"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+          >
+            <div class="modal-content background-color-web">
+              <div class="modal-header border-0">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                >
+                  X
+                </button>
+                <h5 class="modal-title content-font" id="exampleModalLabel">
+                  Oops!
+                </h5>
+              </div>
+
+              <div class="modal-body">
+                <form>
+                  <div class="text-center mb-3">
+                    <p class="content-font fw-medium">
+                      You were incorrect.The cleanest country in the world is
+                      Denmark.You will be born in Denmark.
+                    </p>
+                  </div>
+                </form>
+              </div>
+
+              <div class="modal-footer border-0 text-center mb-3">
+                <button
+                  type="button"
+                  class="btn popup-btn-linear m-auto content-font fw-medium"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- D05 Select Challenge Popup end 3-->
+      </section>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

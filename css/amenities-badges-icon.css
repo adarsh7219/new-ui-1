@@ -1,0 +1,247 @@
+
+.family-amenities-video{
+  cursor: pointer;
+  text-decoration: none;
+  color: #3C3C3C;
+}
+
+.amenities-icons .icon-button__badge-red {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 8px;
+  height: 8px;
+  background: #FF0000;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.amenities-icons .icon-button__badge-green {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 8px;
+  height: 8px;
+  background: #00BF2A;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+@media (max-width: 991px) {
+    .amenities-icons .icon-button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* width: 50px;
+        height: 50px; */
+        color: #333333;
+        background: none;
+        border: none;
+        /* outline: none;
+        border-radius: 50%; */
+        padding: 3px;
+      }
+      
+      .amenities-icons .icon-button:hover {
+        cursor: pointer;
+      }
+      
+      /* .amenities-icons .icon-button__badge {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 8px;
+        height: 8px;
+        background: red;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+      } */
+      .amenities-icons .icon-button i{
+        font-size: 11px;
+      }
+      .counter-icon-number{
+        font-size: 13px;
+        font-weight: 600;
+      }
+}
+
+
+@media (max-width: 768px) {
+    .amenities-icons .icon-button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* width: 50px;
+        height: 50px; */
+        color: #333333;
+        background: none;
+        border: none;
+        /* outline: none;
+        border-radius: 50%; */
+        padding: 3px;
+      }
+      
+      .amenities-icons .icon-button:hover {
+        cursor: pointer;
+      }
+      
+      /* .amenities-icons .icon-button__badge {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 8px;
+        height: 8px;
+        background: red;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+      } */
+      .amenities-icons .icon-button i{
+        font-size: 11px;
+      }
+      .amenities-icon-number{
+        font-size: 13px;
+        font-weight: 600;
+      }
+}
+
+@media (max-width: 576px) {
+    .amenities-icons .icon-button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* width: 50px;
+        height: 50px; */
+        color: #333333;
+        background: none;
+        border: none;
+        /* outline: none;
+        border-radius: 50%; */
+        /* padding: 3px; */
+      }
+      
+      .amenities-icons .icon-button:hover {
+        cursor: pointer;
+      }
+      
+      /* .amenities-icons .icon-button__badge {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 8px;
+        height: 8px;
+        background: red;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+      } */
+      .amenities-icons .icon-button i{
+        font-size: 11px;
+      }
+      .amenities-icon-number{
+        font-size: 13px;
+        font-weight: 600;
+      }
+}
+
+@media (max-width: 485px) {
+    .amenities-icons .icon-button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* width: 50px;
+        height: 50px; */
+        color: #333333;
+        background: none;
+        border: none;
+        /* outline: none;
+        border-radius: 50%; */
+        /* padding: 3px; */
+      }
+      
+      .amenities-icons .icon-button:hover {
+        cursor: pointer;
+      }
+      
+      /* .amenities-icons .icon-button__badge {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 8px;
+        height: 8px;
+        background: red;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+      } */
+      .amenities-icons .icon-button i{
+        font-size: 11px;
+      }
+      .amenities-icon-number{
+        font-size: 11px;
+        font-weight: 600;
+      }
+
+}
+
+@media (max-width: 395px) {
+.amenities-icons .icon-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 50px;
+    height: 50px; */
+    color: #333333;
+    background: none;
+    border: none;
+    /* outline: none;
+    border-radius: 50%; */
+    padding: 3px;
+  }
+  
+  .amenities-icons .icon-button:hover {
+    cursor: pointer;
+  }
+  
+  /* .amenities-icons .icon-button__badge {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 8px;
+    height: 8px;
+    background: red;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  } */
+  .amenities-icons .icon-button i{
+    font-size: 11px;
+  }
+  .amenities-icon-number{
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+}

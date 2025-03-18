@@ -1,0 +1,870 @@
+
+.graph-section-outer{
+    margin-bottom: 23%;
+}
+.graph-section{
+    background: #343434;
+    padding: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+
+@media (max-width: 991px) {
+
+    /* C02 Select SDG Goal start */
+    
+    .select-sdg-goal-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 22px;
+    }
+    .sdg-goal-box-text {
+        margin-bottom: 5px;
+        height: 46px;
+    }
+    .selectgoal-sr {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .selectgoal-color-box {
+        padding: 10px 5px 5px !important;
+        font-size: 11px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #fff;
+        height: 114px;
+        width: 114px;
+    }
+    .selectgoal-color-box  img {
+        height: 28px;
+    }
+    /* C02 Select SDG Goal end */
+
+
+    /* C04 Select SDG Subgoal start */
+    .subgoal-color-box{
+        padding: 10px 5px 5px !important;
+        font-size: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #fff;
+        min-height: 96px;
+        min-width: 96px;
+    }
+    .subgoal-sr {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .subgoal-color-box img {
+        height: 18px;
+    }
+    .subgoal-box-content{
+        margin-top: 5px;
+    }
+    .subgoal-text{
+        margin-bottom: 3px;
+    }
+
+    .subgoal-list-inner{
+        width: 75%;
+        margin: auto;
+    }
+    .subgoal-black-bg{
+        background: #343434;
+        padding: 15px;
+        border-radius: 6px;
+    }
+    
+    .list-group-item.active{
+        color: #181818 !important;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        border-color: #181818 !important;
+    }
+    .list-group-item {
+        font-size: 12px;
+        color: #181818 !important;
+        text-decoration: none;
+        background-color: #BBBBBB !important;
+        border: 1px solid #181818 !important;
+        text-align: center;
+    }
+    /* C04 Select SDG Subgoal end */
+
+    /* C05 Subgoal Details start */
+    .subgoal-table table {
+        border-color: #181818;
+        font-size: 11px;
+    }
+    .subgoal-table table th, .subgoal-table table td{
+        width: 73px;
+    }
+    .subgoal-table table th{
+        background: #BBBBBB;
+    }
+    .subgoal-table table td{
+        background: #E8E8E8;
+    }
+    .subgoal-table table .td-black{
+        background: #343434;
+        border: 1px solid #E8E8E8 !important;
+    }
+    /* C05 Subgoal Details end */
+
+    /* C06 Select Country start */
+    .collapse-outer{
+        margin-bottom: 23%;
+    }
+    .collapse-outer .accordion-item {
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+        margin-bottom: 10px;
+        border-radius: 6px;
+    
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+    }
+    .collapse-outer .accordion-button{
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 6px;
+    }
+    .collapse-outer .accordion-item:not(:first-of-type) {
+        border-top: 1px solid rgba(0,0,0,.125);
+    }
+    .collapse-outer .accordion-body {
+        padding: 1rem 1.25rem;
+        background: #F3F3F3;
+        font-size: 12px;
+        color: #3C3C3C;
+    }
+    .collapse-outer .accordion-body p:last-child{
+        margin-bottom: 0;
+    }
+    .collapse-outer .accordion-button:not(.collapsed) {
+        color: #1C1C1C;
+        background-color: #fff;
+        box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+    }
+
+    .acn-cont-btn{
+        font-size: 12px !important;
+        display: block !important;
+    }
+
+    /* C06 Select Country end */
+
+    .acn-head-flex{
+        display: flex;
+    }
+    .acn-head-img{
+        background: #04defd;
+        padding: 0 15px;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+
+    
+}
+
+@media (max-width: 768px) {
+
+    /* C02 Select SDG Goal start */
+    
+    .select-sdg-goal-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 22px;
+    }
+    .sdg-goal-box-text {
+        margin-bottom: 5px;
+        height: 46px;
+    }
+    .selectgoal-sr {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .selectgoal-color-box {
+        padding: 10px 5px 5px !important;
+        font-size: 11px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #fff;
+        height: 114px;
+        width: 114px;
+    }
+    .selectgoal-color-box  img {
+        height: 28px;
+    }
+    /* C02 Select SDG Goal end */
+
+    /* C04 Select SDG Subgoal start */
+    .subgoal-color-box{
+        padding: 10px 5px 5px !important;
+        font-size: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #fff;
+        min-height: 96px;
+        min-width: 96px;
+    }
+    .subgoal-sr {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .subgoal-color-box img {
+        height: 18px;
+    }
+    .subgoal-box-content{
+        margin-top: 5px;
+    }
+    .subgoal-text{
+        margin-bottom: 3px;
+    }
+
+    .subgoal-list-inner{
+        width: 75%;
+        margin: auto;
+    }
+    .subgoal-black-bg{
+        background: #343434;
+        padding: 15px;
+        border-radius: 6px;
+    }
+    
+    .list-group-item.active{
+        color: #181818 !important;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        border-color: #181818 !important;
+    }
+    .list-group-item {
+        font-size: 12px;
+        color: #181818 !important;
+        text-decoration: none;
+        background-color: #BBBBBB !important;
+        border: 1px solid #181818 !important;
+        text-align: center;
+    }
+    /* C04 Select SDG Subgoal end */
+
+    /* C05 Subgoal Details start */
+    .subgoal-table table {
+        border-color: #181818;
+        font-size: 11px;
+    }
+    .subgoal-table table th, .subgoal-table table td{
+        width: 73px;
+    }
+    .subgoal-table table th{
+        background: #BBBBBB;
+    }
+    .subgoal-table table td{
+        background: #E8E8E8;
+    }
+    .subgoal-table table .td-black{
+        background: #343434;
+        border: 1px solid #E8E8E8 !important;
+    }
+    /* C05 Subgoal Details end */
+
+    /* C06 Select Country start */
+    .collapse-outer{
+        margin-bottom: 23%;
+    }
+    .collapse-outer .accordion-item {
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+        margin-bottom: 10px;
+        border-radius: 6px;
+    
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+    }
+    .collapse-outer .accordion-button{
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 6px;
+    }
+    .collapse-outer .accordion-item:not(:first-of-type) {
+        border-top: 1px solid rgba(0,0,0,.125);
+    }
+    .collapse-outer .accordion-body {
+        padding: 1rem 1.25rem;
+        background: #F3F3F3;
+        font-size: 12px;
+        color: #3C3C3C;
+    }
+    .collapse-outer .accordion-body p:last-child{
+        margin-bottom: 0;
+    }
+    .collapse-outer .accordion-button:not(.collapsed) {
+        color: #1C1C1C;
+        background-color: #fff;
+        box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+    }
+    /* C06 Select Country end */
+
+    .acn-head-flex{
+        display: flex;
+    }
+    .acn-head-img{
+        background: #04defd;
+        padding: 0 15px;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+    .acn-cont-btn{
+        font-size: 12px !important;
+        display: block !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    /* C02 Select SDG Goal start */
+    
+    .select-sdg-goal-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 13px;
+    }
+    .sdg-goal-box-text {
+        margin-bottom: 7px;
+        height: 44px;
+    }
+    .selectgoal-sr {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .selectgoal-color-box {
+        padding: 10px 5px 5px !important;
+        font-size: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #fff;
+        height: 109px;
+        width: 109px;
+    }
+    .selectgoal-color-box img {
+        height: 24px;
+    }
+    /* C02 Select SDG Goal end */
+
+    /* C04 Select SDG Subgoal start */
+    .subgoal-color-box{
+        padding: 10px 5px 5px !important;
+        font-size: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #fff;
+        min-height: 96px;
+        min-width: 96px;
+    }
+    .subgoal-sr {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .subgoal-color-box img {
+        height: 18px;
+    }
+    .subgoal-box-content{
+        margin-top: 5px;
+    }
+    .subgoal-text{
+        margin-bottom: 3px;
+    }
+
+    .subgoal-list-inner {
+        width: 75%;
+        margin: auto;
+    }
+    .subgoal-black-bg{
+        background: #343434;
+        padding: 15px;
+        border-radius: 6px;
+    }
+    
+    .list-group-item.active{
+        color: #181818 !important;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        border-color: #181818 !important;
+    }
+    .list-group-item {
+        font-size: 12px;
+        color: #181818 !important;
+        text-decoration: none;
+        background-color: #BBBBBB !important;
+        border: 1px solid #181818 !important;
+        text-align: center;
+    }
+    /* C04 Select SDG Subgoal end */
+
+    /* C05 Subgoal Details start */
+    .subgoal-table table {
+        border-color: #181818;
+        font-size: 11px;
+    }
+    .subgoal-table table th, .subgoal-table table td{
+        width: 73px;
+    }
+    .subgoal-table table th{
+        background: #BBBBBB;
+    }
+    .subgoal-table table td{
+        background: #E8E8E8;
+    }
+    .subgoal-table table .td-black{
+        background: #343434;
+        border: 1px solid #E8E8E8 !important;
+    }
+    /* C05 Subgoal Details end */
+
+    /* C06 Select Country start */
+    .collapse-outer{
+        margin-bottom: 13%;
+    }
+    .collapse-outer .accordion-item {
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+        margin-bottom: 10px;
+        border-radius: 6px;
+    
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+    }
+    .collapse-outer .accordion-button{
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 6px;
+    }
+    .collapse-outer .accordion-item:not(:first-of-type) {
+        border-top: 1px solid rgba(0,0,0,.125);
+    }
+    .collapse-outer .accordion-body {
+        padding: 1rem 1.25rem;
+        background: #F3F3F3;
+        font-size: 12px;
+        color: #3C3C3C;
+    }
+    .collapse-outer .accordion-body p:last-child{
+        margin-bottom: 0;
+    }
+    .collapse-outer .accordion-button:not(.collapsed) {
+        color: #1C1C1C;
+        background-color: #fff;
+        box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+    }
+
+    .acn-cont-btn{
+        font-size: 11px !important;
+        display: block !important;
+    }
+    /* C06 Select Country end */
+
+    .acn-head-flex{
+        display: flex;
+    }
+    .acn-head-img{
+        background: #04defd;
+        padding: 0 15px;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+}
+
+@media (max-width: 485px) {
+
+    /* C02 Select SDG Goal start */
+    
+    .select-sdg-goal-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 13px;
+    }
+    .sdg-goal-box-text {
+        margin-bottom: 5px;
+        height: 44px;
+    }
+    .selectgoal-sr {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .selectgoal-color-box {
+        padding: 10px 5px 5px !important;
+        font-size: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #fff;
+        height: 109px;
+        width: 109px;
+    }
+    .selectgoal-color-box img {
+        height: 24px;
+    }
+    /* C02 Select SDG Goal end */
+
+
+    /* C04 Select SDG Subgoal start */
+    .subgoal-color-box{
+        padding: 10px 5px 5px !important;
+        font-size: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #fff;
+        min-height: 96px;
+        min-width: 96px;
+    }
+    .subgoal-sr {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .subgoal-color-box img {
+        height: 18px;
+    }
+    .subgoal-box-content{
+        margin-top: 5px;
+    }
+    .subgoal-text{
+        margin-bottom: 3px;
+    }
+
+    .subgoal-list-inner {
+        width: 100%;
+        margin: auto;
+    }
+    .subgoal-black-bg{
+        background: #343434;
+        padding: 15px;
+        border-radius: 6px;
+    }
+    
+    .list-group-item.active{
+        color: #181818 !important;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        border-color: #181818 !important;
+    }
+    .list-group-item {
+        font-size: 11px;
+        color: #181818 !important;
+        text-decoration: none;
+        background-color: #BBBBBB !important;
+        border: 1px solid #181818 !important;
+        text-align: center;
+    }
+    /* C04 Select SDG Subgoal end */
+
+    /* C05 Subgoal Details start */
+    .subgoal-table table {
+        border-color: #181818;
+        font-size: 11px;
+    }
+    .subgoal-table table th, .subgoal-table table td{
+        width: 73px;
+    }
+    .subgoal-table table th{
+        background: #BBBBBB;
+    }
+    .subgoal-table table td{
+        background: #E8E8E8;
+    }
+    .subgoal-table table .td-black{
+        background: #343434;
+        border: 1px solid #E8E8E8 !important;
+    }
+    /* C05 Subgoal Details end */
+
+    /* C06 Select Country start */
+    .collapse-outer{
+        margin-bottom: 13%;
+    }
+    .collapse-outer .accordion-item {
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+        margin-bottom: 10px;
+        border-radius: 6px;
+    
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+    }
+    .collapse-outer .accordion-button{
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 6px;
+    }
+    .collapse-outer .accordion-item:not(:first-of-type) {
+        border-top: 1px solid rgba(0,0,0,.125);
+    }
+    .collapse-outer .accordion-body {
+        padding: 1rem 1.25rem;
+        background: #F3F3F3;
+        font-size: 11px;
+        color: #3C3C3C;
+    }
+    .collapse-outer .accordion-body p:last-child{
+        margin-bottom: 0;
+    }
+    .collapse-outer .accordion-button:not(.collapsed) {
+        color: #1C1C1C;
+        background-color: #fff;
+        box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+    }
+
+    .acn-cont-btn{
+        font-size: 11px !important;
+        display: block !important;
+    }
+    /* C06 Select Country end */
+
+    .acn-head-flex{
+        display: flex;
+    }
+    .acn-head-img{
+        background: #04defd;
+        padding: 0 15px;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+}
+
+@media (max-width: 395px) {
+
+       
+    /* C02 Select SDG Goal start */
+
+    .select-sdg-goal-inner{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: flex-start; */
+        gap: 13px;
+    }
+    .sdg-goal-box-text {
+        margin-bottom: 3px;
+        height: 42px;
+    }
+    .selectgoal-sr {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .selectgoal-color-box {
+        padding: 10px 5px 5px !important;
+        font-size: 9px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #fff;
+        height: 96px;
+        width: 96px;
+    }
+    .selectgoal-color-box img {
+        height: 20px;
+    }
+    /* C02 Select SDG Goal end */
+    
+    /* C04 Select SDG Subgoal start */
+    .subgoal-color-box{
+        padding: 10px 5px 5px !important;
+        font-size: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #fff;
+        min-height: 96px;
+        min-width: 96px;
+    }
+    .subgoal-sr {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .subgoal-color-box img {
+        height: 18px;
+    }
+    .subgoal-box-content{
+        margin-top: 5px;
+    }
+    .subgoal-text{
+        margin-bottom: 3px;
+    }
+
+    .subgoal-list-inner {
+        width: 100%;
+        margin: auto;
+    }
+    .subgoal-black-bg{
+        background: #343434;
+        padding: 15px;
+        border-radius: 6px;
+    }
+    
+    .list-group-item.active{
+        color: #181818 !important;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        border-color: #181818 !important;
+    }
+    .list-group-item {
+        font-size: 11px;
+        color: #181818 !important;
+        text-decoration: none;
+        background-color: #BBBBBB !important;
+        border: 1px solid #181818 !important;
+        text-align: center;
+    }
+    /* C04 Select SDG Subgoal end */
+
+
+    /* C05 Subgoal Details start */
+    .subgoal-table table {
+        border-color: #181818;
+        font-size: 11px;
+    }
+    .subgoal-table table th, .subgoal-table table td{
+        width: 73px;
+    }
+    .subgoal-table table th{
+        background: #BBBBBB;
+    }
+    .subgoal-table table td{
+        background: #E8E8E8;
+    }
+    .subgoal-table table .td-black{
+        background: #343434;
+        border: 1px solid #E8E8E8 !important;
+    }
+    /* C05 Subgoal Details end */
+
+    /* C06 Select Country start */
+    .collapse-outer{
+        margin-bottom: 13%;
+    }
+    .collapse-outer .accordion-item {
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+        margin-bottom: 10px;
+        border-radius: 6px;
+    
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.22);
+    }
+    .collapse-outer .accordion-button{
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 6px;
+    }
+    .collapse-outer .accordion-item:not(:first-of-type) {
+        border-top: 1px solid rgba(0,0,0,.125);
+    }
+    .collapse-outer .accordion-body {
+        padding: 1rem 1.25rem;
+        background: #F3F3F3;
+        font-size: 11px;
+        color: #3C3C3C;
+    }
+    .collapse-outer .accordion-body p:last-child{
+        margin-bottom: 0;
+    }
+    .collapse-outer .accordion-button:not(.collapsed) {
+        color: #1C1C1C;
+        background-color: #fff;
+        box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+    }
+
+    .acn-cont-btn{
+        font-size: 11px !important;
+        display: block !important;
+    }
+    /* C06 Select Country end */
+
+    .acn-head-flex{
+        display: flex;
+    }
+    .acn-head-img{
+        background: #04defd;
+        padding: 0 15px;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .subgoal-list-outer{
+        margin-bottom: 22%;
+    }
+
+    
+    /* C02 Select SDG Goal start */
+
+    .select-sdg-goal-inner{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: flex-start; */
+        gap: 7px;
+    }
+    .sdg-goal-box-text {
+        margin-bottom: 3px;
+        height: 42px;
+    }
+    .selectgoal-sr {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .selectgoal-color-box {
+        padding: 10px 5px 5px !important;
+        font-size: 9px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #fff;
+        height: 90px;
+        width: 90px;
+    }
+    .selectgoal-color-box img {
+        height: 20px;
+    }
+    /* C02 Select SDG Goal end */
+
+
+}

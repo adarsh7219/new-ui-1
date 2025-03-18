@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Korean Info Screen</title>
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/theme-change.css" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-light navbar-expand-lg navbar-theme">
+        <div class="container-fluid">
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#navbarOffcanvasLg"
+              aria-controls="navbarOffcanvasLg"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <a class="navbar-brand" href="#">
+              <img src="images/Logo.svg" alt="Gameplay" />
+            </a>
+          </div>
+
+          <!-- <ul class="nav right-nav d-flex">
+                    <li class="nav-item ">
+                        <button class="btn " href="#"> <img src="images/globe.svg" alt="Gameplay" /> </button>
+                    </li>
+                    <li class="nav-item "> 
+                        <button type="button" class="btn position-relative">
+                        
+                            <img src="images/bell.svg" alt="" />
+                            <span class="position-absolute  badge rounded-pill bg-success">
+                            
+                            <span class="visually-hidden">unread messages</span>
+                            </span>
+        
+                        </button>
+                    </li>
+                    <li class="nav-item ">
+                    <button class="btn " href="#"><img src="images/user.svg" alt="Gameplay" /></button>
+                    </li>
+                </ul> -->
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="navbarOffcanvasLg"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header background-color-web">
+              <div>
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  <img src="images/Logo.svg" alt="Gameplay" />
+                </h5>
+                <p class="offcanvas-title">ThoughtCraft</p>
+              </div>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body background-color-web">
+              <ul
+                class="navbar-nav offcanvas-nav justify-content-end flex-grow-1 pe-3 content-font"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">
+                    <img src="images/globe-gray.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Set Language</p>
+                      <p class="mb-0 fw-light">Set your default language</p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/flag.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Choose Country</p>
+                      <p class="mb-0 fw-light">
+                        You can choose a different country as your registered
+                        country.
+                      </p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/screenn-setting.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Born Screen Settings</p>
+                      <p class="mb-0 fw-light">
+                        Select a screen to see in the game
+                      </p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/log-out.svg" class="me-3" /> Log Out
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="clearfix"></div>
+
+    <main>
+      <section class="banner-img-outer">
+        <div class="banner-img">
+          <img
+            src="images/language-info-banner.svg"
+            class="img-fluid"
+            alt="Gameplay"
+          />
+        </div>
+
+        <div class="person-info-section">
+          <div class="container">
+            <div class="row">
+              <div class="person-info-outer">
+                <div class="col-4">
+                  <div class="person-img">
+                    <img src="images/person-img.svg" alt="Gameplay" />
+                  </div>
+                </div>
+
+                <div class="col-8">
+                  <div class="person-info-text">
+                    <p>
+                      “In the golden age of Asia Korea was one of its lamp
+                      bearers, And that lamp is waiting To be lighted once again
+                      For the illumination of the East.”
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="clear-both"></div>
+
+      <section class="container">
+        <div class="lang-content-outer">
+          <div class="smile-img-box">
+            <img src="images/smile-image.svg" alt="" />
+          </div>
+
+          <div class="lang-content-box white-title">
+            <p>한국의친구들에게,</p>
+            <p>
+              우리는인도와한국의친밀한관계를보여주는또다른사례인 ‘RealLives’
+              한국어판출시를발표하게되어매우기쁩니다. ‘RealLives’
+              오리지널은영어로만들어졌지만
+              ‘RealLives’가한국의게이머들뿐만아니라많은학교와교육현장에서사랑받
+              는것을보고, 한국어버전을만들게되었습니다.
+            </p>
+            <p>
+              또한노벨문학상을수상한인도의유명한시인,
+              라빈드라나트타고르(Rabindranath Tagore)가한국에대한희망의메시지를
+              담아썼던 ‘동방의등불(The Lamp of the East)’에서도영감을받았습니다.
+            </p>
+            <p>
+              오늘날한국의문화는전세계적으로빠르게인기를얻고있고,
+              마찬가지로한국도세계의문화를이해하고공감할수있기를원 합니다.
+            </p>
+            ‘RealLives’는데이터기반의시뮬레이션을통해세상을이해하는데도움을주는프로그램입니다.
+            이프로그램은 193개주요 국가에서가상으로살아보는경험을통해,
+            다른나라사람들의삶의도전과생활조건의격차, 지속가능한개발목표(SDGs)를
+            이해할수있게합니다.
+            <p>
+              친절한자원봉사자들의도움을받아 ‘RealLives’ 한국어판을완성했지만,
+              한국어로모든것을완벽하게표현하는것은힘든작 업이었습니다.
+              간혹매끄럽지않은표현이있더라도여러분의너그러운양해를바랍니다.
+            </p>
+            친절한자원봉사자들의도움을받아 ‘RealLives’ 한국어판을완성했지만,
+            한국어로모든것을완벽하게표현하는것은힘든작 업이었습니다.
+            간혹매끄럽지않은표현이있더라도여러분의너그러운양해를바랍니다.
+            <p>
+              사용중에한국어문법, 구문등에오류가있다면우리에게알려주세요.
+              앞으로더나은한국어버전을위해노력할것입니다.
+            </p>
+            ‘RealLives’ 한국어판을만들게된것은우리의영광이자특권입니다.
+            <p>한국유저여러분의많은지지와사랑을부탁드립니다.</p>
+            <p>감사합니다!</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="clear-both"></div>
+    <footer>
+      <div class="footer">
+        <nav class="bottom-nav">
+          <a href="#" class="footer-icon">
+            <img src="images/play-btn-1.svg" alt="Gameplay" />
+          </a>
+          <!-- <p class="mb-0">Live a <a href="#">Life</a> </p> -->
+          <div class="bottom-nav-item background-color-web">
+            <div class="bottom-nav-link">
+              <p class="mb-0">Live a <a href="#">Life</a></p>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

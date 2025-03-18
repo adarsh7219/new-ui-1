@@ -1,0 +1,144 @@
+
+@media (max-width: 991px) {
+
+    .theme-toggle .toggle.ios,
+    .theme-toggle .toggle-on.ios,
+    .theme-toggle .toggle-off.ios {
+        border-radius: 20rem;
+    }
+    .theme-toggle .toggle.ios .toggle-handle {
+        border-radius: 20rem;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-handle{
+        border-width: 0 10px;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-on.btn {
+        padding-right: 21px;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-off.btn {
+        padding-left: 1.5rem;
+    }
+    .theme-toggle .toggle.btn {
+        min-height: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .theme-toggle .toggle.ios,
+    .theme-toggle .toggle-on.ios,
+    .theme-toggle .toggle-off.ios {
+        border-radius: 20rem;
+    }
+    .theme-toggle .toggle.ios .toggle-handle {
+        border-radius: 20rem;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-handle{
+        border-width: 0 10px;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-on.btn {
+        padding-right: 21px;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-off.btn {
+        padding-left: 1.5rem;
+    }
+    .theme-toggle .toggle.btn {
+        min-height: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .theme-toggle .toggle.ios,
+    .theme-toggle .toggle-on.ios,
+    .theme-toggle .toggle-off.ios {
+        border-radius: 20rem;
+    }
+    .theme-toggle .toggle.ios .toggle-handle {
+        border-radius: 20rem;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-handle{
+        border-width: 0 10px;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-on.btn {
+        padding-right: 21px;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-off.btn {
+        padding-left: 1.5rem;
+    }
+    .theme-toggle .toggle.btn {
+        min-height: 1.5rem;
+    }
+}
+
+@media (max-width: 485px) {
+
+    .theme-toggle .toggle.ios,
+    .theme-toggle .toggle-on.ios,
+    .theme-toggle .toggle-off.ios {
+        border-radius: 20rem;
+    }
+    .theme-toggle .toggle.ios .toggle-handle {
+        border-radius: 20rem;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-handle{
+        border-width: 0 10px;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-on.btn {
+        padding-right: 21px;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-off.btn {
+        padding-left: 1.5rem;
+    }
+    .theme-toggle .toggle.btn {
+        min-height: 1.5rem;
+    }
+}
+
+@media (max-width: 395px) {
+
+    .theme-toggle .toggle.ios,
+    .theme-toggle .toggle-on.ios,
+    .theme-toggle .toggle-off.ios {
+        border-radius: 20rem;
+    }
+    .theme-toggle .toggle.ios .toggle-handle {
+        border-radius: 20rem;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-handle{
+        border-width: 0 20px;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-on.btn {
+        padding-right: 20px;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-off.btn {
+        padding-left: 20px;
+    }
+    .theme-toggle .toggle.btn {
+        min-height: 1.7rem;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .theme-toggle .toggle.ios,
+    .theme-toggle .toggle-on.ios,
+    .theme-toggle .toggle-off.ios {
+        border-radius: 20rem;
+    }
+    .theme-toggle .toggle.ios .toggle-handle {
+        border-radius: 20rem;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-handle{
+        border-width: 0 20px;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-on.btn {
+        padding-right: 20px;
+    }
+    .theme-toggle .toggle>.toggle-group>.toggle-off.btn {
+        padding-left: 0.5rem;
+    }
+    .theme-toggle .toggle.btn {
+        min-height: 1.7rem;
+    }
+}

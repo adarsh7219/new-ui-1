@@ -1,0 +1,2258 @@
+
+
+@media (max-width: 991px) {
+    .career-contentbox-outer {
+        border-radius: 6px;
+        padding: 3px;
+        background: #fff;
+        margin-bottom: 15px;
+    }
+    .career-contentbox-head-lightblue {
+        font-size: 12px;
+        font-weight: 500;
+        height: 45px;
+        background: #BDE7FF;
+        color: #333333;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        display: flex;
+        align-items: center;
+    }
+    .career-contentbox-head-lightgray {
+        font-size: 12px;
+        font-weight: 500;
+        height: 45px;
+        background: #A9A9A9;
+        color: #333333;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        display: flex;
+        align-items: center;
+    }
+    .career-contentbox{
+        font-size: 12px;
+        color: #6A6A6A;
+        padding: 8px 0 0;
+    }
+    /* .career-contentbox-btn-holder button{
+        padding: 7px 5px !important;
+        font-size: 9px !important;
+        font-weight: 600;
+    } */
+    .career-contentbox-btn-holder .career-box-btn{
+        padding: 7px 5px !important;
+        font-size: 11px !important;
+        font-weight: 600;
+    }
+    .careerpopup-warning{
+        background: #FFF3CD;
+        color: #5E4000;
+        font-size: 11px;
+    }
+
+    /* O02 Parameters start */
+    .parameters-section-outer{
+        margin-bottom: 30%;
+    }
+    .parameter-content-box-outer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 10px 0;
+        gap: 15px 34px;
+    }
+    .parameter-content-box {
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px; 
+        width: 145px;
+        height: 74px;
+        padding: 7px 8px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .parameter-content-box .parameter-box-title{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+    .parameter-content-box .parameter-box-text{
+        color: #707070;
+        margin-bottom: 0px;
+        line-height: 16px;
+    }
+    /* O02 Parameters end */
+
+    /* O03 Apply For Business start */ 
+    .apply-for-business-head{
+        font-size: 12px;
+        font-weight: 600;
+        padding-top: 20px;
+        text-align: center;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+    }
+    .custom-toggle {
+        position: relative;
+        display: inline-block;
+        width: 32px;
+        height: 17px;
+        /* background-color: #ccc; */
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        border-radius: 15px;
+        cursor: pointer;
+      }
+      
+      .custom-toggle input {
+        display: none;
+      }
+      
+      .slider {
+        position: absolute;
+        top: 1px;
+        left: 2px;
+        width: 14px;
+        height: 14px;
+        background-color: #fff;
+        border-radius: 50%;
+        transition: 0.3s;
+      }
+      
+      .custom-toggle input:checked + .slider {
+        transform: translateX(14px);
+      }
+
+    .apply-for-business-outer{
+        margin-bottom: 20%;
+    }
+    .apply-for-links-holder{
+        border: 1px solid #ADADAD;
+        padding: 7px 10px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    .apply-for-business-link{
+        font-size: 12px;
+        color: #020202;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        border: 0;
+        background: none;
+        padding: 0;
+    }
+    .apply-for-business-link:hover{
+        font-size: 12px;
+        color: #020202;
+        text-decoration: none;
+    }
+    /* O03 Apply For Business end */
+
+    /* O06 Registered Popup start */
+    
+    .registered-popup-btn{
+        font-size: 12px !important;
+        font-weight: 600 !important;
+
+    }
+    /* O06 Registered Popup end */
+
+    /* O07 Business SetUP 01 start */
+    .select-business-content-box{
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 178px;
+        height: auto;
+        padding: 7px 8px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .select-business-content-box .parameter-box-title{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+    .select-business-content-box .parameter-box-text{
+        color: #707070;
+        margin-bottom: 0px;
+        line-height: 16px;
+    }
+    .select-business-type {
+        display: flex;
+        column-gap: 20px;
+        /* justify-content: space-between; */
+    }
+    .business-range-slider input{
+        width: 100%;
+    }
+    /* O07 Business SetUP 01 end */
+
+    /* O08 BusinessSetUP 02 start */
+    .business-page-heading-bg{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 5px;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        color: #fff;
+    }
+    .business-page-heading-anchor{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .business-page-heading-anchor:hover{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .businesssetup-table{
+        font-size: 12px;
+    }
+    .businesssetup-content-box{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .businesssetup-content-head{
+        color: #333333;
+        margin-bottom: 7px;
+    }
+    .businesssetup-content-text{
+        color: #707070;
+        margin-bottom: 7px;
+    }
+    .businesssetup-content-anchor{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    /* O08 BusinessSetUP 02 end */
+
+    
+@media (max-width: 991px) {
+
+    /*bullet flot-right start*/
+            .left-flot{    float: right;
+                margin-top: -3px;}
+    
+            .padding-bullet{padding: 8px;}
+    
+    }    /*bullet flot-right End*/
+    
+         @media (max-width: 768px) {
+            .left-flot{    float: right;
+                margin-top: -3px;}
+    
+            .padding-bullet{padding: 8px;}
+    
+    } 
+    /* business-setup start*/
+    
+    .head-back {font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    padding-left: 10px;}
+    
+    .normal-text{
+        padding-left: 10px;
+        font-size: 12px;
+    }
+    
+    /* business-setup end*/
+    
+       
+
+    /* O08 BusinessSetUP Employee start */
+    .select-emp-section{
+        margin-bottom: 30%;
+    }
+    .select-emp-box-flex{
+        display: flex;
+        column-gap: 20px;
+        overflow: hidden;
+        overflow-x: scroll;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+    .select-emp-box-holder{
+        border-radius: 6px;
+        margin-bottom: 12px;
+        min-width: 260px;
+    }
+    .select-emp-content-box{
+        padding: 10px 5px 5px;
+    }
+    .select-emp-box-title{
+        font-size: 12px;
+        font-weight: 600;
+        color: #2D69DE;
+    }
+    .select-emp-box-text{
+        font-size: 10px;
+        font-weight: 600;
+        color: #1B1B1B;
+    }
+    .select-emp-genderf{
+        color: #BA78B9;
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    .select-emp-genderm{
+        color: #78A6BA;
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    .select-emp-box-footer{
+        background: #A8A8A8;
+        padding: 7px 10px;
+        font-size: 10px;
+        text-align: center;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .select-emp-range-slider{
+        width: 80%;
+        margin: auto;
+    }
+    .select-emp-midcontent{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .select-emp-anchor{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    .select-emp-anchor:hover{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    /* O08 BusinessSetUP Employee end */
+
+    /* O09 BusinessSetUP 03 start */
+    .select-cash-btn{
+        color: #fff !important;
+        font-size: 10px !important;
+        font-weight: 500 !important;
+        padding: 5px !important;
+        margin-top: 7px;
+    }
+    /* O09 BusinessSetUP 03 end */
+
+    /* O09 Business SetUP CashLoan start */ 
+    .test-advertising-outer{
+        margin-bottom: 20%;
+    }
+    .test-advertising-box-outer .test-advertising-box-text{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+        font-size: 11px;
+    }
+    /* O09 Business SetUP CashLoan end */
+
+    /* N02 LeisurePopup start */
+
+    .leisurepopup-box-holder{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .leisure-box-holder label {
+        position: relative;
+        cursor: pointer;
+      }
+      .leisure-box-holder label input[type=checkbox] {
+        position: absolute;
+        opacity: 0;
+      }
+      .leisure-box-holder label :checked ~ .icon-box {
+        background-color: #0DBCD1;
+        
+      }
+      .leisure-box-holder label :checked ~ .icon-box img {
+        transform: scale(0.95);
+        margin-bottom: 5px;
+        color: #0DBCD1;
+      }
+      .leisure-box-holder label .icon-box {
+        width: 103px;
+        height: 78px;
+        padding: 5px;
+        font-size: 9px;
+        font-weight: 600;
+        background: #FFFFFF;
+        color: #333333;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #E0E0E0;
+        border-radius: 3px;
+      }
+      .leisure-box-holder label .icon-box .leisure-title {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+      .leisure-btn-holder button{
+        color: #fff;
+        padding: 5px 24px !important;
+        font-size: 12px !important;
+        font-weight: 500;
+      }
+
+      /* N02 LeisurePopup end */
+
+      /* Set up basic business Popup start */
+      .setupbasicbusines-form .setupbusines-field-input::placeholder{
+        font-size: 12px;
+      }
+      .setupbusines-field-btn button{
+        padding: 5px 20px !important;
+        font-size: 12px !important;
+        font-weight: 500;
+      }
+      /* Set up basic business Popup end */
+
+}
+
+@media (max-width: 768px) {
+    .career-contentbox-outer {
+        border-radius: 6px;
+        padding: 3px;
+        background: #fff;
+        margin-bottom: 15px;
+    }
+    .career-contentbox-head-lightblue {
+        font-size: 12px;
+        font-weight: 500;
+        height: 45px;
+        background: #BDE7FF;
+        color: #333333;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        display: flex;
+        align-items: center;
+    }
+    .career-contentbox-head-lightgray {
+        font-size: 12px;
+        font-weight: 500;
+        height: 45px;
+        background: #A9A9A9;
+        color: #333333;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        display: flex;
+        align-items: center;
+    }
+    .career-contentbox{
+        font-size: 12px;
+        color: #6A6A6A;
+        padding: 8px 0 0;
+    }
+    /* .career-contentbox-btn-holder button{
+        padding: 7px 5px !important;
+        font-size: 9px !important;
+        font-weight: 600;
+    } */
+    .career-contentbox-btn-holder .career-box-btn{
+        padding: 7px 5px !important;
+        font-size: 11px !important;
+        font-weight: 600;
+    }
+    .careerpopup-warning{
+        background: #FFF3CD;
+        color: #5E4000;
+        font-size: 11px;
+    }
+
+    /* O02 Parameters start */
+    .parameters-section-outer{
+        margin-bottom: 30%;
+    }
+    .parameter-content-box-outer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 10px 0;
+        gap: 15px 34px;
+    }
+    .parameter-content-box {
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px; 
+        width: 145px;
+        height: 74px;
+        padding: 7px 8px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .parameter-content-box .parameter-box-title{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+    .parameter-content-box .parameter-box-text{
+        color: #707070;
+        margin-bottom: 0px;
+        line-height: 16px;
+    }
+    /* O02 Parameters end */
+
+    /* O03 Apply For Business start */ 
+    .apply-for-business-head{
+        font-size: 12px;
+        font-weight: 600;
+        padding-top: 20px;
+        text-align: center;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+    }
+    .custom-toggle {
+        position: relative;
+        display: inline-block;
+        width: 32px;
+        height: 17px;
+        /* background-color: #ccc; */
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        border-radius: 15px;
+        cursor: pointer;
+      }
+      
+      .custom-toggle input {
+        display: none;
+      }
+      
+      .slider {
+        position: absolute;
+        top: 1px;
+        left: 2px;
+        width: 14px;
+        height: 14px;
+        background-color: #fff;
+        border-radius: 50%;
+        transition: 0.3s;
+      }
+      
+      .custom-toggle input:checked + .slider {
+        transform: translateX(14px);
+      }
+
+    .apply-for-business-outer{
+        margin-bottom: 20%;
+    }
+    .apply-for-links-holder{
+        border: 1px solid #ADADAD;
+        padding: 7px 10px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    .apply-for-business-link{
+        font-size: 12px;
+        color: #020202;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        border: 0;
+        background: none;
+        padding: 0;
+    }
+    .apply-for-business-link:hover{
+        font-size: 12px;
+        color: #020202;
+        text-decoration: none;
+    }
+    /* O03 Apply For Business end */
+
+    /* O06 Registered Popup start */
+    
+    .registered-popup-btn{
+        font-size: 12px !important;
+        font-weight: 600 !important;
+
+    }
+    /* O06 Registered Popup end */
+
+    /* O07 Business SetUP 01 start */
+    .select-business-content-box{
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 178px;
+        height: auto;
+        padding: 7px 8px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .select-business-content-box .parameter-box-title{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+    .select-business-content-box .parameter-box-text{
+        color: #707070;
+        margin-bottom: 0px;
+        line-height: 16px;
+    }
+    .select-business-type {
+        display: flex;
+        column-gap: 20px;
+        /* justify-content: space-between; */
+    }
+    .business-range-slider input{
+        width: 100%;
+    }
+    /* O07 Business SetUP 01 end */
+
+    /* O08 BusinessSetUP 02 start */
+    .business-page-heading-bg{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 5px;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        color: #fff;
+    }
+    .business-page-heading-anchor{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .business-page-heading-anchor:hover{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .businesssetup-table{
+        font-size: 12px;
+    }
+    .businesssetup-content-box{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .businesssetup-content-head{
+        color: #333333;
+        margin-bottom: 7px;
+    }
+    .businesssetup-content-text{
+        color: #707070;
+        margin-bottom: 7px;
+    }
+    .businesssetup-content-anchor{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    /* O08 BusinessSetUP 02 end */
+
+    /* O08 BusinessSetUP Employee start */
+    .select-emp-section{
+        margin-bottom: 30%;
+    }
+    .select-emp-box-flex{
+        display: flex;
+        column-gap: 20px;
+        overflow: hidden;
+        overflow-x: scroll;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+    .select-emp-box-holder{
+        border-radius: 6px;
+        margin-bottom: 12px;
+        min-width: 260px;
+    }
+    .select-emp-content-box{
+        padding: 10px 5px 5px;
+    }
+    .select-emp-box-title{
+        font-size: 12px;
+        font-weight: 600;
+        color: #2D69DE;
+    }
+    .select-emp-box-text{
+        font-size: 10px;
+        font-weight: 600;
+        color: #1B1B1B;
+    }
+    .select-emp-genderf{
+        color: #BA78B9;
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    .select-emp-genderm{
+        color: #78A6BA;
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    .select-emp-box-footer{
+        background: #A8A8A8;
+        padding: 7px 10px;
+        font-size: 10px;
+        text-align: center;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .select-emp-range-slider{
+        width: 80%;
+        margin: auto;
+    }
+    .select-emp-midcontent{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .select-emp-anchor{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    .select-emp-anchor:hover{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    /* O08 BusinessSetUP Employee end */
+
+    /* O09 BusinessSetUP 03 start */
+    .select-cash-btn{
+        color: #fff !important;
+        font-size: 10px !important;
+        font-weight: 500 !important;
+        padding: 5px !important;
+        margin-top: 7px;
+    }
+    /* O09 BusinessSetUP 03 end */
+
+    /* O09 Business SetUP CashLoan start */ 
+    .test-advertising-outer{
+        margin-bottom: 20%;
+    }
+    .test-advertising-box-outer .test-advertising-box-text{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+        font-size: 11px;
+    }
+    /* O09 Business SetUP CashLoan end */
+
+    /* N02 LeisurePopup start */
+
+    .leisurepopup-box-holder{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .leisure-box-holder label {
+        position: relative;
+        cursor: pointer;
+      }
+      .leisure-box-holder label input[type=checkbox] {
+        position: absolute;
+        opacity: 0;
+      }
+      .leisure-box-holder label :checked ~ .icon-box {
+        background-color: #0DBCD1;
+        
+      }
+      .leisure-box-holder label :checked ~ .icon-box img {
+        transform: scale(0.95);
+        margin-bottom: 5px;
+      }
+      .leisure-box-holder label .icon-box {
+        width: 103px;
+        height: 78px;
+        padding: 5px;
+        font-size: 9px;
+        font-weight: 600;
+        background: #FFFFFF;
+        color: #333333;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1); */
+        border: 1px solid #E0E0E0;
+        border-radius: 3px;
+      }
+      .leisure-box-holder label .icon-box .leisure-title {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+      .leisure-btn-holder button{
+        color: #fff;
+        padding: 5px 24px !important;
+        font-size: 12px !important;
+        font-weight: 500;
+      }
+
+      /* N02 LeisurePopup end */
+
+      /* Set up basic business Popup start */
+      .setupbasicbusines-form .setupbusines-field-input::placeholder{
+        font-size: 12px;
+      }
+      .setupbusines-field-btn button{
+        padding: 5px 20px !important;
+        font-size: 12px !important;
+        font-weight: 500;
+      }
+      /* Set up basic business Popup end */
+
+}
+
+@media (max-width: 576px) {
+    .career-contentbox-outer {
+        border-radius: 6px;
+        padding: 3px;
+        background: #fff;
+        margin-bottom: 15px;
+    }
+    .career-contentbox-head-lightblue {
+        font-size: 12px;
+        font-weight: 500;
+        height: 45px;
+        background: #BDE7FF;
+        color: #333333;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        display: flex;
+        align-items: center;
+    }
+    .career-contentbox-head-lightgray {
+        font-size: 11px;
+        font-weight: 500;
+        height: 45px;
+        background: #A9A9A9;
+        color: #333333;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        display: flex;
+        align-items: center;
+    }
+    .career-contentbox{
+        font-size: 11px;
+        color: #6A6A6A;
+        padding: 8px 0 0;
+    }
+    /* .career-contentbox-btn-holder button{
+        padding: 7px 5px !important;
+        font-size: 9px !important;
+        font-weight: 600;
+    } */
+    .career-contentbox-btn-holder .career-box-btn{
+        padding: 7px 5px !important;
+        font-size: 10px !important;
+        font-weight: 600;
+    }
+    .careerpopup-warning{
+        background: #FFF3CD;
+        color: #5E4000;
+        font-size: 11px;
+    }
+
+    /* O02 Parameters start */
+    .parameters-section-outer{
+        margin-bottom: 30%;
+    }
+    .parameter-content-box-outer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 10px 0;
+        gap: 15px 34px;
+    }
+    .parameter-content-box {
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px; 
+        width: 145px;
+        height: 74px;
+        padding: 7px 8px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .parameter-content-box .parameter-box-title{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+    .parameter-content-box .parameter-box-text{
+        color: #707070;
+        margin-bottom: 0px;
+        line-height: 16px;
+    }
+    /* O02 Parameters end */
+
+    /* O03 Apply For Business start */ 
+    .apply-for-business-head{
+        font-size: 12px;
+        font-weight: 600;
+        padding-top: 20px;
+        text-align: center;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+    }
+    .custom-toggle {
+        position: relative;
+        display: inline-block;
+        width: 32px;
+        height: 17px;
+        /* background-color: #ccc; */
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        border-radius: 15px;
+        cursor: pointer;
+      }
+      
+      .custom-toggle input {
+        display: none;
+      }
+      
+      .slider {
+        position: absolute;
+        top: 1px;
+        left: 2px;
+        width: 14px;
+        height: 14px;
+        background-color: #fff;
+        border-radius: 50%;
+        transition: 0.3s;
+      }
+      
+      .custom-toggle input:checked + .slider {
+        transform: translateX(14px);
+      }
+
+    .apply-for-business-outer{
+        margin-bottom: 20%;
+    }
+    .apply-for-links-holder{
+        border: 1px solid #ADADAD;
+        padding: 7px 10px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    .apply-for-business-link{
+        font-size: 12px;
+        color: #020202;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        border: 0;
+        background: none;
+        padding: 0;
+    }
+    .apply-for-business-link:hover{
+        font-size: 12px;
+        color: #020202;
+        text-decoration: none;
+    }
+    /* O03 Apply For Business end */
+
+    /* O06 Registered Popup start */
+    
+    .registered-popup-btn{
+        font-size: 12px !important;
+        font-weight: 600 !important;
+
+    }
+    /* O06 Registered Popup end */
+
+    /* O07 Business SetUP 01 start */
+    .select-business-content-box{
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 178px;
+        height: auto;
+        padding: 7px 8px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .select-business-content-box .parameter-box-title{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+    .select-business-content-box .parameter-box-text{
+        color: #707070;
+        margin-bottom: 0px;
+        line-height: 16px;
+    }
+    .select-business-type {
+        display: flex;
+        column-gap: 20px;
+        /* justify-content: space-between; */
+    }
+    .business-range-slider input{
+        width: 100%;
+    }
+    /* O07 Business SetUP 01 end */
+
+    /* O08 BusinessSetUP 02 start */
+    .business-page-heading-bg{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 5px;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        color: #fff;
+    }
+    .business-page-heading-anchor{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .business-page-heading-anchor:hover{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .businesssetup-table{
+        font-size: 12px;
+    }
+    .businesssetup-content-box{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .businesssetup-content-head{
+        color: #333333;
+        margin-bottom: 7px;
+    }
+    .businesssetup-content-text{
+        color: #707070;
+        margin-bottom: 7px;
+    }
+    .businesssetup-content-anchor{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    /* O08 BusinessSetUP 02 end */
+
+    /* O08 BusinessSetUP Employee start */
+    .select-emp-section{
+        margin-bottom: 30%;
+    }
+    .select-emp-box-flex{
+        display: flex;
+        column-gap: 20px;
+        overflow: hidden;
+        overflow-x: scroll;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+    .select-emp-box-holder{
+        border-radius: 6px;
+        margin-bottom: 12px;
+        min-width: 260px;
+    }
+    .select-emp-content-box{
+        padding: 10px 5px 5px;
+    }
+    .select-emp-box-title{
+        font-size: 12px;
+        font-weight: 600;
+        color: #2D69DE;
+    }
+    .select-emp-box-text{
+        font-size: 10px;
+        font-weight: 600;
+        color: #1B1B1B;
+    }
+    .select-emp-genderf{
+        color: #BA78B9;
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    .select-emp-genderm{
+        color: #78A6BA;
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    .select-emp-box-footer{
+        background: #A8A8A8;
+        padding: 7px 10px;
+        font-size: 10px;
+        text-align: center;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .select-emp-range-slider{
+        width: 80%;
+        margin: auto;
+    }
+    .select-emp-midcontent{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .select-emp-anchor{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    .select-emp-anchor:hover{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    /* O08 BusinessSetUP Employee end */
+
+    /* O09 BusinessSetUP 03 start */
+    .select-cash-btn{
+        color: #fff !important;
+        font-size: 10px !important;
+        font-weight: 500 !important;
+        padding: 5px !important;
+        margin-top: 7px;
+    }
+    /* O09 BusinessSetUP 03 end */
+
+    /* O09 Business SetUP CashLoan start */ 
+    .test-advertising-outer{
+        margin-bottom: 20%;
+    }
+    .test-advertising-box-outer .test-advertising-box-text{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+        font-size: 11px;
+    }
+    /* O09 Business SetUP CashLoan end */
+
+    /* N02 LeisurePopup start */
+
+    .leisurepopup-box-holder{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .leisure-box-holder label {
+        position: relative;
+        cursor: pointer;
+      }
+      .leisure-box-holder label input[type=checkbox] {
+        position: absolute;
+        opacity: 0;
+      }
+      .leisure-box-holder label :checked ~ .icon-box {
+        background-color: #0DBCD1;
+        
+      }
+      .leisure-box-holder label :checked ~ .icon-box img {
+        transform: scale(0.95);
+        margin-bottom: 5px;
+      }
+      .leisure-box-holder label .icon-box {
+        width: 103px;
+        height: 78px;
+        padding: 5px;
+        font-size: 9px;
+        font-weight: 600;
+        background: #FFFFFF;
+        color: #333333;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1); */
+        border: 1px solid #E0E0E0;
+        border-radius: 3px;
+      }
+      .leisure-box-holder label .icon-box .leisure-title {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+      .leisure-btn-holder button{
+        color: #fff;
+        padding: 5px 24px !important;
+        font-size: 12px !important;
+        font-weight: 500;
+      }
+
+      /* N02 LeisurePopup end */
+
+      /* Set up basic business Popup start */
+      .setupbasicbusines-form .setupbusines-field-input::placeholder{
+        font-size: 12px;
+      }
+      .setupbusines-field-btn button{
+        padding: 5px 20px !important;
+        font-size: 12px !important;
+        font-weight: 500;
+      }
+      /* Set up basic business Popup end */
+
+}
+
+@media (max-width: 485px) {
+    .career-contentbox-outer {
+        border-radius: 6px;
+        padding: 3px;
+        background: #fff;
+        margin-bottom: 15px;
+    }
+    .career-contentbox-head-lightblue {
+        font-size: 12px;
+        font-weight: 500;
+        height: 45px;
+        background: #BDE7FF;
+        color: #333333;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        display: flex;
+        align-items: center;
+    }
+    .career-contentbox-head-lightgray {
+        font-size: 11px;
+        font-weight: 500;
+        height: 45px;
+        background: #A9A9A9;
+        color: #333333;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        display: flex;
+        align-items: center;
+    }
+    .career-contentbox{
+        font-size: 11px;
+        color: #6A6A6A;
+        padding: 8px 0 0;
+    }
+    /*bullet flot-right start*/
+    .left-flot{    float: right;
+        margin-top: -3px;}
+
+    .padding-bullet{padding: 8px;}
+
+/*bullet flot-right End*/
+    /* .career-contentbox-btn-holder button{
+        padding: 7px 5px !important;
+        font-size: 9px !important;
+        font-weight: 600;
+    } */
+    .career-contentbox-btn-holder .career-box-btn{
+        padding: 7px 5px !important;
+        font-size: 9px !important;
+        font-weight: 600;
+    }
+
+    .careerpopup-warning{
+        background: #FFF3CD;
+        color: #5E4000;
+        font-size: 11px;
+    }
+
+    /* O02 Parameters start */
+    .parameters-section-outer{
+        margin-bottom: 30%;
+    }
+    .parameter-content-box-outer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        gap: 20px;
+    }
+    .parameter-content-box {
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px; 
+        width: 145px;
+        height: 74px;
+        padding: 7px 8px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .parameter-content-box .parameter-box-title{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+    .parameter-content-box .parameter-box-text{
+        color: #707070;
+        margin-bottom: 0px;
+        line-height: 16px;
+    }
+    /* O02 Parameters end */
+
+    /* O03 Apply For Business start */ 
+    
+    .apply-for-business-head{
+        font-size: 12px;
+        font-weight: 600;
+        padding-top: 20px;
+        text-align: center;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+    }
+    .custom-toggle {
+        position: relative;
+        display: inline-block;
+        width: 32px;
+        height: 17px;
+        /* background-color: #ccc; */
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        border-radius: 15px;
+        cursor: pointer;
+      }
+      
+      .custom-toggle input {
+        display: none;
+      }
+      
+      .slider {
+        position: absolute;
+        top: 1px;
+        left: 2px;
+        width: 14px;
+        height: 14px;
+        background-color: #fff;
+        border-radius: 50%;
+        transition: 0.3s;
+      }
+      
+      .custom-toggle input:checked + .slider {
+        transform: translateX(14px);
+      }
+
+    .apply-for-business-outer{
+        margin-bottom: 20%;
+    }
+    .apply-for-links-holder{
+        border: 1px solid #ADADAD;
+        padding: 7px 10px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    .apply-for-business-link{
+        font-size: 12px;
+        color: #020202;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        border: 0;
+        background: none;
+        padding: 0;
+    }
+    .apply-for-business-link:hover{
+        font-size: 12px;
+        color: #020202;
+        text-decoration: none;
+    }
+    /* O03 Apply For Business end */
+
+    /* O06 Registered Popup start */
+    .registered-popup-footer{
+        padding: 0 !important;
+    }
+    .registered-popup-btn{
+        font-size: 9px !important;
+        font-weight: 600 !important;
+
+    }
+    /* O06 Registered Popup end */
+
+    /* O07 Business SetUP 01 start */
+    .select-business-content-box{
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 145px;
+        height: auto;
+        padding: 7px 8px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .select-business-content-box .parameter-box-title{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+    .select-business-content-box .parameter-box-text{
+        color: #707070;
+        margin-bottom: 0px;
+        line-height: 16px;
+    }
+    .select-business-type {
+        display: flex;
+        column-gap: 20px;
+        /* justify-content: space-between; */
+    }
+    .business-range-slider input{
+        width: 100%;
+    }
+    /* O07 Business SetUP 01 end */
+
+    /* O08 BusinessSetUP 02 start */
+    .business-page-heading-bg{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 5px;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        color: #fff;
+    }
+    .business-page-heading-anchor{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .business-page-heading-anchor:hover{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .businesssetup-table{
+        font-size: 12px;
+    }
+    .businesssetup-content-box{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .businesssetup-content-head{
+        color: #333333;
+        margin-bottom: 7px;
+    }
+    .businesssetup-content-text{
+        color: #707070;
+        margin-bottom: 7px;
+    }
+    .businesssetup-content-anchor{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    /* O08 BusinessSetUP 02 end */
+
+    /* O08 BusinessSetUP Employee start */
+    .select-emp-section{
+        margin-bottom: 30%;
+    }
+    .select-emp-box-flex{
+        display: flex;
+        column-gap: 20px;
+        overflow: hidden;
+        overflow-x: scroll;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+    .select-emp-box-holder{
+        border-radius: 6px;
+        margin-bottom: 12px;
+        min-width: 260px;
+    }
+    .select-emp-content-box{
+        padding: 10px 5px 5px;
+    }
+    .select-emp-box-title{
+        font-size: 12px;
+        font-weight: 600;
+        color: #2D69DE;
+    }
+    .select-emp-box-text{
+        font-size: 10px;
+        font-weight: 600;
+        color: #1B1B1B;
+    }
+    .select-emp-genderf{
+        color: #BA78B9;
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    .select-emp-genderm{
+        color: #78A6BA;
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    .select-emp-box-footer{
+        background: #A8A8A8;
+        padding: 7px 10px;
+        font-size: 10px;
+        text-align: center;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .select-emp-range-slider{
+        width: 80%;
+        margin: auto;
+    }
+    .select-emp-midcontent{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .select-emp-anchor{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    .select-emp-anchor:hover{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    /* O08 BusinessSetUP Employee end */
+
+    /* O09 BusinessSetUP 03 start */
+    .select-cash-btn{
+        color: #fff !important;
+        font-size: 10px !important;
+        font-weight: 500 !important;
+        padding: 5px !important;
+        margin-top: 7px;
+    }
+    /* O09 BusinessSetUP 03 end */
+
+    /* O09 Business SetUP CashLoan start */ 
+    .test-advertising-outer{
+        margin-bottom: 20%;
+    }
+    .test-advertising-box-outer .test-advertising-box-text{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+        font-size: 11px;
+    }
+    /* O09 Business SetUP CashLoan end */
+
+    /* N02 LeisurePopup start */
+
+    .leisurepopup-box-holder{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .leisure-box-holder label {
+        position: relative;
+        cursor: pointer;
+      }
+      .leisure-box-holder label input[type=checkbox] {
+        position: absolute;
+        opacity: 0;
+      }
+      .leisure-box-holder label :checked ~ .icon-box {
+        background-color: #0DBCD1;
+        
+      }
+      .leisure-box-holder label :checked ~ .icon-box img {
+        transform: scale(0.95);
+        margin-bottom: 5px;
+      }
+      .leisure-box-holder label .icon-box {
+        width: 103px;
+        height: 78px;
+        padding: 5px;
+        font-size: 9px;
+        font-weight: 600;
+        background: #FFFFFF;
+        color: #333333;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1); */
+        border: 1px solid #E0E0E0;
+        border-radius: 3px;
+      }
+      .leisure-box-holder label .icon-box .leisure-title {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+      .leisure-btn-holder button{
+        color: #fff;
+        padding: 5px 24px !important;
+        font-size: 12px !important;
+        font-weight: 500;
+      }
+
+      /* N02 LeisurePopup end */
+
+      /* Set up basic business Popup start */
+      .setupbasicbusines-form .setupbusines-field-input::placeholder{
+        font-size: 12px;
+      }
+      .setupbusines-field-btn button{
+        padding: 5px 20px !important;
+        font-size: 12px !important;
+        font-weight: 500;
+      }
+      /* Set up basic business Popup end */
+
+}
+
+@media (max-width: 395px) {
+    .career-contentbox-outer {
+        border-radius: 6px;
+        padding: 3px;
+        background: #fff;
+        margin-bottom: 15px;
+    }
+    .career-contentbox-head-lightblue {
+        font-size: 12px;
+        font-weight: 500;
+        height: 45px;
+        background: #BDE7FF;
+        color: #333333;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        display: flex;
+        align-items: center;
+    }
+    .career-contentbox-head-lightgray {
+        font-size: 10px;
+        font-weight: 500;
+        height: 45px;
+        background: #A9A9A9;
+        color: #333333;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        display: flex;
+        align-items: center;
+    }
+    .career-contentbox{
+        font-size: 9px;
+        color: #6A6A6A;
+        padding: 8px 0 0;
+    }
+
+    /*bullet flot-right start*/
+    .left-flot{    float: right;
+        margin-top: -3px;}
+
+    .padding-bullet{padding: 8px;}
+
+/*bullet flot-right End*/
+    /* .career-contentbox-btn-holder button{
+        padding: 7px 5px !important;
+        font-size: 9px !important;
+        font-weight: 600;
+    } */
+    .career-contentbox-btn-holder .career-box-btn{
+        padding: 7px 5px !important;
+        font-size: 9px !important;
+        font-weight: 600;
+    }
+
+    .careerpopup-warning{
+        background: #FFF3CD;
+        color: #5E4000;
+        font-size: 11px;
+    }
+
+    /* O02 Parameters start */
+    .parameters-section-outer{
+        margin-bottom: 30%;
+    }
+    .parameter-content-box-outer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+        gap: 15px;
+    }
+    .parameter-content-box {
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px; 
+        width: 145px;
+        height: 74px;
+        padding: 7px 8px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .parameter-content-box .parameter-box-title{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+    .parameter-content-box .parameter-box-text{
+        color: #707070;
+        margin-bottom: 0px;
+        line-height: 16px;
+    }
+    /* O02 Parameters end */
+
+    /* O03 Apply For Business start */ 
+    .custom-toggle {
+        position: relative;
+        display: inline-block;
+        width: 32px;
+        height: 17px;
+        /* background-color: #ccc; */
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        border-radius: 15px;
+        cursor: pointer;
+        vertical-align: bottom;
+      }
+      
+      .custom-toggle input {
+        display: none;
+      }
+      
+      .slider {
+        position: absolute;
+        top: 1px;
+        left: 2px;
+        width: 14px;
+        height: 14px;
+        background-color: #fff;
+        border-radius: 50%;
+        transition: 0.3s;
+      }
+      
+      .custom-toggle input:checked + .slider {
+        transform: translateX(14px);
+      }
+
+    .apply-for-business-outer{
+        margin-bottom: 20%;
+    }
+    .apply-for-links-holder{
+        border: 1px solid #ADADAD;
+        padding: 7px 10px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    .apply-for-business-link{
+        font-size: 12px;
+        color: #020202;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        border: 0;
+        background: none;
+        padding: 0;
+    }
+    .apply-for-business-link:hover{
+        font-size: 12px;
+        color: #020202;
+        text-decoration: none;
+    }
+    /* O03 Apply For Business end */
+
+    /* O06 Registered Popup start */
+    .registered-popup-footer{
+        padding: 0 !important;
+    }
+    .registered-popup-btn{
+        font-size: 9px !important;
+        font-weight: 600 !important;
+
+    }
+    /* O06 Registered Popup end */
+
+    /* O07 Business SetUP 01 start */
+    .select-business-content-box{
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 147px;
+        height: auto;
+        padding: 7px 8px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .select-business-content-box .parameter-box-title{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+    .select-business-content-box .parameter-box-text{
+        color: #707070;
+        margin-bottom: 0px;
+        line-height: 16px;
+    }
+    .select-business-type {
+        display: flex;
+        column-gap: 20px;
+        /* justify-content: space-between; */
+    }
+    .business-range-slider input{
+        width: 100%;
+    }
+    /* O07 Business SetUP 01 end */
+
+    /* O08 BusinessSetUP 02 start */
+    .business-page-heading-bg{
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 5px;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+    }
+    .business-page-heading-anchor{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .business-page-heading-anchor:hover{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .businesssetup-table{
+        font-size: 12px;
+    }
+    .businesssetup-content-box{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .businesssetup-content-head{
+        color: #333333;
+        margin-bottom: 7px;
+    }
+    .businesssetup-content-text{
+        color: #707070;
+        margin-bottom: 7px;
+    }
+    .businesssetup-content-anchor{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    /* O08 BusinessSetUP 02 end */
+
+    /* O08 BusinessSetUP Employee start */
+    .select-emp-section{
+        margin-bottom: 30%;
+    }
+    .select-emp-box-flex{
+        display: flex;
+        column-gap: 20px;
+        overflow: hidden;
+        overflow-x: scroll;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+    .select-emp-box-holder{
+        border-radius: 6px;
+        margin-bottom: 12px;
+        min-width: 260px;
+    }
+    .select-emp-content-box{
+        padding: 10px 5px 5px;
+    }
+    .select-emp-box-title{
+        font-size: 12px;
+        font-weight: 600;
+        color: #2D69DE;
+    }
+    .select-emp-box-text{
+        font-size: 10px;
+        font-weight: 600;
+        color: #1B1B1B;
+    }
+    .select-emp-genderf{
+        color: #BA78B9;
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    .select-emp-genderm{
+        color: #78A6BA;
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    .select-emp-box-footer{
+        background: #A8A8A8;
+        padding: 7px 10px;
+        font-size: 10px;
+        text-align: center;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .select-emp-range-slider{
+        width: 80%;
+        margin: auto;
+    }
+    .select-emp-midcontent{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .select-emp-anchor{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    .select-emp-anchor:hover{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    /* O08 BusinessSetUP Employee end */
+
+    /* O09 BusinessSetUP 03 start */
+    .select-cash-btn{
+        color: #fff !important;
+        font-size: 10px !important;
+        font-weight: 500 !important;
+        padding: 5px !important;
+        margin-top: 7px;
+    }
+    /* O09 BusinessSetUP 03 end */
+
+    /* O09 Business SetUP CashLoan start */ 
+    .test-advertising-outer{
+        margin-bottom: 20%;
+    }
+    .test-advertising-box-outer .test-advertising-box-text{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+        font-size: 11px;
+    }
+    /* O09 Business SetUP CashLoan end */
+
+
+    /* N02 LeisurePopup start */
+
+    .leisurepopup-box-holder{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .leisure-box-holder label {
+        position: relative;
+        cursor: pointer;
+      }
+      .leisure-box-holder label input[type=checkbox] {
+        position: absolute;
+        opacity: 0;
+      }
+      .leisure-box-holder label :checked ~ .icon-box {
+        background-color: #0DBCD1;
+        
+      }
+      .leisure-box-holder label :checked ~ .icon-box img {
+        transform: scale(0.95);
+        margin-bottom: 5px;
+      }
+      .leisure-box-holder label .icon-box {
+        width: 96px;
+        height: 78px;
+        padding: 5px;
+        font-size: 9px;
+        font-weight: 600;
+        background: #FFFFFF;
+        color: #333333;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+        border: 1px solid #E0E0E0;
+        border-radius: 3px;
+      }
+      .leisure-box-holder label .icon-box .leisure-title {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+      .leisure-btn-holder button{
+        color: #fff;
+        padding: 5px 24px !important;
+        font-size: 12px !important;
+        font-weight: 500;
+      }
+
+      /* N02 LeisurePopup end */
+
+      /* Set up basic business Popup start */
+      .setupbasicbusines-form .setupbusines-field-input::placeholder{
+        font-size: 12px;
+      }
+      .setupbusines-field-btn button{
+        padding: 5px 20px !important;
+        font-size: 12px !important;
+        font-weight: 500;
+      }
+      /* Set up basic business Popup end */
+
+}
+
+@media (max-width: 320px) {
+    .apply-for-business-head{
+        font-size: 12px;
+        font-weight: 600;
+        padding-top: 20px;
+        text-align: center;
+        display: block; 
+    }
+    .career-contentbox-btn-holder .career-box-btn {
+        padding: 7px 3px !important;
+        font-size: 8px !important;
+        font-weight: 600;
+    }
+
+    /* O02 Parameters start */
+    .parameters-section-outer{
+        margin-bottom: 30%;
+    }
+    .parameter-content-box-outer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0px;
+        gap: 10px;
+    }
+    .parameter-content-box {
+        font-size: 12px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px; 
+        width: 139px;
+        height: 74px;
+        padding: 7px 8px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .parameter-content-box .parameter-box-title{
+        color: #333333;
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+    .parameter-content-box .parameter-box-text{
+        color: #707070;
+        margin-bottom: 0px;
+        line-height: 16px;
+    }
+    /* O02 Parameters end */
+
+    /* O06 Registered Popup start */
+    .registered-popup-footer{
+        padding: 0 !important;
+    }
+    .registered-popup-btn{
+        font-size: 8px !important;
+        font-weight: 600 !important;
+
+    }
+    /* O06 Registered Popup end */
+
+    /* O07 Business SetUP 01 start */
+    .select-business-content-box{
+        font-size: 12px;
+        font-weight: 500;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 141px;
+        height: auto;
+        padding: 7px 8px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    /* O07 Business SetUP 01 end */
+
+    /* O08 BusinessSetUP 02 start */
+    .business-page-heading-bg{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 5px;
+        background: #04e0ff; 
+        background: -moz-linear-gradient(top,  #04e0ff 0%, #0d7684 100%); 
+        background: -webkit-linear-gradient(top,  #04e0ff 0%,#0d7684 100%);  
+        background: linear-gradient(to bottom,  #04e0ff 0%,#0d7684 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04e0ff', endColorstr='#0d7684',GradientType=0 );
+        color: #fff;
+    }
+    .business-page-heading-anchor{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .business-page-heading-anchor:hover{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .businesssetup-table{
+        font-size: 12px;
+    }
+    .businesssetup-content-box{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .businesssetup-content-head{
+        color: #333333;
+        margin-bottom: 7px;
+    }
+    .businesssetup-content-text{
+        color: #707070;
+        margin-bottom: 7px;
+    }
+    .businesssetup-content-anchor{
+        color: #09B0C7;
+        text-decoration: none;
+    }
+    /* O08 BusinessSetUP 02 end */
+
+    .select-emp-midcontent {
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+}

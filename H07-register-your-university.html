@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H07 Register Your University</title>
+
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/08-login.css" rel="stylesheet" /> 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <header class="sticky-top">
+        <nav class="navbar navbar-light navbar-expand-lg ">
+            <div class="container-fluid">
+              
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="images/Logo.svg" alt="Gameplay" />
+                      </a>
+                </div>
+            </div>
+          </nav>
+    </header>
+    <div class="clearfix"> </div>
+
+    <main>
+
+        <section class="container">
+
+            <div class="page-top">
+                <div class="page-heading">
+                    <p>Register Your University</p>
+                </div>
+                <p class="page-normal-text-center content-font">
+                    First you can register and thn buy license from your dashboard. Your registration will remain active.
+                </p>
+            </div>
+
+            <div class="register-uni-outer">
+                <div class="register-uni-inner">
+                    
+                    <form>
+
+                        <div class="register-uni-form">
+                            <div class="register-form-title">
+                                <p class="content-font fw-medium">University Information</p>
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="mb-3">
+                                    <label for="nameuniversity" class="form-label">Name of your University:*</label>
+                                    <input type="text" class="form-control form-field-input" id="nameuniversity" placeholder="Name of your University" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+        
+                            <div class="col-12">
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email:*</label>
+                                    <input type="email" class="form-control form-field-input" id="email" placeholder="Name of your Department" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+        
+                            <div class="col-12">
+                                <div class="mb-3">
+                                    <label for="addressline1" class="form-label">Address Line 1:*</label>
+                                    <input type="text" class="form-control form-field-input" id="addressline1" placeholder="Address Line 1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+        
+                            <div class="col-12">
+                                <div class="mb-3">
+                                    <label for="addressline2" class="form-label">Address Line 2:*</label>
+                                    <input type="text" class="form-control form-field-input" id="addressline2" placeholder="Address Line 2" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+        
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="country" class="form-label">Country:*</label>
+                                        <input type="text" class="form-control form-field-input" id="country" placeholder="Country" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="state" class="form-label">State:*</label>
+                                        <input type="text" class="form-control form-field-input" id="state" placeholder="State" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="city" class="form-label">City:*</label>
+                                        <input type="text" class="form-control form-field-input" id="city" placeholder="City" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="zipcode" class="form-label">Zip Code:</label>
+                                        <input type="text" class="form-control form-field-input" id="zipcode" placeholder="Zip Code" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="phonenumber" class="form-label">Phone Number:*</label>
+                                        <input type="text" class="form-control form-field-input" id="phonenumber" placeholder="Phone Number" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="countrycode" class="form-label">Country Code:*</label>
+                                        <input type="text" class="form-control form-field-input" id="countrycode" placeholder="Country Code" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-12">
+                                <div class="mb-3">
+                                    <label for="aboutdepartment" class="form-label">About Your Department</label>
+                                    <textarea class="form-control form-field-input" id="aboutdepartment" placeholder="About your department" rows="3"></textarea>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="mb-3">
+                                    <label for="universitywebsite" class="form-label">University Website:</label>
+                                    <input type="text" class="form-control form-field-input" id="facebooklink" placeholder="http://www.reallivesword.com" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+        
+                        </div>
+    
+                        <div class="register-uni-form">
+
+                            <div class="page-heading">
+                                <p>Information about the admin who will manage the RealLives acount</p>
+                            </div>
+                            <div class="register-form-title">
+                                <p class="content-font fw-medium">University Admin Information</p>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="firstname" class="form-label">First Name:*</label>
+                                        <input type="text" class="form-control form-field-input" id="firstname" placeholder="First Name" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="lastname" class="form-label">Last Name:*</label>
+                                        <input type="text" class="form-control form-field-input" id="lastname" placeholder="Last Name" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="username" class="form-label">Username:*</label>
+                                        <input type="text" class="form-control form-field-input" id="username" placeholder="Username" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="gender" class="form-label">Gender:*</label>
+                                        <input type="text" class="form-control form-field-input" id="gender" placeholder="Gender" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="countrycode1" class="form-label">Country Code:*</label>
+                                        <input type="text" class="form-control form-field-input" id="countrycode1" placeholder="Country Code" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="mobileno" class="form-label">Mobile No:*</label>
+                                        <input type="text" class="form-control form-field-input" id="mobileno" placeholder="Mobile No." aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email:*</label>
+                                    <input type="email" class="form-control form-field-input" id="email" placeholder="Email" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="password" class="form-label">Password:*</label>
+                                        <input type="text" class="form-control form-field-input" id="password" placeholder="Password" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="passwordconfirm" class="form-label">Password Confirm:*</label>
+                                        <input type="text" class="form-control form-field-input" id="passwordconfirm" placeholder="Password Confirm" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="date" class="form-label">Date of Birth:*</label>
+                                        <div class="input-group date" id="datepicker">
+                                            <input type="text" class="form-control form-field-input" placeholder="mm/dd/yy" id="date"/>
+                                            <span class="input-group-append">
+                                            <span class="input-group-text bg-light d-block">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="designation" class="form-label">Designation:*</label>
+                                        <input type="text" class="form-control form-field-input" id="designation" placeholder="Designation" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="mb-3 register-gcaptcha">
+                                    <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                                    <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="register-uni-form-submit text-center mb-3">
+                            <button class="btn btn-linear-bg border-0">Register Your University</button>
+                        </div>
+                        <p class="page-normal-text-center">Do you already have an account? <a href="#" class="">Log In</a> </p>
+
+                    </form>
+
+                </div>
+                
+            </div>
+            
+
+        </section>
+        
+    </main>
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+<script>
+	$(function(){
+		$('#datepicker').datepicker();
+	});
+</script>
+    
+</body>
+</html>

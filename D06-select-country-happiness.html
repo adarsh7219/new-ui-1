@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D06 Select Country Happiness</title>
+
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link href="css/be-born.css" rel="stylesheet" />
+    <link href="css/01-design-life.css" rel="stylesheet" />
+
+    <link href="css/03-country-groups.css" rel="stylesheet" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/theme-change.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-light navbar-expand-lg navbar-theme">
+        <div class="container-fluid">
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#navbarOffcanvasLg"
+              aria-controls="navbarOffcanvasLg"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <a class="navbar-brand" href="#"> Select a Country </a>
+          </div>
+
+          <ul class="nav right-nav d-flex">
+            <li class="nav-item">
+              <button class="btn" href="#">
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </button>
+            </li>
+          </ul>
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="navbarOffcanvasLg"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header background-color-web">
+              <div>
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  <img src="images/Logo.svg" alt="Gameplay" />
+                </h5>
+                <p class="offcanvas-title">ThoughtCraft</p>
+              </div>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body background-color-web">
+              <ul
+                class="navbar-nav offcanvas-nav justify-content-end flex-grow-1 pe-3 content-font"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">
+                    <img src="images/globe-gray.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Set Language</p>
+                      <p class="mb-0 fw-light">Set your default language</p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/flag.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Choose Country</p>
+                      <p class="mb-0 fw-light">
+                        You can choose a different country as your registered
+                        country.
+                      </p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/screenn-setting.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Born Screen Settings</p>
+                      <p class="mb-0 fw-light">
+                        Select a screen to see in the game
+                      </p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/log-out.svg" class="me-3" /> Log Out
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="clearfix"></div>
+
+    <main>
+      <section class="white-title">
+        <div class="select-country-btn-outer background-color-web">
+          <div class="col-md-12 mx-auto">
+            <div class="top-btn-box-outer justify-content-center gap-3">
+              <button class="btn btn-cta content-font footer-button-outer">
+                See the countries
+              </button>
+              <button class="btn btn-cta content-font footer-button-outer">
+                See the map
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container white-title">
+        <div class="page-heading">
+          <p>Graphs</p>
+        </div>
+        <div class="top-graph-section-outer">
+          <div class="top-graph-section-innner">
+            <div class="dropdown top-graph-dropdown">
+              <button
+                class="btn dropdown-toggle w-100 box-shadow-inset"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Happiness
+              </button>
+              <ul
+                class="dropdown-menu w-100"
+                aria-labelledby="dropdownMenuButton1"
+              >
+                <li><button class="dropdown-item" href="#">SDG</button></li>
+                <li>
+                  <button class="dropdown-item" href="#">Happiness</button>
+                </li>
+                <li>
+                  <button class="dropdown-item" href="#">
+                    Purchasing Power Parity (PPP)
+                  </button>
+                </li>
+                <li>
+                  <button class="dropdown-item" href="#">
+                    Human Development Index (HDI)
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="top-graph-section mt-3">
+              <img
+                src="images/03-Country-Groups/graph-2.svg"
+                class="img img-fluid w-100"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="clearfix"></div>
+
+      <section class="b3-select-country">
+        <div class="container">
+          <div class="page-heading white-title">
+            <p>
+              Choose a country in 'NO RIVERS' group where you would like to be
+              born
+            </p>
+          </div>
+
+          <div class="vertical-scroll box-shadow-inset">
+            <div class="country-flag-list mb-0 pb-0">
+              <div class="country-flag-box">
+                <div class="country-flag-img">
+                  <img
+                    src="images/country-flag/ad.svg"
+                    class=" "
+                    alt="Gameplay"
+                  />
+                </div>
+                <a href="#" class="country-flag-name country-flag-link">
+                  Comoros
+                </a>
+              </div>
+
+              <div class="country-flag-box">
+                <div class="country-flag-img">
+                  <img
+                    src="images/country-flag/ae.svg"
+                    class=" "
+                    alt="Gameplay"
+                  />
+                </div>
+
+                <a href="#" class="country-flag-name country-flag-link">
+                  Yemen
+                </a>
+              </div>
+
+              <div class="country-flag-box">
+                <div class="country-flag-img">
+                  <img
+                    src="images/country-flag/af.svg"
+                    class=""
+                    alt="Gameplay"
+                  />
+                </div>
+
+                <a href="#" class="country-flag-name country-flag-link">
+                  Libya
+                </a>
+              </div>
+
+              <div class="country-flag-box">
+                <img
+                  src="images/country-flag/ag.svg"
+                  class=" "
+                  alt="Gameplay"
+                />
+                <a href="#" class="country-flag-name country-flag-link">
+                  Baharain
+                </a>
+              </div>
+
+              <div class="country-flag-box">
+                <img
+                  src="images/country-flag/al.svg"
+                  class=" "
+                  alt="Gameplay"
+                />
+                <a href="#" class="country-flag-name country-flag-link">
+                  Kuwait
+                </a>
+              </div>
+
+              <div class="country-flag-box">
+                <img
+                  src="images/country-flag/am.svg"
+                  class=" "
+                  alt="Gameplay"
+                />
+                <a href="#" class="country-flag-name country-flag-link">
+                  Comoros
+                </a>
+              </div>
+
+              <div class="country-flag-box">
+                <img
+                  src="images/country-flag/ao.svg"
+                  class=" "
+                  alt="Gameplay"
+                />
+                <a href="#" class="country-flag-name country-flag-link">
+                  Yemen
+                </a>
+              </div>
+
+              <div class="country-flag-box">
+                <img
+                  src="images/country-flag/ar.svg"
+                  class=" "
+                  alt="Gameplay"
+                />
+                <a href="#" class="country-flag-name country-flag-link">
+                  Libya
+                </a>
+              </div>
+
+              <div class="country-flag-box">
+                <img
+                  src="images/country-flag/at.svg"
+                  class=" "
+                  alt="Gameplay"
+                />
+                <a href="#" class="country-flag-name country-flag-link">
+                  Baharain
+                </a>
+              </div>
+
+              <div class="country-flag-box">
+                <img
+                  src="images/country-flag/au.svg"
+                  class=" "
+                  alt="Gameplay"
+                />
+                <a href="#" class="country-flag-name country-flag-link">
+                  Kuwait
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="show-map mt-3">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.14199614953!2d73.72288117003453!3d18.524564859944654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1690635113665!5m2!1sen!2sin"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <div class="clearfix"></div>
+
+    <footer>
+      <div class="footer">
+        <nav class="footer-button-outer flex-class">
+          <div class="footer-flex-btn">
+            <div class="bottom-nav-item w-50 active">
+              <button class="w-100">Generate A Life</button>
+            </div>
+            <div class="bottom-nav-item w-50">
+              <button class="w-100">Next : Select City</button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

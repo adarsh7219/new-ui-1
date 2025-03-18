@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B06 Select Attributes</title>
+
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/theme-change.css" />
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link href="css/be-born.css" rel="stylesheet" />
+    <link href="css/01-design-life.css" rel="stylesheet" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-light navbar-expand-lg navbar-theme">
+        <div class="container-fluid">
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#navbarOffcanvasLg"
+              aria-controls="navbarOffcanvasLg"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <a class="navbar-brand" href="#"> Select a Attributes </a>
+          </div>
+
+          <ul class="nav right-nav d-flex">
+            <li class="nav-item">
+              <button class="btn" href="#">
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </button>
+            </li>
+          </ul>
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="navbarOffcanvasLg"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header background-color-web">
+              <div>
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  <img src="images/Logo.svg" alt="Gameplay" />
+                </h5>
+                <p class="offcanvas-title">ThoughtCraft</p>
+              </div>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body background-color-web">
+              <ul
+                class="navbar-nav offcanvas-nav justify-content-end flex-grow-1 pe-3 content-font"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">
+                    <img src="images/globe-gray.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Set Language</p>
+                      <p class="mb-0 fw-light">Set your default language</p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/flag.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Choose Country</p>
+                      <p class="mb-0 fw-light">
+                        You can choose a different country as your registered
+                        country.
+                      </p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/screenn-setting.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Born Screen Settings</p>
+                      <p class="mb-0 fw-light">
+                        Select a screen to see in the game
+                      </p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/log-out.svg" class="me-3" /> Log Out
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="clearfix"></div>
+
+    <main>
+      <section class="container white-title">
+        <div class="page-heading">
+          <p>What do you want to be?</p>
+        </div>
+
+        <div class="select-user-info">
+          <div class="col-6 select-gender">
+            <p class="content-font fw-medium">Gender</p>
+
+            <div class="select-info-option">
+              <input type="radio" id="male" checked="checked" name="gender" />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" />
+              <label for="female">Female</label>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <p class="content-font fw-medium">Locale</p>
+
+            <div class="select-info-option">
+              <input type="radio" id="urban" checked="checked" name="locale" />
+              <label for="urban">Urban</label>
+              <input type="radio" id="rural" name="locale" />
+              <label for="rural">Rural</label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="choose-option-outer pt-3 white-title">
+          <div class="page-normal-text-justify fw-medium content-font">
+            <p>
+              Do you want to name the character or let RealLives choose one for
+              you?
+            </p>
+          </div>
+          <div class="choose-option-radio">
+            <div class="form-check fw-medium content-font">
+              <!-- <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Let RealLives choose
+                        </label> -->
+
+              <label>
+                <input
+                  type="radio"
+                  value=""
+                  name="anything"
+                  class="radioCls"
+                  id="yes"
+                  checked
+                />
+                Let RealLives choose
+              </label>
+            </div>
+
+            <div class="form-check fw-medium content-font">
+              <!-- <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            I will choose
+                        </label> -->
+
+              <label>
+                <input
+                  type="radio"
+                  value=""
+                  name="anything"
+                  class="radioCls"
+                  id="no"
+                />
+                I will choose
+              </label>
+            </div>
+          </div>
+
+          <div class="choose-option-btn-outer parentClass">
+            <div class="" id="first">
+              <div class="choose-option-name">
+                <div class="col-6">
+                  <p class="content-font fw-medium mb-1">Name</p>
+                  <div class="choose-option-scroll box-shadow-inset">
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="name1"
+                        checked="checked"
+                        name="selectneme"
+                      />
+                      <label for="name1">Name</label>
+                      <!-- <span>Name</span> -->
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name2" name="selectneme" />
+                      <label for="name2">Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name3" name="selectneme" />
+                      <label for="name3">Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name4" name="selectneme" />
+                      <label for="name4">Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name5" name="selectneme" />
+                      <label for="name5">Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name6" name="selectneme" />
+                      <label for="name6">Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name7" name="selectneme" />
+                      <label for="name7">Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name8" name="selectneme" />
+                      <label for="name8">Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name9" name="selectneme" />
+                      <label for="name9">Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name10" name="selectneme" />
+                      <label for="name10">Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name11" name="selectneme" />
+                      <label for="name11">Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name12" name="selectneme" />
+                      <label for="name12">Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name13" name="selectneme" />
+                      <label for="name13">Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name14" name="selectneme" />
+                      <label for="name14">Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name15" name="selectneme" />
+                      <label for="name15">Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input type="radio" id="name16" name="selectneme" />
+                      <label for="name16">Name</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <p class="content-font fw-medium mb-1">Last Name</p>
+                  <div class="choose-option-scroll box-shadow-inset">
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname1"
+                        checked="checked"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname1">Last Name</label>
+                      <!-- <span>Name</span> -->
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname2"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname2">Last Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname3"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname3">Last Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname4"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname4">Last Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname5"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname5">Last Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname6"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname6">Last Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname7"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname7">Last Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname8"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname8">Last Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname9"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname9">Last Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname10"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname10">Last Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname11"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname11">Last Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname12"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname12">Last Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname13"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname13">Last Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname14"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname14">Last Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname15"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname15">Last Name</label>
+                    </div>
+                    <div class="select-name-btn">
+                      <input
+                        type="radio"
+                        id="lastname16"
+                        name="selectlastneme"
+                      />
+                      <label for="lastname16">Last Name</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="">
+                <div class="select-attributes-outer">
+                  <div class="select-attributes-content">
+                    <div
+                      class="page-heading attributes-status-title background-color-web white-title"
+                    >
+                      <p class="mb-0">Select your attributes</p>
+                    </div>
+                    <div class="attributes-status">
+                      <form>
+                        <div class="range-slider">
+                          <p class="content-font mb-1">Artistic</p>
+                          <input
+                            id="range1"
+                            name="range1"
+                            type="range"
+                            min="0"
+                            max="9"
+                            value="5"
+                          />
+                        </div>
+
+                        <div class="range-slider">
+                          <p class="content-font mb-1">Happiness</p>
+                          <input
+                            id="range1"
+                            name="range1"
+                            type="range"
+                            min="0"
+                            max="9"
+                            value="5"
+                          />
+                        </div>
+
+                        <div class="range-slider">
+                          <p class="content-font mb-1">Intelligence</p>
+                          <input
+                            id="range1"
+                            name="range1"
+                            type="range"
+                            min="0"
+                            max="9"
+                            value="5"
+                          />
+                        </div>
+
+                        <div class="range-slider">
+                          <p class="content-font mb-1">Artistic</p>
+                          <input
+                            id="range1"
+                            name="range1"
+                            type="range"
+                            min="0"
+                            max="9"
+                            value="5"
+                          />
+                        </div>
+
+                        <div class="range-slider">
+                          <p class="content-font mb-1">Happiness</p>
+                          <input
+                            id="range1"
+                            name="range1"
+                            type="range"
+                            min="0"
+                            max="9"
+                            value="5"
+                          />
+                        </div>
+
+                        <div class="range-slider">
+                          <p class="content-font mb-1">Intelligence</p>
+                          <input
+                            id="range1"
+                            name="range1"
+                            type="range"
+                            min="0"
+                            max="9"
+                            value="5"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class=" " id="second">
+              <div class="col-12">
+                <div class="choose-option-form">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">
+                      Name
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control background-color-web white-title"
+                      id="examplName"
+                      aria-describedby="NameHelp"
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">
+                      Surname
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control background-color-web white-title"
+                      id="examplSurname"
+                      aria-describedby="SurnameHelp"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="select-attributes-outer">
+                <div class="select-attributes-content">
+                  <div
+                    class="page-heading attributes-status-title background-color-web white-title"
+                  >
+                    <p class="mb-0">Select your attributes</p>
+                  </div>
+                  <div class="attributes-status">
+                    <form>
+                      <div class="range-slider">
+                        <p class="content-font mb-1">Artistic</p>
+                        <input
+                          id="range1"
+                          name="range1"
+                          type="range"
+                          min="0"
+                          max="9"
+                          value="5"
+                        />
+                      </div>
+
+                      <div class="range-slider">
+                        <p class="content-font mb-1">Happiness</p>
+                        <input
+                          id="range1"
+                          name="range1"
+                          type="range"
+                          min="0"
+                          max="9"
+                          value="5"
+                        />
+                      </div>
+
+                      <div class="range-slider">
+                        <p class="content-font mb-1">Intelligence</p>
+                        <input
+                          id="range1"
+                          name="range1"
+                          type="range"
+                          min="0"
+                          max="9"
+                          value="5"
+                        />
+                      </div>
+
+                      <div class="range-slider">
+                        <p class="content-font mb-1">Artistic</p>
+                        <input
+                          id="range1"
+                          name="range1"
+                          type="range"
+                          min="0"
+                          max="9"
+                          value="5"
+                        />
+                      </div>
+
+                      <div class="range-slider">
+                        <p class="content-font mb-1">Happiness</p>
+                        <input
+                          id="range1"
+                          name="range1"
+                          type="range"
+                          min="0"
+                          max="9"
+                          value="5"
+                        />
+                      </div>
+
+                      <div class="range-slider">
+                        <p class="content-font mb-1">Intelligence</p>
+                        <input
+                          id="range1"
+                          name="range1"
+                          type="range"
+                          min="0"
+                          max="9"
+                          value="5"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="clearfix"></div>
+
+    <footer>
+      <div class="footer">
+        <nav class="footer-button-outer flex-class">
+          <div class="bottom-nav-item">
+            <div class="bottom-nav-link">
+              <a href="C10-summary.html" class="list-style">
+                <button>Next : Show Summary</button>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="js/custom.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

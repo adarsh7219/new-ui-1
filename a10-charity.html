@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charity</title>
+
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/theme-change.css" />
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link href="css/02-create-life-with-sdg.css" rel="stylesheet" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-light navbar-expand-lg navbar-theme">
+        <div class="container-fluid">
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#navbarOffcanvasLg"
+              aria-controls="navbarOffcanvasLg"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <a class="navbar-brand" href="#"> Charity </a>
+          </div>
+
+          <ul class="nav right-nav d-flex">
+            <li class="nav-item">
+              <button class="btn" href="#">
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </button>
+            </li>
+          </ul>
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="navbarOffcanvasLg"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header background-color-web">
+              <div>
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  <img src="images/Logo.svg" alt="Gameplay" />
+                </h5>
+                <p class="offcanvas-title">ThoughtCraft</p>
+              </div>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body background-color-web">
+              <ul
+                class="navbar-nav offcanvas-nav justify-content-end flex-grow-1 pe-3 content-font"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">
+                    <img src="images/globe-gray.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Set Language</p>
+                      <p class="mb-0 fw-light">Set your default language</p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/flag.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Choose Country</p>
+                      <p class="mb-0 fw-light">
+                        You can choose a different country as your registered
+                        country.
+                      </p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/screenn-setting.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Born Screen Settings</p>
+                      <p class="mb-0 fw-light">
+                        Select a screen to see in the game
+                      </p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/log-out.svg" class="me-3" /> Log Out
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="clearfix"></div>
+
+    <main>
+      <section class="container">
+        <div class="charity-section-outer">
+          <section class="container">
+            <div class="collapse-outer mt-3">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2
+                    class="accordion-header acn-head-flex background-color-web"
+                    id="headingOne"
+                  >
+                    <img
+                      src="images/Charity/1.svg"
+                      class="acn-head-img background-color-web"
+                    />
+
+                    <button
+                      class="accordion-button collapsed background-color-web"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                    >
+                      Feeding the hungry
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body background-color-web">
+                      <strong>This is the first item's accordion body.</strong>
+                      This is the first item's accordion body. This is the first
+                      item's accordion body. This is the first item's accordion
+                      body. This is the first item's accordion body. This is the
+                      first item's accordion body.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2
+                    class="accordion-header acn-head-flex background-color-web"
+                    id="headingThree"
+                  >
+                    <img
+                      src="images/Charity/2.svg"
+                      class="acn-head-img background-color-web"
+                    />
+                    <button
+                      class="accordion-button collapsed background-color-web"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Shelter for homeless
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body background-color-web">
+                      <strong>This is the third item's accordion body.</strong>
+                      This is the third item's accordion body. This is the third
+                      item's accordion body. This is the third item's accordion
+                      body. This is the third item's accordion body. This is the
+                      third item's accordion body. This is the third item's
+                      accordion body. This is the third item's accordion body.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2
+                    class="accordion-header acn-head-flex background-color-web"
+                    id="headingFour"
+                  >
+                    <img
+                      src="images/Charity/3.svg"
+                      class="acn-head-img background-color-web"
+                    />
+                    <button
+                      class="accordion-button collapsed background-color-web"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="true"
+                      aria-controls="collapseFour"
+                    >
+                      Environment welfare
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body background-color-web">
+                      We appeal to you to join us in our mission to provide a
+                      safe shelter for homeless individuals. By supporting our
+                      charity, you directly contribute to helping those in need
+                      find a secure place to call home. In our shelter, they
+                      will receive vital provisions like food, clothing, and
+                      toiletries, ensuring their basic needs are met. Moreover,
+                      we are committed to helping them access crucial medical
+                      services and counseling for their well-being. Together, we
+                      can make a profound difference in their lives, fostering a
+                      sense of belonging and emotional stability. Your support
+                      will create a lasting impact, empowering these deserving
+                      individuals to thrive and build a brighter future.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2
+                    class="accordion-header acn-head-flex background-color-web"
+                    id="headingFive"
+                  >
+                    <img
+                      src="images/Charity/4.svg"
+                      class="acn-head-img background-color-web"
+                    />
+                    <button
+                      class="accordion-button collapsed background-color-web"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      Orphanage
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFive"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body background-color-web">
+                      <strong>This is the fifth item's accordion body.</strong>
+                      This is the fifth item's accordion body. This is the fifth
+                      item's accordion body. This is the fifth item's accordion
+                      body. This is the fifth item's accordion body. This is the
+                      fifth item's accordion body.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="charity-action-btn d-flex justify-content-center gap-3 mt-4"
+              >
+                <button
+                  class="btn btn-linear-bg fw-medium border-0 footer-button-outer white-title"
+                >
+                  OK
+                </button>
+                <button
+                  class="btn btn-cta-linear fw-medium footer-button-outer white-title"
+                >
+                  View Certificate
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

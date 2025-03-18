@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Born Countries</title>
+
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/theme-change.css" />
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link href="css/be-born.css" rel="stylesheet" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-light navbar-expand-lg navbar-theme">
+        <div class="container-fluid">
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#navbarOffcanvasLg"
+              aria-controls="navbarOffcanvasLg"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <a class="navbar-brand" href="#">
+              <img src="images/Logo.svg" alt="Gameplay" />
+            </a>
+          </div>
+
+          <ul class="nav right-nav d-flex">
+            <li class="nav-item">
+              <button class="btn" href="#">
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </button>
+            </li>
+          </ul>
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="navbarOffcanvasLg"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header background-color-web">
+              <div>
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  <img src="images/Logo.svg" alt="Gameplay" />
+                </h5>
+                <p class="offcanvas-title">ThoughtCraft</p>
+              </div>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body background-color-web">
+              <ul
+                class="navbar-nav offcanvas-nav justify-content-end flex-grow-1 pe-3 content-font"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">
+                    <img src="images/globe-gray.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Set Language</p>
+                      <p class="mb-0 fw-light">Set your default language</p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/flag.svg" class="me-3 image-round" />
+                    <span>
+                      <p class="mb-0">Choose Country</p>
+                      <p class="mb-0 fw-light">
+                        You can choose a different country as your registered
+                        country.
+                      </p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/screenn-setting.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Born Screen Settings</p>
+                      <p class="mb-0 fw-light">
+                        Select a screen to see in the game
+                      </p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/log-out.svg" class="me-3" /> Log Out
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="clearfix"></div>
+
+    <main>
+      <section class="container pt-4 white-title">
+        <div class="title-img text-center mb-4">
+          <img src="images/title-image.svg" alt="Gameplay" />
+        </div>
+
+        <div class="country-box-outer">
+          <div class="country-box-inner box-shadow box-width">
+            <div class="country-box-head">
+              <p class="mb-0 image-head white-title">SDGs score: 72.4</p>
+            </div>
+            <div class="country-box-flag white-title">
+              <img
+                src="images/be-born/india-flag.svg"
+                class="mb-1 image-round"
+              />
+              <p>India</p>
+            </div>
+          </div>
+
+          <div class="country-box-inner box-shadow box-width">
+            <div class="country-box-head">
+              <p class="mb-0 image-head white-title">SDGs score: 80</p>
+            </div>
+            <div class="country-box-flag">
+              <img
+                src="images/be-born/nicaragua-flag.svg"
+                class="mb-1 image-round"
+              />
+              <p class="white-title">Nicaragua</p>
+            </div>
+          </div>
+        </div>
+        <p class="page-heading">
+          Comparing Sustainable Development Goals (SDG's)
+        </p>
+        <p class="mb-4 sdg-link">(Please click on SDG goal to know more)</p>
+
+        <div class="life-content">
+          <div class="row flex-nowrap gap-2 mb-2">
+            <div class="lifebox lifebox-1 col-3">
+              <button
+                class="btn outer-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <div class="d-flex text-center">
+                  <p class="lifebox-sr mb-0">1</p>
+                  <img
+                    src="images/sdg-life/1.svg"
+                    alt="Gameplay"
+                    class="m-auto"
+                  />
+                </div>
+                <div class="box-content text-center">
+                  <p class="lifebox-text">
+                    No <br />
+                    Poverty
+                  </p>
+                  <p class="fw-bold content-font mb-0">0</p>
+                </div>
+              </button>
+            </div>
+
+            <div class="lifebox lifebox-2 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">2</p>
+                <img
+                  src="images/sdg-life/2.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Zero <br />
+                  Hunger
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+
+            <div class="lifebox lifebox-3 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">3</p>
+                <img
+                  src="images/sdg-life/3.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Good Health <br />
+                  &amp; Well-being
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+
+            <div class="lifebox lifebox-4 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">4</p>
+                <img
+                  src="images/sdg-life/4.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Quality <br />
+                  Education
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+
+            <div class="lifebox lifebox-5 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">5</p>
+                <img
+                  src="images/sdg-life/5.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Gender <br />
+                  Equality
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+
+            <div class="lifebox lifebox-6 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">6</p>
+                <img
+                  src="images/sdg-life/6.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Clean Water <br />
+                  &amp; Sanitation
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row flex-nowrap gap-2 mb-2">
+            <div class="lifebox lifebox-7 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">7</p>
+                <img
+                  src="images/sdg-life/7.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Affordable &amp; <br />
+                  Clean Energy
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+
+            <div class="lifebox lifebox-8 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">8</p>
+                <img
+                  src="images/sdg-life/8.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Decent Work &amp; <br />
+                  Economic Growth
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+
+            <div class="lifebox lifebox-9 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">9</p>
+                <img
+                  src="images/sdg-life/9.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Industry Innovation <br />
+                  &amp; Infrastructure
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+
+            <div class="lifebox lifebox-10 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">10</p>
+                <img
+                  src="images/sdg-life/10.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Reduced <br />
+                  Inequalities
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+
+            <div class="lifebox lifebox-11 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">11</p>
+                <img
+                  src="images/sdg-life/11.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Sustainable Cities <br />
+                  &amp; Communities
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+
+            <div class="lifebox lifebox-12 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">12</p>
+                <img
+                  src="images/sdg-life/12.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text lifebox-small-text">
+                  Responsible Consumption <br />
+                  &amp; Production
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row flex-nowrap gap-2">
+            <div class="lifebox lifebox-13 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">13</p>
+                <img
+                  src="images/sdg-life/13.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Clemet <br />
+                  Action
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+
+            <div class="lifebox lifebox-14 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">14</p>
+                <img
+                  src="images/sdg-life/14.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Life Below <br />
+                  Water
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+
+            <div class="lifebox lifebox-15 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">15</p>
+                <img
+                  src="images/sdg-life/15.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Life On <br />
+                  Land
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+
+            <div class="lifebox lifebox-16 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">16</p>
+                <img
+                  src="images/sdg-life/16.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Peace, Justice &amp; <br />
+                  Strong Intuitions
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+
+            <div class="lifebox lifebox-17 col-3">
+              <div class="d-flex">
+                <p class="lifebox-sr mb-0">17</p>
+                <img
+                  src="images/sdg-life/17.svg"
+                  alt="Gameplay"
+                  class="m-auto"
+                />
+              </div>
+              <div class="box-content text-center">
+                <p class="lifebox-text">
+                  Partnerships <br />
+                  for the Goals
+                </p>
+                <p class="fw-bold content-font mb-0">0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- sdg modal window Popup Popup start -->
+
+        <div
+          class="modal fade family-popup-modal popup-modal-bg"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                >
+                  X
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel">
+                  <img src="images/Logo.svg" alt="Gameplay" />
+                </h5>
+              </div>
+
+              <div class="modal-body">
+                <section class="container pt-4">
+                  <div class="helth-well-box-outer">
+                    <div class="helth-well-box-inner">
+                      <div class="helth-well-box">
+                        <div class="helth-well-box-text">
+                          <span class="helth-well-box-title"> 3 </span>
+                          <span class="helth-well-box-subtitle"
+                            >Good Health & Well-being</span
+                          >
+                        </div>
+                        <div class="helth-well-box-img">
+                          <img src="images/be-born/heart-line.svg" />
+                        </div>
+                      </div>
+
+                      <div class="helth-well-box-righttext">
+                        <p class="mb-0 content-font fw-semibold">
+                          Good health and Well-Being
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="helth-well-info-section">
+                    <p class="">
+                      Goal 3 seeks to ensure health and well-being for all, at
+                      every stage of life. The Goal addresses all major health
+                      priorities, including reproductive, maternal and child
+                      health; communicable, non-communicable and environmental
+                      diseases; universal health coverage; and access for all to
+                      safe, effective, quality and affordable medicines and
+                      vaccines. It also calls for more research and development,
+                      increased health financing, and strengthened the capacity
+                      of all countries in health risk reduction and management.
+                    </p>
+                  </div>
+                </section>
+                <div class="clearfix"></div>
+
+                <section class="container">
+                  <div class="helth-well-links-outer">
+                    <div class="helth-well-links-inner">
+                      <div class="helth-well-links">
+                        <span class="helth-well-dot helth-well-dot-red"></span>
+                        <span>Major challenges</span>
+                      </div>
+
+                      <div class="helth-well-links">
+                        <span
+                          class="helth-well-dot helth-well-dot-orange"
+                        ></span>
+                        <span>Significant challenges</span>
+                      </div>
+
+                      <div class="helth-well-links">
+                        <span
+                          class="helth-well-dot helth-well-dot-yellow"
+                        ></span>
+                        <span>Challenges remain</span>
+                      </div>
+
+                      <div class="helth-well-links">
+                        <span
+                          class="helth-well-dot helth-well-dot-green"
+                        ></span>
+                        <span> Goal achievement</span>
+                      </div>
+
+                      <div class="helth-well-links">
+                        <span
+                          class="helth-well-dot helth-well-dot-lightgray"
+                        ></span>
+                        <span>No data availables</span>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="container pt-4">
+                  <div class="sdg-subgoals-table-outer">
+                    <div class="sdg-subgoals-table-inner table-responsive">
+                      <table
+                        class="table table-bordered text-center content-font"
+                      >
+                        <thead class="align-middle fw-medium">
+                          <tr>
+                            <th scope="col">
+                              <img
+                                src="images/country-flag/af.svg"
+                                width="50px"
+                              />
+                            </th>
+                            <th scope="col"></th>
+                            <th scope="col">SDG's subgoals</th>
+                            <th scope="col"></th>
+                            <th scope="col">
+                              <img
+                                src="images/country-flag/ar.svg"
+                                width="50px"
+                              />
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td scope="row">145</td>
+                            <td>
+                              <span
+                                class="helth-well-dot helth-well-dot-red"
+                              ></span>
+                            </td>
+                            <td>
+                              Maternal mortality rate (per 100,000 live births)
+                            </td>
+                            <td>
+                              <span
+                                class="helth-well-dot helth-well-dot-red"
+                              ></span>
+                            </td>
+                            <td>145</td>
+                          </tr>
+
+                          <tr>
+                            <td scope="row">21.5</td>
+                            <td>
+                              <span
+                                class="helth-well-dot helth-well-dot-orange"
+                              ></span>
+                            </td>
+                            <td>
+                              Neonatal mortality rate (per 1000 live births)
+                            </td>
+                            <td>
+                              <span
+                                class="helth-well-dot helth-well-dot-yellow"
+                              ></span>
+                            </td>
+                            <td>20.3</td>
+                          </tr>
+
+                          <tr>
+                            <td scope="row">145</td>
+                            <td>
+                              <span
+                                class="helth-well-dot helth-well-dot-yellow"
+                              ></span>
+                            </td>
+                            <td>
+                              Maternal mortality rate (per 100,000 live births)
+                            </td>
+                            <td>
+                              <span
+                                class="helth-well-dot helth-well-dot-green"
+                              ></span>
+                            </td>
+                            <td>145</td>
+                          </tr>
+
+                          <tr>
+                            <td scope="row">145</td>
+                            <td>
+                              <span
+                                class="helth-well-dot helth-well-dot-red"
+                              ></span>
+                            </td>
+                            <td>
+                              Maternal mortality rate (per 100,000 live births)
+                            </td>
+                            <td>
+                              <span
+                                class="helth-well-dot helth-well-dot-green"
+                              ></span>
+                            </td>
+                            <td>145</td>
+                          </tr>
+
+                          <tr>
+                            <td scope="row">NA</td>
+                            <td>
+                              <span
+                                class="helth-well-dot helth-well-dot-darkgray"
+                              ></span>
+                            </td>
+                            <td>
+                              Maternal mortality rate (per 100,000 live births)
+                            </td>
+                            <td>
+                              <span
+                                class="helth-well-dot helth-well-dot-red"
+                              ></span>
+                            </td>
+                            <td>3.6</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </section>
+              </div>
+
+              <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div> -->
+            </div>
+          </div>
+        </div>
+        <!-- sdg modal window Popup end -->
+      </section>
+    </main>
+
+    <div class="clearfix"></div>
+
+    <footer>
+      <div class="footer">
+        <nav class="footer-button-outer flex-class">
+          <div class="bottom-nav-item">
+            <div class="bottom-nav-link">
+              <button>View economical status</button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

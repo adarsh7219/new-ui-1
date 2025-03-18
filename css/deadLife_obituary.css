@@ -1,0 +1,400 @@
+
+ 
+@media (max-width: 991px) { 
+    /* deadlife obituary landing start */
+
+    .obituary-box-background {background: #FFBDFE !important;}
+
+    .deadlife-obituary-box-holder{
+        display: flex;
+        grid-column-gap: 15px;
+        grid-row-gap: 12px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 64%;
+        margin-bottom: 4%;        
+        margin-top: 6%;
+        margin: auto;
+        
+        /* margin-bottom: 32%; */
+        height: 384px;
+        overflow: hidden;
+        overflow-y: scroll;
+        padding-left: 10px; 
+        padding-right: 10px;
+    }
+    .deadlife-obituary-box-inner {
+        border-radius: 6px;
+        color: #000;
+        width: 47%;
+        padding: 3px;
+    }
+    .deadlife-obituary-box-head {
+        font-size: 12px;
+        font-weight: 500;
+        background: #BDE7FF;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    } 
+    .deadlife-obituary-content{
+        padding: 8px;
+    }
+    .deadlife-obituary-content-head{
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .deadlife-obituary-midcontent p{
+        font-size: 12px;
+        margin-bottom: 0;
+        color: #6A6A6A;
+    }
+    .deadlife-obituary-midcontent span{
+        color: #6A6A6A;
+        font-weight: 500;
+    }
+    .obituary-flex-btns{
+        padding: 0 20px;
+        margin-top: 10%;
+        position: fixed;
+        width: 100%;
+        bottom: 14%;
+    }
+    .obituary-flex-btns-top{
+        padding: 0 20px;
+        margin-top: 1%;
+        width: 100%;
+        bottom: 12%;
+    }
+    /* deadlife obituary landing end */  
+
+}
+
+@media (max-width: 768px) { 
+
+    /* deadlife obituary landing start */
+    .obituary-box-background {background: #FFBDFE !important;}
+  
+    .deadlife-obituary-box-holder{
+        display: flex;
+        grid-column-gap: 15px;
+        grid-row-gap: 12px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 64%;
+        margin-bottom: 4%;        
+        margin-top: 6%;
+        margin: auto;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
+        padding-left: 10px; 
+        padding-right: 10px;
+    }
+    .deadlife-obituary-box-inner {
+        border-radius: 6px;
+        color: #000;
+        width: 47%;
+        padding: 3px;
+    }
+    .deadlife-obituary-box-head {
+        font-size: 12px;
+        font-weight: 500;
+        background: #BDE7FF;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    } 
+    .deadlife-obituary-content{
+        padding: 8px;
+    }
+    .deadlife-obituary-content-head{
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .deadlife-obituary-midcontent p{
+        font-size: 12px;
+        margin-bottom: 0;
+        color: #6A6A6A;
+    }
+    .deadlife-obituary-midcontent span{
+        color: #6A6A6A;
+        font-weight: 500;
+    }
+    .obituary-flex-btns{
+        padding: 0 20px;
+        margin-top: 10%;
+        position: fixed;
+        width: 100%;
+        bottom: 14%;
+    }
+    .obituary-flex-btns-top{
+        padding: 0 20px;
+        margin-top: 1%;
+        width: 100%;
+        bottom: 12%;}
+    /* deadlife obituary landing end */   
+
+}
+
+@media (max-width: 640px) {
+
+    /* deadlife obituary landing start */
+    .obituary-box-background {background: #FFBDFE !important;}
+
+    .deadlife-obituary-box-holder{
+        display: flex;
+        grid-column-gap: 15px;
+        grid-row-gap: 12px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 88%;
+        margin-bottom: 4%;        
+        margin-top: 6%;
+        margin: auto;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
+        padding-left: 10px; 
+        padding-right: 10px;
+    }
+    .obituary-flex-btns{
+        padding: 0 20px;
+        margin-top: 10%;
+        position: fixed;
+        width: 100%;
+        bottom: 14%;
+    }
+
+    .obituary-flex-btns-top{
+        padding: 0 20px;
+        margin-top: 1%;
+        width: 100%;
+        bottom: 12%;}
+    /* deadlife obituary landing end */   
+
+}
+
+@media (max-width: 576px) { 
+    /* deadlife obituary landing start */
+
+    .obituary-box-background {background: #FFBDFE !important;}
+
+    .deadlife-obituary-box-holder{
+        display: flex;
+        grid-column-gap: 15px;
+        grid-row-gap: 12px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 80%; 
+        margin-bottom: 4%;        
+        margin-top: 6%;
+        margin: auto;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
+        padding-left: 10px; 
+        padding-right: 10px;
+    }
+    .deadlife-obituary-box-inner {
+        border-radius: 6px;
+        color: #000;
+        width: 47%;
+        padding: 3px;
+    }
+    .deadlife-obituary-box-head {
+        font-size: 12px;
+        font-weight: 500;
+        background: #BDE7FF;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    } 
+    .deadlife-obituary-content{
+        padding: 8px;
+    }
+    .deadlife-obituary-content-head{
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .deadlife-obituary-midcontent p{
+        font-size: 12px;
+        margin-bottom: 0;
+        color: #6A6A6A;
+    }
+    .deadlife-obituary-midcontent span{
+        color: #6A6A6A;
+        font-weight: 500;
+    }
+    .obituary-flex-btns{
+        padding: 0 20px;
+        margin-top: 10%;
+        position: fixed;
+        width: 100%;
+        bottom: 14%;
+    }
+    .obituary-flex-btns-top{
+        padding: 0 20px;
+        margin-top: 1%;
+        width: 100%;
+        bottom: 12%;}
+    /* deadlife obituary landing end */ 
+
+}
+
+@media (max-width: 485px) { 
+
+    /* deadlife obituary landing start */
+
+    .obituary-box-background {background: #FFBDFE !important;}
+
+    .deadlife-obituary-box-holder{
+        display: flex;
+        grid-column-gap: 15px;
+        grid-row-gap: 12px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 4%;        
+        margin-top: 6%;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
+        padding-left: 10px; 
+        padding-right: 10px;
+    }
+    .deadlife-obituary-box-inner {
+        border-radius: 6px;
+        color: #000;
+        width: 47%;
+        padding: 3px;
+        background-color: #fff;
+    }
+    .deadlife-obituary-box-head {
+        font-size: 12px;
+        font-weight: 500;
+        background: #BDE7FF;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    } 
+    .deadlife-obituary-content{
+        padding: 8px;
+    }
+    .deadlife-obituary-content-head{
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .deadlife-obituary-midcontent p{
+        font-size: 12px;
+        margin-bottom: 0;
+        color: #6A6A6A;
+    }
+    .deadlife-obituary-midcontent span{
+        color: #6A6A6A;
+        font-weight: 500;
+    }
+    .obituary-flex-btns{
+        padding: 0 20px;
+        margin-top: 10%;
+        position: fixed;
+        width: 100%;
+        bottom: 14%;
+    }
+    .obituary-flex-btns-top{
+        padding: 0 20px;
+        margin-top: 1%;
+        width: 100%;
+        bottom: 12%;}
+    /* deadlife obituary landing end */    
+
+}
+
+@media (max-width: 395px) { 
+
+    /* deadlife obituary landing start */
+
+    .obituary-box-background {background: #FFBDFE !important;}
+
+    .deadlife-obituary-box-holder{
+        display: flex;
+        grid-column-gap: 12px;
+        grid-row-gap: 12px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 4%;        
+        margin-top: 6%;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
+        padding-left: 10px; 
+        padding-right: 10px;
+    }
+    .deadlife-obituary-box-inner {
+        border-radius: 6px;
+        color: #000;
+        width: 47%;
+        padding: 3px;
+    }
+    .deadlife-obituary-box-head {
+        font-size: 12px;
+        font-weight: 500;
+        background: #BDE7FF;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    } 
+    .deadlife-obituary-content{
+        padding: 8px;
+    }
+    .deadlife-obituary-content-head{
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .deadlife-obituary-midcontent p{
+        font-size: 12px;
+        margin-bottom: 0;
+        color: #6A6A6A;
+    }
+    .deadlife-obituary-midcontent span{
+        color: #6A6A6A;
+        font-weight: 500;
+    }
+    .obituary-flex-btns{
+        padding: 0 20px;
+        margin-top: 10%;
+        position: fixed;
+        width: 100%;
+        bottom: 14%;
+    }
+    .obituary-flex-btns-top{
+        padding: 0 20px;
+        margin-top: 1%;
+        width: 100%;
+        bottom: 12%;}
+    /* deadlife obituary landing end */ 
+
+}
+
+@media (max-width: 320px) { 
+
+    .deadlife-obituary-box-inner {
+        border-radius: 6px;
+        color: #000;
+        width: 47%;
+        padding: 3px;
+    }
+
+    .info-section {
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 36%;
+    } 
+    .obituary-box-background {background: #FFBDFE !important;}
+}

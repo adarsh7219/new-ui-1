@@ -1,0 +1,220 @@
+body {
+  background-color: #010e12 !important;
+}
+
+.white-title {
+  color: white !important;
+}
+
+.white-border {
+  border: 1px solid #797373 !important;
+  border-radius: 6px !important;
+}
+
+.padding-top {
+  padding-top: 0px !important;
+}
+
+.padding-top-2 {
+  padding: 1.3rem 6px !important;
+  border-radius: 6px !important;
+}
+
+.padding-3 {
+  padding: 1rem 1rem !important;
+}
+
+.p-7 {
+  padding: 7px !important;
+}
+
+.width-class-1 {
+  width: 120px !important;
+  height: 70px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.text-aling-center {
+  text-align: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+
+.border-radius {
+  border-radius: 5px !important;
+}
+
+.flex-colume {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.flex-gap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.navbar-theme {
+  background-color: #022838 !important;
+}
+
+.tab-color-background {
+  background-color: #3a7ca5 !important;
+}
+
+.table-theme {
+  color: white !important;
+}
+
+.flex-class {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+}
+
+.search-placholder-bg {
+  background-color: #022838 !important;
+}
+
+.bottom-nav-link {
+  padding: 13px 4px !important;
+}
+
+.padding-left-right {
+  padding: 0px 7px !important;
+}
+
+.footer-button-outer {
+  background-image: linear-gradient(to bottom, #0a66ec, #004bba) !important;
+}
+
+.background-button {
+  background-color: #0a66ec !important;
+}
+
+.navbar-card-color {
+  background-color: #272a2b !important;
+}
+
+.background-black-color {
+  background-color: #0e0d0d !important;
+  color: white !important;
+  border: 1px solid #6a6161;
+}
+
+.light-blue-men {
+  background: #4479ba !important;
+}
+
+.light-pink-women {
+  background-color: #e863a8 !important;
+}
+
+.border-dark-card {
+  border: 1px solid #184d5f;
+}
+
+.background-table-color {
+  background-color: #022838 !important;
+}
+
+.background-color-web {
+  background-color: #022838 !important;
+  color: white !important;
+  border: 1px solid #184d5f !important;
+}
+
+.game-screen-elements {
+  gap: 10px !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.element-box {
+  width: 30.333333% !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #3d3a39 !important;
+}
+
+.border-class {
+  border: 1px solid white !important;
+}
+
+.background-color-event {
+  background-color: #031e27 !important;
+}
+
+.z-index-10 {
+  z-index: 10000 !important;
+}
+
+.z-index-1 {
+  z-index: 1 !important;
+}
+
+.font-13px {
+  font-size: 13px !important;
+}
+
+.font-10px {
+  font-size: 10px !important;
+}
+
+.font-12px {
+  font-size: 12px !important;
+}
+
+.list-style {
+  text-decoration: none;
+}
+
+.background-none {
+  background-color: none !important;
+}
+
+.border-none {
+  border: none !important;
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.web-footer-color {
+  background: linear-gradient(0deg,
+      rgb(1 37 70) 0%,
+      rgb(1 65 97) 60%,
+      rgba(0, 139, 191, 1) 100%) !important;
+}
+
+.light-aqua-color {
+  color: #0d9fb7 !important;
+}
+
+.button-width {
+  width: 60% !important;
+  height: 30px !important;
+}
+
+.icon-hight {
+  height: 20px !important;
+}
+
+.gamescreen-background-color {
+  background-color: rgb(3, 30, 39, 0.5) !important;
+}

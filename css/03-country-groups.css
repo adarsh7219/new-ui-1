@@ -1,0 +1,28 @@
+
+
+.top-graph-dropdown .btn{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3C3C3C;
+    background: none;
+    border: 1px solid #AAAAAA;
+}
+
+.top-graph-dropdown .dropdown-menu{
+    -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25);
+}
+.top-graph-dropdown .dropdown-menu li{
+    border-bottom: 1px solid #C7C7C7;
+}
+.top-graph-dropdown .dropdown-menu li:last-child{
+    border-bottom: 0;
+}
+
+.top-graph-dropdown .dropdown-item{
+    font-size: 12px;
+}

@@ -1,0 +1,645 @@
+
+
+.tab-datatool-link:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #0272D8;
+}
+
+.tab-user-info-flag img{
+    width: 28px;
+}
+
+@media (max-width: 991px) {
+/* tab panel start */
+
+.tabnav-btn .nav-item .active{
+    background-color: #0D7684 !important;
+    color: #fff !important;
+    border: none;
+}
+#myTab{
+    /* background-color: #dee2e6; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.tabnav-btn .nav-item .nav-link{
+    color: #848484; 
+    border-radius: 0;
+    padding: 0.5rem;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.tab-content-outer{
+    padding-top: 25px;
+}
+.tab-content-title{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tab-inner-content{
+    border-bottom:  1px solid #DEDEDE;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.tab-content-row{
+    display: flex;
+    justify-content: space-between;
+}
+.tab-action-icons .btn{
+    padding: 0.3rem;
+}
+.tab-action-icons img{
+    width: 24px;
+}
+.tab-user-info{
+    font-size: 12px;
+    font-weight: 500;
+}
+.tab-date-info{
+    font-size: 12px;
+    text-align: right;
+}
+
+
+.tab-pagination .page-link{
+    border: none !important;
+    color: #181818;
+    font-size: 12px;
+    font-weight: 500;
+}
+.tab-pagination .active{
+    color: #0D7684 !important;
+}
+
+.linear-text{
+    background: -webkit-linear-gradient(#3CD9FA, #0C6F7C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tab-content-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+}
+.tab-datatool-link{
+    text-decoration: none;
+    color: #181818;
+}
+.tab-datatool-box{
+    text-align: center;
+    width: 240px;
+}
+.tab-datatool-img{
+    border: 1px solid #DADADA;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.tab-datatool-text{
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+
+/* tab panel end */
+
+/*div scroll start*/
+.scroll {
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 15px;
+  }
+
+/*div scroll end*/
+
+/* Life Book, Life Data, Life Diaries, Real Lives Passport start */
+.rl-passport-box-outer{
+    text-align: center;
+    width: 240px;
+    border: 1px solid #DADADA;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.rl-passport-box-btn{
+    border: none !important;
+    font-size: 10px !important;
+    font-weight: 600 !important;
+    padding: 7px 20px;
+}
+/* Life Book, Life Data, Life Diaries, Real Lives Passport end */
+
+}
+
+
+@media (max-width: 768px) {
+/* tab panel start */
+
+.tabnav-btn .nav-item .active{
+    background-color: #0D7684 !important;
+    color: #fff !important;
+    border: none;
+}
+#myTab{
+    /* background-color: #dee2e6; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.tabnav-btn .nav-item .nav-link{
+    color: #848484; 
+    border-radius: 0;
+    padding: 0.5rem;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.tab-content-outer{
+    padding-top: 25px;
+}
+.tab-content-title{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tab-inner-content{
+    border-bottom:  1px solid #DEDEDE;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.tab-content-row{
+    display: flex;
+    justify-content: space-between;
+}
+.tab-action-icons .btn{
+    padding: 0.3rem;
+}
+.tab-action-icons img{
+    width: 24px;
+}
+.tab-user-info{
+    font-size: 12px;
+    font-weight: 500;
+}
+.tab-date-info{
+    font-size: 12px;
+    text-align: right;
+}
+
+
+.tab-pagination .page-link{
+    border: none !important;
+    color: #181818;
+    font-size: 12px;
+    font-weight: 500;
+    border-top: 1px solid #DEDEDE !;
+}
+.tab-pagination .active{
+    color: #0D7684 !important;
+}
+
+.linear-text{
+    background: -webkit-linear-gradient(#3CD9FA, #0C6F7C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tab-content-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+}
+.tab-datatool-box{
+    text-align: center;
+    width: 240px;
+}
+.tab-datatool-img{
+    border: 1px solid #DADADA;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.tab-datatool-text{
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+
+/* tab panel end */
+
+/* Life Book, Life Data, Life Diaries, Real Lives Passport start */
+.rl-passport-box-outer{
+    text-align: center;
+    width: 240px;
+    border: 1px solid #DADADA;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.rl-passport-box-btn{
+    border: none !important;
+    font-size: 10px !important;
+    font-weight: 600 !important;
+    padding: 7px 20px;
+}
+/* Life Book, Life Data, Life Diaries, Real Lives Passport end */
+
+}
+
+@media (max-width: 576px) {
+/* tab panel start */
+
+.tabnav-btn .nav-item .active{
+    background-color: #0D7684 !important;
+    color: #fff !important;
+    border: none;
+}
+#myTab{
+    /* background-color: #dee2e6; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.tabnav-btn .nav-item .nav-link{
+    color: #848484; 
+    border-radius: 0;
+    padding: 0.5rem;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.tab-content-outer{
+    padding-top: 25px;
+}
+.tab-content-title{
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tab-inner-content{
+    border-bottom:  1px solid #DEDEDE;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.tab-content-row{
+    display: flex;
+    justify-content: space-between;
+}
+.tab-action-icons .btn{
+    padding: 0.3rem;
+}
+.tab-action-icons img{
+    width: 24px;
+}
+.tab-user-info{
+    font-size: 11px;
+    font-weight: 500;
+}
+.tab-date-info{
+    font-size: 11px;
+    text-align: right;
+}
+
+
+.tab-pagination .page-link{
+    border: none !important;
+    color: #181818;
+    font-size: 12px;
+    font-weight: 500;
+}
+.tab-pagination .active{
+    color: #0D7684 !important;
+}
+
+.linear-text{
+    background: -webkit-linear-gradient(#3CD9FA, #0C6F7C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tab-content-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+}
+.tab-datatool-box{
+    text-align: center;
+    width: 170px;
+}
+.tab-datatool-img{
+    border: 1px solid #DADADA;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.tab-datatool-text{
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+
+/* tab panel end */
+
+/* Life Book, Life Data, Life Diaries, Real Lives Passport start */
+.rl-passport-box-outer{
+    text-align: center;
+    width: 170px;
+    border: 1px solid #DADADA;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.rl-passport-box-btn{
+    border: none !important;
+    font-size: 10px !important;
+    font-weight: 600 !important;
+    padding: 7px 20px;
+}
+/* Life Book, Life Data, Life Diaries, Real Lives Passport end */
+
+}
+
+@media (max-width: 485px) {
+    
+/* tab panel start */
+
+.tabnav-btn .nav-item .active{
+    background-color: #0D7684 !important;
+    color: #fff !important;
+    border: none;
+}
+#myTab{
+    /* background-color: #dee2e6; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.tabnav-btn .nav-item .nav-link{
+    color: #848484; 
+    border-radius: 0;
+    padding: 0.5rem;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.tab-content-outer{
+    padding-top: 25px;
+}
+.tab-content-title{
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tab-inner-content{
+    border-bottom:  1px solid #DEDEDE;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.tab-content-row{
+    display: flex;
+    justify-content: space-between;
+}
+.tab-action-icons .btn{
+    padding: 0.3rem;
+}
+.tab-action-icons img{
+    width: 24px;
+}
+.tab-user-info{
+    font-size: 10px;
+    font-weight: 500;
+}
+.tab-date-info{
+    font-size: 10px;
+    text-align: right;
+}
+
+
+.tab-pagination .page-link{
+    border: none !important;
+    color: #181818;
+    font-size: 12px;
+    font-weight: 500;
+}
+.tab-pagination .active{
+    color: #0D7684 !important;
+}
+
+.linear-text{
+    background: -webkit-linear-gradient(#3CD9FA, #0C6F7C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tab-content-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+}
+.tab-datatool-box{
+    text-align: center;
+    width: 170px;
+}
+.tab-datatool-img{
+    border: 1px solid #DADADA;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.tab-datatool-text{
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+
+/* tab panel end */
+
+/* Life Book, Life Data, Life Diaries, Real Lives Passport start */
+.rl-passport-box-outer{
+    text-align: center;
+    width: 150px;
+    border: 1px solid #DADADA;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.rl-passport-box-btn{
+    border: none !important;
+    font-size: 10px !important;
+    font-weight: 600 !important;
+    padding: 7px 20px;
+}
+/* Life Book, Life Data, Life Diaries, Real Lives Passport end */
+
+}
+
+@media (max-width: 395px) {
+    
+/* tab panel start */
+
+.tabnav-btn .nav-item .active{
+    background-color: #0D7684 !important;
+    color: #fff !important;
+    border: none;
+}
+#myTab{
+    /* background-color: #dee2e6; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.tabnav-btn .nav-item .nav-link{
+    color: #848484; 
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.tab-content-outer{
+    padding-top: 25px;
+}
+.tab-content-title{
+    font-size: 11px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tab-inner-content{
+    border-bottom:  1px solid #DEDEDE;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.tab-content-row{
+    display: flex;
+    justify-content: space-between;
+}
+.tab-action-icons .btn{
+    padding: 0.3rem;
+}
+.tab-action-icons img{
+    width: 24px;
+}
+.tab-user-info{
+    font-size: 10px;
+    font-weight: 500;
+}
+.tab-date-info{
+    font-size: 10px;
+}
+
+
+.tab-pagination .page-link{
+    border: none !important;
+    color: #181818;
+    font-size: 12px;
+    font-weight: 500;
+}
+.tab-pagination .active{
+    color: #0D7684 !important;
+}
+
+.linear-text{
+    background: -webkit-linear-gradient(#3CD9FA, #0C6F7C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tab-content-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+}
+.tab-datatool-box{
+    text-align: center;
+    width: 150px;
+}
+.tab-datatool-link{
+    text-decoration: none;
+    color: #181818;
+}
+
+.tab-datatool-img{
+    border: 1px solid #DADADA;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.tab-datatool-text{
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+
+/* tab panel end */
+
+/* Life Book, Life Data, Life Diaries, Real Lives Passport start */
+    .rl-passport-box-outer{
+        text-align: center;
+        width: 150px;
+        border: 1px solid #DADADA;
+        padding: 20px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+    }
+
+    .rl-passport-box-btn{
+        border: none !important;
+        font-size: 10px !important;
+        font-weight: 600 !important;
+        padding: 7px 20px;
+    }
+/* Life Book, Life Data, Life Diaries, Real Lives Passport end */
+
+}
+
+
+@media (max-width: 320px) {
+    .tab-datatool-box {
+        text-align: center;
+        width: 130px;
+    }
+
+    .rl-passport-box-outer {
+        text-align: center;
+        width: 136px;
+        border: 1px solid #DADADA;
+        padding: 20px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+    }
+}

@@ -1,0 +1,893 @@
+
+.login-screen-bg{
+    background: #424242;
+    color: #fff;
+}
+
+
+@media (max-width: 991px) {
+    .login-section-outer{
+        padding-bottom: 10%;
+        background: #424242;
+    }
+    .login-screen-btn-holder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .login-screen-btn{
+        color: #D3D3D3;
+        background: #424242;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+
+    .login-welcome-box-outer{
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+    }
+    .login-welcome-box{
+        padding: 15px;
+        border-radius: 6px;
+        width: 185px;
+    }
+    .login-call-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+        
+    }
+    .login-call-btn button{
+        font-size: 12px;
+        font-weight: 500;
+        width: 150px;
+        padding: 9px 5px;
+    }
+
+    /* H03 SignUp start */
+    .login-body-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/08-login/login-page-bg.svg);
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif
+    }
+    .login-form-outer{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .login-form-inner{
+        padding: 20px;
+        border-radius: 6px;
+        margin: auto; 
+        width: 70%;
+    }
+    .login-btn-holder button{
+        width: 250px;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 9px 5px;
+    }
+    .forgot-pw a{
+        text-decoration: none;
+        font-size: 11px; 
+        color: #747373;
+    }
+    .sign-link{
+        color: #747373;
+    }
+    .sign-link a{
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 500;
+        color: #0098AC;
+    }
+
+    /* H03 SignUp end */
+
+    /* H04 Register start */
+    .register-flex-outer{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .register-box-outer {
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+    }
+    .register-content-box {
+        padding: 10px;
+        border-radius: 6px;
+        width: 195px;
+        background: #fff;
+    }
+    .register-content-box.blue-border{
+        border: 2px solid #6658DD;
+    }
+    .register-content-box.yellow-border{
+        border: 2px solid #F7B84B;
+    }
+    .register-mid-content{
+        height: 45px;
+    }
+    .register-call-btn button{
+        padding: 7px 5px;
+        width: 120px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    /* H04 Register end */
+
+    /* H05 Register start */
+    .register-box-title{
+        height: 48px;
+    }
+    .register-mid-text{
+        height: 74px;
+    }
+    /* H05 Register end */
+
+    /* H06 Register Your University Department start */
+    .register-uni-outer{
+        margin-bottom: 10%;
+    }
+    .form-field-input::placeholder{
+        font-size: 12px;
+    }
+    .register-uni-form-submit button{
+        padding: 7px 16px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .register-gcaptcha{
+        display: flex;
+        justify-content: center;
+
+    }
+    /* H06 Register Your University Department start */
+
+    /* OTP start */
+    .otp-inputs input{
+        width:30px;
+        height:40px;
+        padding: 5px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .btn-login-otp{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 9px 5px;
+    }
+    .otp-failed{
+        background: #FEEDEE;
+        color: #F34E58;
+        font-size: 13px;
+        margin-top: 30px;
+        border-left: 4px solid #F34E58;
+    }
+    .otp-expired{
+        background: #FEEDEE;
+        color: #FFA011;
+        font-size: 13px;
+        margin-top: 30px;
+        border-left: 4px solid #FFA011;
+    }
+    /* OTP end */
+
+}
+
+@media (max-width: 768px) {
+    .login-section-outer{
+        padding-bottom: 10%;
+        background: #424242;
+    }
+    .login-screen-btn-holder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .login-screen-btn{
+        color: #D3D3D3;
+        background: #424242;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+
+    .login-welcome-box-outer{
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+    }
+    .login-welcome-box{
+        padding: 15px;
+        border-radius: 6px;
+        width: 185px;
+    }
+    .login-call-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+        
+    }
+    .login-call-btn button{
+        font-size: 12px;
+        font-weight: 500;
+        width: 150px;
+        padding: 9px 5px;
+    }
+
+    /* H03 SignUp start */
+    .login-body-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/08-login/login-page-bg.svg);
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif
+    }
+    .login-form-outer{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .login-form-inner{
+        padding: 20px;
+        border-radius: 6px;
+        margin: auto;
+        width: 70%;
+    }
+    .login-btn-holder button{
+        width: 250px;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 9px 5px;
+    }
+    .forgot-pw a{
+        text-decoration: none;
+        font-size: 11px; 
+        color: #747373;
+    }
+    .sign-link{
+        color: #747373;
+    }
+    .sign-link a{
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 500;
+        color: #0098AC;
+    }
+
+    /* H03 SignUp end */
+
+    /* H04 Register start */
+    .register-flex-outer{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .register-box-outer {
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+    }
+    .register-content-box {
+        padding: 10px;
+        border-radius: 6px;
+        width: 195px;
+        background: #fff;
+    }
+    .register-content-box.blue-border{
+        border: 2px solid #6658DD;
+    }
+    .register-content-box.yellow-border{
+        border: 2px solid #F7B84B;
+    }
+    .register-mid-content{
+        height: 45px;
+    }
+    .register-call-btn button{
+        padding: 7px 5px;
+        width: 120px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    /* H04 Register end */
+
+    /* H05 Register start */
+    .register-box-title{
+        height: 48px;
+    }
+    .register-mid-text{
+        height: 74px;
+    }
+    /* H05 Register end */
+
+    /* H06 Register Your University Department start */
+    .register-uni-outer{
+        margin-bottom: 10%;
+    }
+    .form-field-input::placeholder{
+        font-size: 12px;
+    }
+    .register-uni-form-submit button{
+        padding: 7px 16px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .register-gcaptcha{
+        display: flex;
+        justify-content: center;
+
+    }
+    /* H06 Register Your University Department start */
+
+    /* OTP start */
+    .otp-inputs input{
+        width:30px;
+        height:40px;
+        padding: 5px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .btn-login-otp{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 9px 5px;
+    }
+    .otp-failed{
+        background: #FEEDEE;
+        color: #F34E58;
+        font-size: 13px;
+        margin-top: 30px;
+        border-left: 4px solid #F34E58;
+    }
+    .otp-expired{
+        background: #FEEDEE;
+        color: #FFA011;
+        font-size: 13px;
+        margin-top: 30px;
+        border-left: 4px solid #FFA011;
+    }
+    /* OTP end */
+
+}
+
+@media (max-width: 576px) {
+    .login-section-outer{
+        padding-bottom: 10%;
+        background: #424242;
+    }
+    .login-screen-btn-holder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .login-screen-btn{
+        color: #D3D3D3;
+        background: #424242;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+
+    .login-welcome-box-outer{
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+    }
+    .login-welcome-box{
+        padding: 15px;
+        border-radius: 6px;
+        width: 185px;
+    }
+    .login-call-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+        
+    }
+    .login-call-btn button{
+        font-size: 12px;
+        font-weight: 500;
+        width: 150px;
+        padding: 9px 5px;
+    }
+
+    /* H03 SignUp start */
+    .login-body-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/08-login/login-page-bg.svg);
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif
+    }
+    .login-form-outer{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .login-form-inner{
+        padding: 20px;
+        border-radius: 6px;
+        margin: auto;
+        width: 70%;
+    }
+    .login-btn-holder button{
+        width: 250px;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 9px 5px;
+    }
+    .forgot-pw a{
+        text-decoration: none;
+        font-size: 11px; 
+        color: #747373;
+    }
+    .sign-link{
+        color: #747373;
+    }
+    .sign-link a{
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 500;
+        color: #0098AC;
+    }
+
+    /* H03 SignUp end */
+
+    /* H04 Register start */
+    .register-flex-outer{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .register-box-outer {
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+    }
+    .register-content-box {
+        padding: 10px;
+        border-radius: 6px;
+        width: 195px;
+        background: #fff;
+    }
+    .register-content-box.blue-border{
+        border: 2px solid #6658DD;
+    }
+    .register-content-box.yellow-border{
+        border: 2px solid #F7B84B;
+    }
+    .register-mid-content{
+        height: 45px;
+    }
+    .register-call-btn button{
+        padding: 7px 5px;
+        width: 120px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    /* H04 Register end */
+
+    /* H05 Register start */
+    .register-box-title{
+        height: 48px;
+    }
+    .register-mid-text{
+        height: 72px;
+    }
+    /* H05 Register end */
+
+    /* H06 Register Your University Department start */
+    .register-uni-outer{
+        margin-bottom: 10%;
+    }
+    .form-field-input::placeholder{
+        font-size: 12px;
+    }
+    .register-uni-form-submit button{
+        padding: 7px 16px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .register-gcaptcha{
+        display: flex;
+        justify-content: center;
+
+    }
+    /* H06 Register Your University Department start */
+
+    /* OTP start */
+    .otp-inputs input{
+        width:30px;
+        height:40px;
+        padding: 5px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .btn-login-otp{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 9px 5px;
+    }
+    .otp-failed{
+        background: #FEEDEE;
+        color: #F34E58;
+        font-size: 12px;
+        margin-top: 30px;
+        border-left: 3px solid #F34E58;
+    }
+    .otp-expired{
+        background: #FEEDEE;
+        color: #FFA011;
+        font-size: 12px;
+        margin-top: 30px;
+        border-left: 3px solid #FFA011;
+    }
+    /* OTP end */
+
+}
+
+@media (max-width: 485px) {
+    .login-section-outer{
+        padding-bottom: 10%;
+        background: #424242;
+    }
+    .login-screen-btn-holder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .login-screen-btn{
+        color: #D3D3D3;
+        background: #424242;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+
+    .login-welcome-box-outer{
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+    }
+    .login-welcome-box{
+        padding: 15px;
+        border-radius: 6px;
+        width: 50%;
+    }
+    .login-call-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+        
+    }
+    .login-call-btn button{
+        font-size: 12px;
+        font-weight: 500;
+        width: 150px;
+        padding: 9px 5px;
+    }
+
+    /* H03 SignUp start */
+    .login-body-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/08-login/login-page-bg.svg);
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif
+    }
+    .login-form-outer{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .login-form-inner{
+        padding: 20px;
+        border-radius: 6px;
+        margin: auto;
+        width: 90%;
+    }
+    .login-btn-holder button{
+        width: 250px;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 9px 5px;
+    }
+    .forgot-pw a{
+        text-decoration: none;
+        font-size: 11px; 
+        color: #747373;
+    }
+    .sign-link{
+        color: #747373;
+    }
+    .sign-link a{
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 500;
+        color: #0098AC;
+    }
+
+    /* H03 SignUp end */
+
+    /* H04 Register start */
+    .register-flex-outer{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .register-box-outer {
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+    }
+    .register-content-box {
+        padding: 10px;
+        border-radius: 6px;
+        width: 50%;
+        background: #fff;
+    }
+    .register-content-box.blue-border{
+        border: 2px solid #6658DD;
+    }
+    .register-content-box.yellow-border{
+        border: 2px solid #F7B84B;
+    }
+    .register-mid-content{
+        height: 45px;
+    }
+    .register-call-btn button{
+        padding: 7px 5px;
+        width: 120px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    /* H04 Register end */
+
+    /* H05 Register start */
+    .register-box-title{
+        height: 46px;
+    }
+    .register-mid-text{
+        height: 72px;
+    }
+    /* H05 Register end */
+
+    /* H06 Register Your University Department start */
+    .register-uni-outer{
+        margin-bottom: 10%;
+    }
+    .form-field-input::placeholder{
+        font-size: 12px;
+    }
+    .register-uni-form-submit button{
+        padding: 7px 16px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .register-gcaptcha{
+        display: flex;
+        justify-content: center;
+
+    }
+    /* H06 Register Your University Department start */
+
+    /* OTP start */
+    .otp-inputs input{
+        width:30px;
+        height:40px;
+        padding: 5px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .btn-login-otp{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 9px 5px;
+    }
+    .otp-failed{
+        background: #FEEDEE;
+        color: #F34E58;
+        font-size: 11px;
+        margin-top: 30px;
+        border-left: 3px solid #F34E58;
+    } 
+    .otp-expired{
+        background: #FEEDEE;
+        color: #FFA011;
+        font-size: 11px;
+        margin-top: 30px;
+        border-left: 3px solid #FFA011;
+    }
+    /* OTP end */
+
+}
+
+@media (max-width: 395px) {
+    .login-section-outer{
+        padding-bottom: 10%;
+        background: #424242;
+    }
+    .login-screen-btn-holder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .login-screen-btn{
+        color: #D3D3D3;
+        background: #424242;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+
+    .login-welcome-flex{
+        margin-bottom: 10%;
+    }
+    .login-welcome-box-outer{
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+    }
+    .login-welcome-box{
+        padding: 15px;
+        border-radius: 6px;
+        width: 50%;
+    }
+    .login-call-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+        
+    }
+    .login-call-btn button{
+        font-size: 14px;
+        font-weight: 500;
+        width: 150px;
+        padding: 9px 5px;
+    }
+
+
+    /* H03 SignUp start */
+    .login-body-bg{
+        margin: 0;
+        padding: 0;
+        background: url(../images/08-login/login-page-bg.svg);
+        background-size: cover;
+        background-position: center; 
+    }
+    .login-form-outer{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .login-form-inner{
+        padding: 20px;
+        border-radius: 6px;
+        margin: auto;
+        width: 100%;
+    }
+    .login-btn-holder button{
+        width: 250px;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 9px 5px;
+    }
+    .forgot-pw a{
+        text-decoration: none;
+        font-size: 11px; 
+        color: #747373;
+    }
+    .sign-link{
+        color: #747373;
+    }
+    .sign-link a{
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 500;
+        color: #0098AC;
+    }
+
+    /* H03 SignUp end */
+
+    /* H04 Register start */
+    .register-flex-outer{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .register-box-outer {
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+    }
+    .register-content-box {
+        padding: 10px;
+        border-radius: 6px;
+        width: 50%;
+        background: #fff;
+    }
+    .register-content-box.blue-border{
+        border: 2px solid #6658DD;
+    }
+    .register-content-box.yellow-border{
+        border: 2px solid #F7B84B;
+    }
+    .register-mid-content{
+        height: 55px;
+    }
+    .register-call-btn button{
+        padding: 7px 5px;
+        width: 120px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    /* H04 Register end */
+
+    /* H05 Register start */
+    .register-box-title{
+        height: 63px;
+    }
+    .register-mid-text{
+        height: 88px;
+    }
+    /* H05 Register end */
+
+    /* H06 Register Your University Department start */
+    .register-uni-outer{
+        margin-bottom: 10%;
+    }
+    .form-field-input::placeholder{
+        font-size: 12px;
+    }
+    .register-uni-form-submit button{
+        padding: 7px 16px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .register-gcaptcha{
+        display: flex;
+        justify-content: center;
+
+    }
+    /* H06 Register Your University Department start */
+
+    /* OTP start */
+    .otp-inputs input{
+        width:30px;
+        height:40px;
+        padding: 5px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .btn-login-otp{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 9px 5px;
+    }
+    .otp-failed{
+        background: #FEEDEE;
+        color: #F34E58;
+        font-size: 10px;
+        margin-top: 30px;
+        border-left: 3px solid #F34E58;
+    }
+    .otp-expired{
+        background: #FEEDEE;
+        color: #FFA011;
+        font-size: 10px;
+        margin-top: 30px;
+        border-left: 3px solid #FFA011;
+    }
+    /* OTP end */
+    
+}
+
+@media (max-width: 320px) {
+
+}

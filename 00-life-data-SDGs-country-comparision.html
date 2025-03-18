@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life Data</title>
+  </head>
+
+  <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+
+  <link rel="stylesheet" href="css/theme-change.css" />
+
+  <link href="css/style.css" rel="stylesheet" />
+
+  <link href="css/be-born.css" rel="stylesheet" />
+  <link href="css/remaning-screen.css" rel="stylesheet" />
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-light navbar-expand-lg navbar-theme">
+        <div class="container-fluid">
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#navbarOffcanvasLg"
+              aria-controls="navbarOffcanvasLg"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <a class="navbar-brand" href="#">
+              <img src="images/Logo.svg" alt="Gameplay" />
+            </a>
+          </div>
+
+          <ul class="nav right-nav d-flex">
+            <li class="nav-item">
+              <button class="btn" href="#">
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </button>
+            </li>
+          </ul>
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="navbarOffcanvasLg"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header background-color-web">
+              <div>
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  <img src="images/Logo.svg" alt="Gameplay" />
+                </h5>
+                <p class="offcanvas-title">ThoughtCraft</p>
+              </div>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body background-color-web">
+              <ul
+                class="navbar-nav offcanvas-nav justify-content-end flex-grow-1 pe-3 content-font"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">
+                    <img src="images/globe-gray.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Set Language</p>
+                      <p class="mb-0 fw-light">Set your default language</p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/flag.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Choose Country</p>
+                      <p class="mb-0 fw-light">
+                        You can choose a different country as your registered
+                        country.
+                      </p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/screenn-setting.svg" class="me-3" />
+                    <span>
+                      <p class="mb-0">Born Screen Settings</p>
+                      <p class="mb-0 fw-light">
+                        Select a screen to see in the game
+                      </p>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/log-out.svg" class="me-3" /> Log Out
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="clearfix"></div>
+
+    <main>
+      <section class="container white-title">
+        <div class="play-life-secouter lifedata-inpage-outer mt-2">
+          <div class="household-income-table-outer">
+            <div class="section-title">
+              <p class="content-font fw-bold mb-1">
+                UN SDGs country comparision
+              </p>
+            </div>
+            <div class="">
+              <p>
+                Countries divided in
+                <span class="text-red">Major challenges,</span>
+                <span class="text-orange">Significant challenges,</span>
+                <span class="text-yellow">Challenges remain,</span>
+                <span class="text-green">Goal achievement</span> and
+                <span class="text-gray">No data available</span>
+                Category
+              </p>
+            </div>
+            <div
+              class="household-income-table play-life-table table-responsive first-clmfixed"
+            >
+              <table class="table table-light table-bordered">
+                <thead class="table-dark align-middle fw-medium">
+                  <tr>
+                    <th scope="col ">SDG goal image</th>
+                    <th scope="col">SDG goal name</th>
+                    <th scope="col">United States</th>
+                    <th scope="col" class="">Albania</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">SDG 1</td>
+                    <td class=" ">No Poverty</td>
+                    <td class="tdorange"></td>
+                    <td class="tdyellow"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 2</td>
+                    <td class=" ">Zero Hunger</td>
+                    <td class="tdred"></td>
+                    <td class="tdorange"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 3</td>
+                    <td class=" ">Good Health and Well-Being</td>
+                    <td class="tdorange"></td>
+                    <td class="tdorange"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 4</td>
+                    <td class=" ">Quality Education</td>
+                    <td class="tdyellow"></td>
+                    <td class="tdyellow"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 5</td>
+                    <td class=" ">Gender Equality</td>
+                    <td class="tdorange"></td>
+                    <td class="tdorange"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 6</td>
+                    <td class=" ">Clean water and Sanitation</td>
+                    <td class="tdyellow"></td>
+                    <td class="tdorange"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 7</td>
+                    <td class=" ">Affordable and Clean Energy</td>
+                    <td class="tdorange"></td>
+                    <td class="tdyellow"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 8</td>
+                    <td class=" ">Decent Work and economic Growth</td>
+                    <td class="tdorange"></td>
+                    <td class="tdred"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 9</td>
+                    <td class=" ">Industry, Innovation and Infrastructure</td>
+                    <td class="tdyellow"></td>
+                    <td class="tdorange"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 10</td>
+                    <td class=" ">Reduced Inequalities</td>
+                    <td class="tdred"></td>
+                    <td class="tdorange"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 11</td>
+                    <td class=" ">Sustainable Cities and Communities</td>
+                    <td class="tdyellow"></td>
+                    <td class="tdorange"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 12</td>
+                    <td class=" ">Responsible Consumption and Production</td>
+                    <td class="tdred"></td>
+                    <td class="tdyellow"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 13</td>
+                    <td class=" ">Climate Action</td>
+                    <td class="tdred"></td>
+                    <td class="tdgreen"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 14</td>
+                    <td class=" ">Life Below Water</td>
+                    <td class="tdorange"></td>
+                    <td class="tdred"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 15</td>
+                    <td class=" ">Life on Land</td>
+                    <td class="tdred"></td>
+                    <td class="tdorange"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 16</td>
+                    <td class=" ">Peace, Justice and Strong Institutions</td>
+                    <td class="tdred"></td>
+                    <td class="tdorange"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SDG 17</td>
+                    <td class=" ">Partnerships for the Goals</td>
+                    <td class="tdred"></td>
+                    <td class="tdyellow"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="clearfix"></div>
+
+    <footer>
+      <div class="footer">
+        <nav class="footer-button-outer">
+          <div class="bottom-nav-item">
+            <div class="bottom-nav-link">
+              <a
+                href="00-life-data-your-name.html"
+                type="button"
+                class="fw-medium text-white"
+                >Next</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

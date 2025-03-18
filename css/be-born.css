@@ -1,0 +1,2116 @@
+
+
+.country-challenges-content{
+    border: 1px solid #ADADAD;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.outer-btn{
+    width: 100% !important;
+    color: #fff !important;
+    padding: 0 !important;
+    font: inherit !important;
+}
+
+
+/* SDG Model-Window start */ 
+
+.helth-well-dot{
+    width: 11px;
+    height: 11px;
+    margin-right: 5px;
+    display: inline-flex;
+    border-radius: 50%;
+}
+.helth-well-dot-red{
+    background: #D3270D;
+}
+.helth-well-dot-orange{
+    background: #FFA019;
+}
+.helth-well-dot-yellow{
+    background: #FFFF00;
+}
+.helth-well-dot-green{
+    background: #28A745;
+}
+.helth-well-dot-darkgray{
+    background: #6C757D;
+}
+.helth-well-dot-lightgray{
+    background: #D9D9D9;
+}
+
+/* SDG Model-Window end */
+
+
+@media (max-width: 991px) {
+    .country-box-outer{
+        display: flex;
+        grid-column-gap: 28px;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .country-box-inner{
+        border-radius: 6px;
+        color: #000;
+        padding: 13px;
+        text-align: center;
+    }
+    .country-box-head{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .country-box-flag{
+        margin-top: 10px;
+        min-height: 56px;
+    }
+    .country-box-flag p{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .country-box-stamp{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    /* klnow who  you are start */
+    .country-flex-box-inner{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .country-flex-box-flag img{
+        height: 56px;
+    }
+    .country-flex-box-flag-text a{
+        text-decoration: none;
+        color: #0D7B8A;
+        font-size: 10px;
+    }
+    .bottm-marign{margin-bottom: 0% !important;}
+
+    .info-section{
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 22%;
+    }
+    .info-section-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 28px;
+    }
+    .profile-info-outer{
+        display: flex;
+        column-gap: 20px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .profile-info-box{
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 233px;
+    }
+    .page-bottom-text{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .info-section-content textarea::placeholder{
+        font-size: 12px;
+    }
+    /* klnow who  you are end */
+
+    /* Know Your Family start */
+
+    .font10{font-size: 12px; width: 100%; border: 0;}
+
+    .job{float: left; width: 20%; color: #6A6A6A;
+        font-weight: 500;}
+
+    .Cleaner{float: right; width: 80%; color: #6A6A6A;}
+
+    .padding-left {padding-right: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right !important;
+        float: right;}
+
+    .know-family-box-outer{
+        display: flex;
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 74%;
+        margin: auto;
+        
+        margin-bottom: 32%;
+    }
+    .know-family-box-inner {
+        border-radius: 6px;
+        color: #000;
+        width: 100%;
+        padding: 3px;
+    }
+    .know-family-male-box-head {
+        font-size: 12px;
+        font-weight: 500;
+        background: #BDE7FF;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .know-family-female-box-head {
+        font-size: 12px;
+        font-weight: 500;
+        background: #FFBDFE;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .know-family-content{
+        padding: 15px;
+    }
+    .know-family-content-head{
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .know-family-midcontent p{
+        font-size: 12px;
+        margin-bottom: 0;
+        color: #6A6A6A;
+    }
+    .know-family-midcontent span{
+        color: #6A6A6A;
+        font-weight: 500;
+    }
+
+    /* Know Your Family end */
+
+    .family-story-birth{
+        margin-bottom: 15%;
+    }
+
+    .country-challenges-outer{
+        margin-bottom: 15%;
+    }
+
+
+    /* Your Family Amenities start */
+    .family-amenities-outer{
+        display: flex;
+        grid-column-gap: 12px;
+        grid-row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 32%;
+        width: 64%;
+        margin: auto;
+    }
+    .family-amenities-box{
+        padding: 10px;
+        border-radius: 6px;
+        width: 211px;
+        /* text-align: center; */
+    }
+    .family-amenities-title{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-around;  */
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #D9D9D9;
+    }
+    .family-amenities-title img{
+        width: 28px;
+    }
+    .family-amenities-title .counter-icons{
+        margin-right: 20px;
+    }
+    .family-amenities-status{
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+    }
+    /* Your Family Amenities end */
+
+    /* World House hold Income Compared To Yours start */
+
+    .household-income-table{
+        font-size: 12px;
+    }
+
+    .household-income-table-flex{
+        display: flex;
+        font-size: 12px;
+        margin-bottom: 28%;
+    }
+    
+    /* World House hold Income Compared To Yours start */
+    
+    /* Economis Status start */
+    .economic-status-table-outer{
+        margin-bottom: 30%;
+    }
+    .economic-status-table-inner {
+        width: 70%;
+        margin: auto;
+        display: flex;
+    }
+
+    .economic-status-table-scroll{
+        height: 400px;
+        /* overflow: hidden; */
+        overflow-y: scroll;
+    }
+    .economic-status-btn{
+        padding: 3px 16px !important;
+        background: #F8C600 !important;
+        color: #fff !important;
+        border-radius: 4px;
+    }
+
+    .td-linear-border-left{
+        border-left: 6px solid transparent !important;
+        border-image: linear-gradient(1turn, #908D8D, #D9D9D9, #908D8D) !important;
+        border-image-slice: 4 !important;
+    }
+    .td-linear-border-right{
+        border-right: 6px solid transparent !important;
+        border-image: linear-gradient(1turn, #908D8D, #D9D9D9, #908D8D) !important;
+        border-image-slice: 4 !important;
+    }
+
+    .td-linear-bg1{
+        background-image: url("../images/slider_back.png");
+ 
+        /* Background image is centered vertically and horizontally at all times */
+        background-position: center center;
+        /* background-repeat: no-repeat;
+        background-attachment: fixed; */
+        background-size: cover;
+        background-color: #464646;
+        height: 3.1em !important;
+        /* Font Colour */
+    }
+
+
+    .td-linear-bg{
+        
+        background: #908d8d;  
+        background: -moz-linear-gradient(top,  #908d8d 0%, #d9d9d9 50%, #908d8d 100%);  
+        background: -webkit-linear-gradient(top,  #908d8d 0%,#d9d9d9 50%,#908d8d 100%);  
+        background: linear-gradient(to bottom,  #908d8d 0%,#d9d9d9 50%,#908d8d 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#908d8d', endColorstr='#908d8d',GradientType=0 );  
+
+    }
+    .td-linear-yellow-bg{
+        
+        background: #F8C600;  
+        background: -moz-linear-gradient(top,  #F8C600 0%, #FFEFB2 50%, #F8C600 100%);  
+        background: -webkit-linear-gradient(top,  #F8C600 0%,#FFEFB2 50%,#F8C600 100%);  
+        background: linear-gradient(to bottom,  #F8C600 0%,#FFEFB2 50%,#F8C600 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8C600', endColorstr='#FFEFB2',GradientType=0 );  
+    
+    }
+    
+    .economic-status-table-inner table{
+        border-collapse: separate;
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        width: 100%;
+        /* border-spacing: 0px !important; */
+    }
+    .economic-status-table-inner table td, .economic-status-table-inner table th{
+        height: 30px;
+        width: 90px;
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+    }
+
+    .economic-status-toptable{
+        border-spacing: 0px 10px !important;
+    }
+    .economic-status-btmtable-flex{
+        display: flex;
+        column-gap: 16px;
+    }
+    .economic-status-btmtable-box{
+        width: 48%;
+    }
+    .economic-status-btmtable{
+        border-spacing: 2px !important;
+    }
+    .economic-status-btmtable-tdbg{
+        background: #E8E8E8 !important;
+    }
+    /* Economis Status end */
+
+    /* SDG Model Window start */
+    .helth-well-box-inner{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        justify-content: center;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .helth-well-box{
+        padding: 10px;
+        background: #4C9E3A;
+        height: 110px;
+        width: 110px;
+        border-radius: 6px;
+    }
+    .helth-well-box-text{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .helth-well-box-title{
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        margin-right: 10px;
+    }
+    .helth-well-box-subtitle{
+        font-size: 8px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .helth-well-box-img{
+        text-align: center;
+        margin-top: 20px
+    }
+
+    .helth-well-info-section{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .helth-well-links-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 15px;
+        row-gap: 19px;
+        column-gap: 27px;
+        background: #F0F1F3;
+        border: 1px solid #9FBAFF;
+        border-radius: 5px;
+
+        -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+        -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+        box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+    }
+
+    .helth-well-links{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .sdg-subgoals-table-outer{
+        margin-bottom: 15%;
+    }
+
+    /* SDG Model Window end */
+
+}
+
+@media (max-width: 768px) {
+    .country-box-outer{
+        display: flex;
+        grid-column-gap: 28px;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .country-box-inner{
+        border-radius: 6px;
+        color: #000;
+        padding: 13px;
+        text-align: center;
+    }
+    .country-box-head{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .country-box-flag{
+        margin-top: 10px;
+        min-height: 56px;
+    }
+    .country-box-flag p{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .country-box-stamp{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    /* klnow who  you are start */
+    .country-flex-box-inner{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .country-flex-box-flag img{
+        height: 56px;
+    }
+    .country-flex-box-flag-text a{
+        text-decoration: none;
+        color: #0D7B8A;
+        font-size: 10px;
+    }
+    .bottm-marign{margin-bottom: 0% !important;}
+    .info-section{
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 22%;
+    }
+    .info-section-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 28px;
+    }
+    .profile-info-outer{
+        display: flex;
+        column-gap: 20px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .profile-info-box{
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 233px;
+    }
+    .page-bottom-text{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .info-section-content textarea::placeholder{
+        font-size: 12px;
+    }
+    /* klnow who  you are end */
+
+    /* Know Your Family start */
+
+    .know-family-box-outer{
+        display: flex;
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 74%;
+        margin: auto;
+        
+        margin-bottom: 32%;
+    }
+    .know-family-box-inner {
+        border-radius: 6px;
+        color: #000;
+        width: 100%;
+        padding: 3px;
+    }
+    .know-family-male-box-head {
+        font-size: 12px;
+        font-weight: 500;
+        background: #BDE7FF;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .know-family-female-box-head {
+        font-size: 12px;
+        font-weight: 500;
+        background: #FFBDFE;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .know-family-content{
+        padding: 15px;
+    }
+    .know-family-content-head{
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .know-family-midcontent p{
+        font-size: 12px;
+        margin-bottom: 0;
+        color: #6A6A6A;
+    }
+    .know-family-midcontent span{
+        color: #6A6A6A;
+        font-weight: 500;
+    }
+
+    /* Know Your Family end */
+
+    .family-story-birth{
+        margin-bottom: 15%;
+    }
+
+    .country-challenges-outer{
+        margin-bottom: 15%;
+    }
+
+    /* Your Family Amenities start */
+    .family-amenities-outer{
+        display: flex;
+        grid-column-gap: 12px;
+        grid-row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 32%;
+        width: 64%;
+        margin: auto;
+    }
+    .family-amenities-box{
+        padding: 10px;
+        border-radius: 6px;
+        width: 211px;
+        /* text-align: center; */
+    }
+    .family-amenities-title{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-around;  */
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #D9D9D9;
+    }
+    .family-amenities-title img{
+        width: 28px;
+    }
+    .family-amenities-title .counter-icons{
+        margin-right: 20px;
+    }
+    .family-amenities-status{
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+    }
+    /* Your Family Amenities end */
+
+    /* World House hold Income Compared To Yours start */
+
+    .household-income-table{
+        font-size: 12px;
+    }
+
+    .household-income-table-flex{
+        display: flex;
+        font-size: 12px;
+        margin-bottom: 28%;
+    }
+    
+
+    /* World House hold Income Compared To Yours start */
+
+    /* Economis Status start */
+    .economic-status-table-outer{
+        margin-bottom: 30%;
+    }
+    .economic-status-table-inner {
+        width: 70%;
+        margin: auto;
+        display: flex;
+    }
+
+    .economic-status-table-scroll{
+        height: 400px;
+        /* overflow: hidden; */
+        overflow-y: scroll;
+    }
+
+    .economic-status-btn{
+        padding: 3px 16px !important;
+        background: #F8C600 !important;
+        color: #fff !important;
+        border-radius: 4px;
+    }
+
+    .td-linear-border-left{
+        border-left: 6px solid transparent !important;
+        border-image: linear-gradient(1turn, #908D8D, #D9D9D9, #908D8D) !important;
+        border-image-slice: 4 !important;
+    }
+    .td-linear-border-right{
+        border-right: 6px solid transparent !important;
+        border-image: linear-gradient(1turn, #908D8D, #D9D9D9, #908D8D) !important;
+        border-image-slice: 4 !important;
+    }
+    .td-linear-bg{
+        
+        background: #908d8d;  
+        background: -moz-linear-gradient(top,  #908d8d 0%, #d9d9d9 50%, #908d8d 100%);  
+        background: -webkit-linear-gradient(top,  #908d8d 0%,#d9d9d9 50%,#908d8d 100%);  
+        background: linear-gradient(to bottom,  #908d8d 0%,#d9d9d9 50%,#908d8d 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#908d8d', endColorstr='#908d8d',GradientType=0 );  
+
+    }
+    .td-linear-yellow-bg{
+        
+        background: #F8C600;  
+        background: -moz-linear-gradient(top,  #F8C600 0%, #FFEFB2 50%, #F8C600 100%);  
+        background: -webkit-linear-gradient(top,  #F8C600 0%,#FFEFB2 50%,#F8C600 100%);  
+        background: linear-gradient(to bottom,  #F8C600 0%,#FFEFB2 50%,#F8C600 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8C600', endColorstr='#FFEFB2',GradientType=0 );  
+    
+    }
+    
+    .economic-status-table-inner table{
+        border-collapse: separate;
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        width: 100%;
+        /* border-spacing: 0px !important; */
+    }
+    .economic-status-table-inner table td, .economic-status-table-inner table th{
+        height: 30px;
+        width: 90px;
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+    }
+
+    .economic-status-toptable{
+        border-spacing: 0px 10px !important;
+    }
+    .economic-status-btmtable-flex{
+        display: flex;
+        column-gap: 16px;
+    }
+    .economic-status-btmtable-box{
+        width: 48%;
+    }
+    .economic-status-btmtable{
+        border-spacing: 2px !important;
+    }
+    .economic-status-btmtable-tdbg{
+        background: #E8E8E8 !important;
+    }
+    /* Economis Status start */
+
+    /* SDG Model Window start */
+    .helth-well-box-inner{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        justify-content: center;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .helth-well-box{
+        padding: 10px;
+        background: #4C9E3A;
+        height: 110px;
+        width: 110px;
+        border-radius: 6px;
+    }
+    .helth-well-box-text{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .helth-well-box-title{
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        margin-right: 10px;
+    }
+    .helth-well-box-subtitle{
+        font-size: 8px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .helth-well-box-img{
+        text-align: center;
+        margin-top: 20px
+    }
+
+    .helth-well-info-section{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .helth-well-links-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 15px;
+        row-gap: 19px;
+        column-gap: 27px;
+        background: #F0F1F3;
+        border: 1px solid #9FBAFF;
+        border-radius: 5px;
+
+        -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+        -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+        box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+    }
+
+    .helth-well-links{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .sdg-subgoals-table-outer{
+        margin-bottom: 15%;
+    }
+
+    /* SDG Model Window end */
+
+}
+
+@media (max-width: 640px) {
+
+    /* Know Your Family start */
+    .know-family-box-outer {
+        display: flex;
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 88%;
+        margin: auto;
+        margin-bottom: 32%;
+    }
+
+    /* Know Your Family end */
+
+    /* Your Family Amenities start */
+    .family-amenities-outer {
+        display: flex;
+        grid-column-gap: 12px;
+        grid-row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 32%;
+        width: 88%;
+        margin: auto;
+    }
+    /* Your Family Amenities end */
+
+    /* World House hold Income Compared To Yours start */
+
+    .household-income-table{
+        font-size: 12px;
+    }
+
+    .household-income-table-flex{
+        display: flex;
+        font-size: 12px;
+        margin-bottom: 28%;
+    }
+    
+
+    /* World House hold Income Compared To Yours start */
+
+    /* Economis Status start */
+    .economic-status-table-outer{
+        margin-bottom: 30%;
+    }
+    .economic-status-btn{
+        padding: 3px 16px !important;
+        background: #F8C600 !important;
+        color: #fff !important;
+        border-radius: 4px;
+    }
+
+    .td-linear-border-left{
+        border-left: 6px solid transparent !important;
+        border-image: linear-gradient(1turn, #908D8D, #D9D9D9, #908D8D) !important;
+        border-image-slice: 4 !important;
+    }
+    .td-linear-border-right{
+        border-right: 6px solid transparent !important;
+        border-image: linear-gradient(1turn, #908D8D, #D9D9D9, #908D8D) !important;
+        border-image-slice: 4 !important;
+    }
+    .td-linear-bg{
+        
+        background: #908d8d;  
+        background: -moz-linear-gradient(top,  #908d8d 0%, #d9d9d9 50%, #908d8d 100%);  
+        background: -webkit-linear-gradient(top,  #908d8d 0%,#d9d9d9 50%,#908d8d 100%);  
+        background: linear-gradient(to bottom,  #908d8d 0%,#d9d9d9 50%,#908d8d 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#908d8d', endColorstr='#908d8d',GradientType=0 );  
+
+    }
+    .td-linear-yellow-bg{
+        
+        background: #F8C600;  
+        background: -moz-linear-gradient(top,  #F8C600 0%, #FFEFB2 50%, #F8C600 100%);  
+        background: -webkit-linear-gradient(top,  #F8C600 0%,#FFEFB2 50%,#F8C600 100%);  
+        background: linear-gradient(to bottom,  #F8C600 0%,#FFEFB2 50%,#F8C600 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8C600', endColorstr='#FFEFB2',GradientType=0 );  
+    
+    }
+    
+    .economic-status-table-inner table{
+        border-collapse: separate;
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        width: 100%;
+        /* border-spacing: 0px !important; */
+    }
+    .economic-status-table-inner table td, .economic-status-table-inner table th{
+        height: 30px;
+        width: 90px;
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+    }
+
+    .economic-status-toptable{
+        border-spacing: 0px 10px !important;
+    }
+    .economic-status-btmtable{
+        border-spacing: 2px !important;
+    }
+    .economic-status-btmtable-tdbg{
+        background: #E8E8E8 !important;
+    }
+    /* Economis Status end */
+
+    /* SDG Model Window start */
+    .helth-well-box-inner{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        justify-content: center;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .helth-well-box{
+        padding: 10px;
+        background: #4C9E3A;
+        height: 110px;
+        width: 110px;
+        border-radius: 6px;
+    }
+    .helth-well-box-text{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .helth-well-box-title{
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        margin-right: 10px;
+    }
+    .helth-well-box-subtitle{
+        font-size: 8px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .helth-well-box-img{
+        text-align: center;
+        margin-top: 20px
+    }
+
+    .helth-well-info-section{
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .helth-well-links-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 15px;
+        row-gap: 10px;
+        background: #F0F1F3;
+        border: 1px solid #9FBAFF;
+        border-radius: 5px;
+
+        -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+        -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+        box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+    }
+
+    .sdg-subgoals-table-outer{
+        margin-bottom: 25%;
+    }
+
+    /* SDG Model Window end */
+
+}
+
+@media (max-width: 576px) {
+    .country-box-outer{
+        display: flex;
+        grid-column-gap: 28px;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .country-box-inner{
+        border-radius: 6px;
+        color: #000;
+        padding: 13px;
+        text-align: center;
+    }
+    .country-box-head{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .country-box-flag{
+        margin-top: 10px;
+        min-height: 56px;
+    }
+    .country-box-flag p{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .country-box-stamp{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    /* klnow who  you are start */
+    .country-flex-box-inner{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .country-flex-box-flag img{
+        height: 56px;
+    }
+    .country-flex-box-flag-text a{
+        text-decoration: none;
+        color: #0D7B8A;
+        font-size: 10px;
+    }
+    .bottm-marign{margin-bottom: 0% !important;}
+    .info-section{
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 22%;
+    }
+    .info-section-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 28px;
+    }
+    .profile-info-outer{
+        display: flex;
+        column-gap: 20px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .profile-info-box{
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 172px;
+    }
+    .page-bottom-text{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .info-section-content textarea::placeholder{
+        font-size: 11px;
+    }
+    /* klnow who  you are end */
+
+
+    /* Know Your Family start */
+
+    .know-family-box-outer{
+        display: flex;
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        
+        margin-bottom: 32%;
+    }
+    .know-family-box-inner {
+        border-radius: 6px;
+        color: #000;
+        width: 100%;
+        padding: 3px;
+    }
+    .know-family-male-box-head {
+        font-size: 12px;
+        font-weight: 500;
+        background: #BDE7FF;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .know-family-female-box-head {
+        font-size: 12px;
+        font-weight: 500;
+        background: #FFBDFE;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .know-family-content{
+        padding: 15px;
+    }
+    .know-family-content-head{
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .know-family-midcontent p{
+        font-size: 11px;
+        margin-bottom: 0;
+        color: #6A6A6A;
+    }
+    .know-family-midcontent span{
+        color: #6A6A6A;
+        font-weight: 500;
+    }
+
+    /* Know Your Family end */
+
+    .family-story-birth{
+        margin-bottom: 27%;
+    }
+
+    .country-challenges-outer{
+        margin-bottom: 16%;
+    }
+
+    /* Your Family Amenities start */
+    .family-amenities-outer{
+        display: flex;
+        grid-column-gap: 12px;
+        grid-row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 32%;
+        width: 80%;
+        margin: auto;
+    }
+    .family-amenities-box{
+        padding: 10px;
+        border-radius: 6px;
+        width: 184px;
+        /* text-align: center; */
+    }
+    .family-amenities-title{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-around;  */
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #D9D9D9;
+    }
+    .family-amenities-title img{
+        width: 28px;
+    }
+    .family-amenities-title .counter-icons{
+        margin-right: 20px;
+    }
+    .family-amenities-status{
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+    }
+    /* Your Family Amenities end */
+
+    /* World House hold Income Compared To Yours start */
+
+    .household-income-table{
+        font-size: 12px;
+    }
+
+    .household-income-table-flex{
+        display: flex;
+        font-size: 12px;
+        margin-bottom: 28%;
+    }
+    
+
+    /* World House hold Income Compared To Yours start */
+
+
+    /* Economis Status start */
+    .economic-status-table-outer{
+        margin-bottom: 30%;
+    }
+    .economic-status-btn{
+        padding: 3px 16px !important;
+        background: #F8C600 !important;
+        color: #fff !important;
+        border-radius: 4px;
+    }
+
+    .td-linear-border-left{
+        border-left: 6px solid transparent !important;
+        border-image: linear-gradient(1turn, #908D8D, #D9D9D9, #908D8D) !important;
+        border-image-slice: 4 !important;
+    }
+    .td-linear-border-right{
+        border-right: 6px solid transparent !important;
+        border-image: linear-gradient(1turn, #908D8D, #D9D9D9, #908D8D) !important;
+        border-image-slice: 4 !important;
+    }
+    .td-linear-bg{
+        
+        background: #908d8d;  
+        background: -moz-linear-gradient(top,  #908d8d 0%, #d9d9d9 50%, #908d8d 100%);  
+        background: -webkit-linear-gradient(top,  #908d8d 0%,#d9d9d9 50%,#908d8d 100%);  
+        background: linear-gradient(to bottom,  #908d8d 0%,#d9d9d9 50%,#908d8d 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#908d8d', endColorstr='#908d8d',GradientType=0 );  
+
+    }
+    .td-linear-yellow-bg{
+        
+        background: #F8C600;  
+        background: -moz-linear-gradient(top,  #F8C600 0%, #FFEFB2 50%, #F8C600 100%);  
+        background: -webkit-linear-gradient(top,  #F8C600 0%,#FFEFB2 50%,#F8C600 100%);  
+        background: linear-gradient(to bottom,  #F8C600 0%,#FFEFB2 50%,#F8C600 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8C600', endColorstr='#FFEFB2',GradientType=0 );  
+    
+    }
+    
+    .economic-status-table-inner {
+        width: 100%;
+        margin: auto;
+
+        display: flex;
+    }
+    .economic-status-table-scroll{
+        height: 400px;
+        /* overflow: hidden; */
+        overflow-y: scroll;
+    }
+
+    .economic-status-table-inner table{
+        border-collapse: separate;
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        width: 100%;
+        /* border-spacing: 0px !important; */
+    }
+    .economic-status-table-inner table td, .economic-status-table-inner table th{
+        height: 30px;
+        width: 90px;
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+    }
+
+    .economic-status-toptable{
+        border-spacing: 0px 10px !important;
+    }
+    .economic-status-btmtable-flex{
+        display: flex;
+        column-gap: 13px;
+    }
+    .economic-status-btmtable-box{
+        width: 49%;
+    }
+    .economic-status-btmtable{
+        border-spacing: 2px !important;
+    }
+    .economic-status-btmtable-tdbg{
+        background: #E8E8E8 !important;
+    }
+    /* Economis Status end */
+
+    /* SDG Model Window start */
+    .helth-well-box-inner{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        justify-content: center;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .helth-well-box{
+        padding: 10px;
+        background: #4C9E3A;
+        height: 110px;
+        width: 110px;
+        border-radius: 6px;
+    }
+    .helth-well-box-text{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .helth-well-box-title{
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        margin-right: 10px;
+    }
+    .helth-well-box-subtitle{
+        font-size: 8px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .helth-well-box-img{
+        text-align: center;
+        margin-top: 20px
+    }
+
+    .helth-well-info-section{
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .helth-well-links-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 15px;
+        row-gap: 10px;
+        background: #F0F1F3;
+        border: 1px solid #9FBAFF;
+        border-radius: 5px;
+
+        -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+        -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+        box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+    }
+
+    .helth-well-links{
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .sdg-subgoals-table-outer{
+        margin-bottom: 25%;
+    }
+
+    /* SDG Model Window end */
+
+}
+
+@media (max-width: 485px) {
+    .country-box-outer{
+        display: flex;
+        grid-column-gap: 15px;
+        justify-content: center;
+        align-items: stretch; 
+    }
+    .country-box-inner{
+        border-radius: 6px;
+        color: #000;
+        padding: 13px;
+        text-align: center;
+    }
+    .country-box-head{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .country-box-flag{
+        margin-top: 10px;
+        min-height: 56px;
+    }
+    .country-box-flag p{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .country-box-stamp{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    /* klnow who  you are start */
+    .country-flex-box-inner{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .country-flex-box-flag img{
+        height: 56px;
+    }
+    .country-flex-box-flag-text a{
+        text-decoration: none;
+        color: #0D7B8A;
+        font-size: 10px;
+    }
+
+    .bottm-marign{margin-bottom: 0% !important;}
+    .info-section{
+        font-size: 11px;
+        font-weight: 500;
+        margin-bottom: 22%;
+    }
+    .info-section-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 28px;
+    }
+    .profile-info-outer{
+        display: flex;
+        column-gap: 20px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .profile-info-box{
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 148px;
+    }
+    .page-bottom-text{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .info-section-content textarea::placeholder{
+        font-size: 11px;
+    }
+    /* klnow who  you are end */
+
+    /* Know Your Family start */
+
+    .know-family-box-outer{
+        display: flex;
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 32%;
+        width: 100%;
+    }
+    .know-family-box-inner {
+        border-radius: 6px;
+        color: #000;
+        width: 100%;
+        padding: 3px;
+        background-color: #fff;
+    }
+    .know-family-male-box-head {
+        font-size: 11px;
+        font-weight: 500;
+        background: #BDE7FF;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .know-family-female-box-head {
+        font-size: 11px;
+        font-weight: 500;
+        background: #FFBDFE;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .know-family-content{
+        padding: 15px;
+    }
+    .know-family-content-head{
+        font-size: 11px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .know-family-midcontent p{
+        font-size: 11px;
+        margin-bottom: 0;
+        color: #6A6A6A;
+    }
+    .know-family-midcontent span{
+        color: #6A6A6A;
+        font-weight: 500;
+    }
+
+    /* Know Your Family end */
+
+
+    .family-story-birth{
+        margin-bottom: 35%;
+    }
+
+    .country-challenges-outer{
+        margin-bottom: 21%;
+    }
+
+    /* Your Family Amenities start */
+    .family-amenities-outer{
+        display: flex;
+        grid-column-gap: 12px;
+        grid-row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 32%;
+        width: 100%;
+    }
+    .family-amenities-box{
+        padding: 10px;
+        border-radius: 6px;
+        width: 178px;
+        /* text-align: center; */
+    }
+    .family-amenities-title{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-around;  */
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #D9D9D9;
+    }
+    .family-amenities-title img{
+        width: 28px;
+    }
+    .family-amenities-title .counter-icons{
+        margin-right: 20px;
+    }
+    .family-amenities-status{
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+    }
+    /* Your Family Amenities end */
+
+
+    /* World House hold Income Compared To Yours start */
+
+    .household-income-table{
+        font-size: 12px;
+    }
+
+    .household-income-table-flex{
+        display: flex;
+        font-size: 12px;
+        margin-bottom: 28%;
+    }
+    
+    /* World House hold Income Compared To Yours start */
+
+    /* Economis Status start */
+    .economic-status-table-outer{
+        margin-bottom: 30%;
+    }
+    .economic-status-btn{
+        padding: 3px 16px !important;
+        background: #F8C600 !important;
+        color: #fff !important;
+        border-radius: 4px;
+    }
+
+    .td-linear-border-left{
+        border-left: 6px solid transparent !important;
+        border-image: linear-gradient(1turn, #908D8D, #D9D9D9, #908D8D) !important;
+        border-image-slice: 4 !important;
+    }
+    .td-linear-border-right{
+        border-right: 6px solid transparent !important;
+        border-image: linear-gradient(1turn, #908D8D, #D9D9D9, #908D8D) !important;
+        border-image-slice: 4 !important;
+    }
+    .td-linear-bg{
+        
+        background: #908d8d;  
+        background: -moz-linear-gradient(top,  #908d8d 0%, #d9d9d9 50%, #908d8d 100%);  
+        background: -webkit-linear-gradient(top,  #908d8d 0%,#d9d9d9 50%,#908d8d 100%);  
+        background: linear-gradient(to bottom,  #908d8d 0%,#d9d9d9 50%,#908d8d 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#908d8d', endColorstr='#908d8d',GradientType=0 );  
+
+    }
+    .td-linear-yellow-bg{
+        
+        background: #F8C600;  
+        background: -moz-linear-gradient(top,  #F8C600 0%, #FFEFB2 50%, #F8C600 100%);  
+        background: -webkit-linear-gradient(top,  #F8C600 0%,#FFEFB2 50%,#F8C600 100%);  
+        background: linear-gradient(to bottom,  #F8C600 0%,#FFEFB2 50%,#F8C600 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8C600', endColorstr='#FFEFB2',GradientType=0 );  
+    
+    }
+    
+    .economic-status-table-inner {
+        width: 100%;
+        margin: auto;
+
+        display: flex;
+    }
+    .economic-status-table-scroll{
+        height: 400px;
+        /* overflow: hidden; */
+        overflow-y: scroll;
+    }
+
+    .economic-status-table-inner table{
+        border-collapse: separate;
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        width: 100%;
+        /* border-spacing: 0px !important; */
+    }
+    .economic-status-table-inner table td, .economic-status-table-inner table th{
+        height: 30px;
+        width: 90px;
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+    }
+    .economic-status-toptable{
+        border-spacing: 0px 10px !important;
+    }
+    .economic-status-btmtable-flex{
+        display: flex;
+        column-gap: 13px;
+    }
+    .economic-status-btmtable-box{
+        width: 48%;
+    }
+    .economic-status-btmtable{
+        border-spacing: 2px !important;
+    }
+    .economic-status-btmtable-tdbg{
+        background: #E8E8E8 !important;
+    }
+    /* Economis Status end */
+
+    /* SDG Model Window start */
+    .helth-well-box-inner{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        justify-content: center;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .helth-well-box{
+        padding: 10px;
+        background: #4C9E3A;
+        height: 110px;
+        width: 110px;
+        border-radius: 6px;
+    }
+    .helth-well-box-text{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .helth-well-box-title{
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        margin-right: 10px;
+    }
+    .helth-well-box-subtitle{
+        font-size: 8px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .helth-well-box-img{
+        text-align: center;
+        margin-top: 20px
+    }
+
+    .helth-well-info-section{
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .helth-well-links-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 15px;
+        row-gap: 10px;
+        background: #F0F1F3;
+        border: 1px solid #9FBAFF;
+        border-radius: 5px;
+
+        -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+        -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+        box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+    }
+
+    .helth-well-links{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .sdg-subgoals-table-outer{
+        margin-bottom: 25%;
+    }
+
+    /* SDG Model Window end */
+
+}
+
+@media (max-width: 395px) {
+
+    .country-box-outer{
+        display: flex;
+        grid-column-gap: 15px;
+        justify-content: center;
+        align-items: stretch; 
+    }
+    .country-box-inner{
+        border-radius: 6px;
+        color: #000;
+        padding: 13px;
+        text-align: center;
+    }
+    .country-box-head{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .country-box-flag{
+        margin-top: 10px;
+        min-height: 56px;
+    }
+    .country-box-flag p{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .country-box-stamp{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    /* klnow who  you are start */
+    .country-flex-box-inner{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .country-flex-box-flag img{
+        height: 56px;
+    }
+    .country-flex-box-flag-text a{
+        text-decoration: none;
+        color: #0D7B8A;
+        font-size: 10px;
+    }
+    .info-section{
+        font-size: 10px;
+        font-weight: 500;
+        margin-bottom: 22%;
+    }
+    .info-section-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 28px;
+    }
+    .profile-info-outer{
+        display: flex;
+        column-gap: 20px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .profile-info-box{
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 148px;
+    }
+    .page-bottom-text{
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .info-section-content textarea::placeholder{
+        font-size: 10px;
+    }
+    /* klnow who  you are end */
+
+
+    /* Know Your Family start */
+
+    .know-family-box-outer{
+        display: flex;
+        grid-column-gap: 12px;
+        grid-row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 32%;
+        width: 100%;
+    }
+    .know-family-box-inner {
+        border-radius: 6px;
+        color: #000;
+        width: 100%;
+        padding: 3px;
+    }
+    .know-family-male-box-head {
+        font-size: 10px;
+        font-weight: 500;
+        background: #BDE7FF;
+        padding: 5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .know-family-female-box-head {
+        font-size: 10px;
+        font-weight: 500;
+        background: #FFBDFE;
+        padding-left:5px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .know-family-content{
+        padding: 15px;
+    }
+    .know-family-content-head{
+        font-size: 10px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .know-family-midcontent p{
+        font-size: 9px;
+        margin-bottom: 0;
+        color: #6A6A6A;
+    }
+    .know-family-midcontent span{
+        color: #6A6A6A;
+        font-weight: 500;
+    }
+
+    /* Know Your Family end */
+
+    .family-story-birth{
+        margin-bottom: 35%;
+    }
+
+    .country-challenges-outer{
+        margin-bottom: 21%;
+    }
+
+
+    /* Your Family Amenities start */
+    .family-amenities-outer{
+        display: flex;
+        grid-column-gap: 12px;
+        grid-row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 32%;
+        width: 100%;
+    }
+    .family-amenities-box{
+        padding: 10px;
+        border-radius: 6px;
+        width: 158px;
+        /* text-align: center; */
+    }
+    .family-amenities-title{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-around;  */
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #D9D9D9;
+    }
+    .family-amenities-title img{
+        width: 28px;
+    }
+    .family-amenities-title .counter-icons{
+        margin-right: 20px;
+    }
+    .family-amenities-status{
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+    }
+    /* Your Family Amenities end */
+
+    /* World House hold Income Compared To Yours start */
+
+    .household-income-table{
+        font-size: 12px;
+    }
+
+    .household-income-table-flex{
+        display: flex;
+        font-size: 12px;
+        margin-bottom: 28%;
+    }
+    .clm-border{
+        /* border-color: #FF0000 !important; */
+        border: 1px solid #FF0000 !important;
+    }
+
+    /* World House hold Income Compared To Yours start */
+
+    /* Economis Status start */
+    .economic-status-table-outer{
+        margin-bottom: 30%;
+    }
+    .economic-status-btn{
+        padding: 3px 16px !important;
+        background: #F8C600 !important;
+        color: #fff !important;
+        border-radius: 4px;
+    }
+
+    .td-linear-border-left{
+        border-left: 6px solid transparent !important;
+        border-image: linear-gradient(1turn, #908D8D, #D9D9D9, #908D8D) !important;
+        border-image-slice: 4 !important;
+    }
+    .td-linear-border-right{
+        border-right: 6px solid transparent !important;
+        border-image: linear-gradient(1turn, #908D8D, #D9D9D9, #908D8D) !important;
+        border-image-slice: 4 !important;
+    }
+    .td-linear-bg{
+        
+    background: #908d8d;  
+    background: -moz-linear-gradient(top,  #908d8d 0%, #d9d9d9 50%, #908d8d 100%);  
+    background: -webkit-linear-gradient(top,  #908d8d 0%,#d9d9d9 50%,#908d8d 100%);  
+    background: linear-gradient(to bottom,  #908d8d 0%,#d9d9d9 50%,#908d8d 100%);  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#908d8d', endColorstr='#908d8d',GradientType=0 );  
+
+    }
+    .td-linear-yellow-bg{
+        
+        background: #F8C600;  
+        background: -moz-linear-gradient(top,  #F8C600 0%, #FFEFB2 50%, #F8C600 100%);  
+        background: -webkit-linear-gradient(top,  #F8C600 0%,#FFEFB2 50%,#F8C600 100%);  
+        background: linear-gradient(to bottom,  #F8C600 0%,#FFEFB2 50%,#F8C600 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8C600', endColorstr='#FFEFB2',GradientType=0 );  
+    
+    }
+    
+    .economic-status-table-inner {
+        width: 100%;
+        margin: auto;
+
+        display: flex;
+    }
+    .economic-status-table-scroll{
+        height: 400px;
+        /* overflow: hidden; */
+        overflow-y: scroll;
+    }
+
+    .economic-status-table-inner table{
+        border-collapse: separate;
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        width: 100%;
+    }
+    .economic-status-table-inner table td, .economic-status-table-inner table th{
+        height: 30px;
+        width: 90px;
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+    }
+
+    .economic-status-toptable{
+        border-spacing: 0px 10px !important;
+    }
+    .economic-status-btmtable-flex{
+        display: flex;
+        column-gap: 11px;
+    }
+    .economic-status-btmtable-box{
+        width: 49%;
+    }
+    .economic-status-btmtable{
+        border-spacing: 2px !important;
+    }
+    .economic-status-btmtable-tdbg{
+        background: #E8E8E8 !important;
+    }
+    /* Economis Status end */
+
+    /* SDG Model Window start */
+    .helth-well-box-inner{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        justify-content: center;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .helth-well-box{
+        padding: 10px;
+        background: #4C9E3A;
+        height: 110px;
+        width: 110px;
+        border-radius: 6px;
+    }
+    .helth-well-box-text{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .helth-well-box-title{
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        margin-right: 10px;
+    }
+    .helth-well-box-subtitle{
+        font-size: 8px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .helth-well-box-img{
+        text-align: center;
+        margin-top: 20px
+    }
+
+    .helth-well-info-section{
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .helth-well-links-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 15px;
+        row-gap: 10px;
+        background: #F0F1F3;
+        border: 1px solid #9FBAFF;
+        border-radius: 5px;
+
+        -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+        -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+        box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.27);
+    }
+    
+    .helth-well-links{
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .sdg-subgoals-table-outer{
+        margin-bottom: 25%;
+    }
+
+    /* SDG Model Window end */
+
+}
+
+@media (max-width: 320px) {
+    .profile-info-box {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ADADAD;
+        border-radius: 6px;
+        width: 137px;
+    }
+
+    .know-family-box-inner {
+        border-radius: 6px;
+        color: #000;
+        width: 100%;
+        padding: 3px;
+    }
+
+    .info-section {
+        font-size: 9px;
+        font-weight: 500;
+        margin-bottom: 36%;
+    }
+
+    .family-amenities-box {
+        padding: 10px;
+        border-radius: 6px;
+        width: 137px;
+    }
+    .family-amenities-title .counter-icons {
+        margin-right: 10px;
+    }
+
+    .economic-status-table-inner {
+        width: 100%;
+        margin: auto;
+
+        display: flex;
+    }
+    .economic-status-table-scroll{
+        height: 350px;
+        /* overflow: hidden; */
+        overflow-y: scroll;
+    }
+    .economic-status-table-inner table {
+        border-collapse: separate;
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        width: 100%;
+    }
+    .economic-status-table-inner table td, .economic-status-table-inner table th {
+        /* height: 30px; */
+        width: 90px;
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+    }
+    .economic-status-small-td{
+        width: 70px !important;
+    }
+    .bottm-marign{margin-bottom: 0% !important;}
+}
+/*Toggle Button start */
+
+.leftfloat{float: left;
+    width: 56%;}
+    
+  

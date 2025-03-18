@@ -218,3 +218,8 @@ body {
 .gamescreen-background-color {
   background-color: rgb(3, 30, 39, 0.5) !important;
 }
+
+.main-container-scroll {
+  overflow: auto;
+  height: 85vh;
+}

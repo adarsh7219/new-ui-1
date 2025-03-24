@@ -2,6 +2,16 @@ body {
   background-color: #010e12 !important;
 }
 
+p {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.m-left-1 {
+  margin-left: 4px;
+
+}
+
 .white-title {
   color: white !important;
 }
@@ -41,6 +51,11 @@ body {
   text-align: center;
 }
 
+.icon-box-badge {
+  width: 30px;
+  height: 30px;
+}
+
 .flex-wrap {
   flex-wrap: wrap !important;
 }
@@ -68,10 +83,12 @@ body {
 
 .navbar-theme {
   background-color: #022838 !important;
+  border: none !important;
+
 }
 
 .tab-color-background {
-  background-color: #3a7ca5 !important;
+  background-color: #05628A !important;
 }
 
 .table-theme {
@@ -102,7 +119,12 @@ body {
 }
 
 .background-button {
-  background-color: #0a66ec !important;
+  background-color: #053c8a !important;
+}
+
+.blue-btn {
+  background-color: #053c8a !important;
+  color: white !important;
 }
 
 .navbar-card-color {
@@ -137,18 +159,47 @@ body {
   border: 1px solid #184d5f !important;
 }
 
+.background-popup-color {
+  background-color: #010e12 !important;
+}
+
+.box-shadow-none {
+  box-shadow: none !important;
+}
+
+.border-popup-card {
+  border: 1px solid #184d5f !important;
+}
+
 .game-screen-elements {
   gap: 10px !important;
   align-items: center !important;
   justify-content: center !important;
 }
 
+.gap {
+  gap: 4px !important;
+}
+
+.border-radius-none {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.border-radius-none-1 {
+  border-radius: 0px !important;
+}
+
 .element-box {
   width: 30.333333% !important;
 }
 
+.red-color {
+  color: #d3270d !important;
+}
+
 .border-bottom {
-  border-bottom: 1px solid #3d3a39 !important;
+  border-bottom: 1px solid #848484 !important;
 }
 
 .border-class {
@@ -222,4 +273,104 @@ body {
 .main-container-scroll {
   overflow: auto;
   height: 82vh;
+}
+
+
+.textarea-color {
+  border: 1px solid #9f9f9f !important;
+  background-color: #022838 !important;
+  color: white !important;
+}
+
+.textarea-color:hover {
+  background-color: #022838 !important;
+}
+
+.font-wight-300 {
+  font-weight: 300 !important;
+}
+
+.bg-green {
+  background-color: #3ddc84 !important;
+}
+
+.bg-blue {
+  background-color: #3b82f6 !important;
+}
+
+.bg-orange {
+  background-color: #ff8c42 !important;
+}
+
+.border-orange {
+  border: 1px solid #ff8c42 !important;
+}
+
+.justify-flex-start {
+  justify-content: flex-start !important;
+}
+
+.bg-yellow {
+  background-color: #ffcc00 !important;
+}
+
+.bg-red {
+  background-color: #e70000 !important;
+}
+
+.text-red {
+  color: rgb(64, 190, 64);
+}
+
+.text-red {
+  color: #cf0000;
+}
+
+.background-select {
+  background-color: transparent !important;
+  color: white !important;
+  border: 1px solid #184d5f !important;
+}
+
+.background-select:hover {
+  background-color: #04DDFC !important;
+  color: black !important;
+}
+
+.smoll-box-red {
+  background-color: #ff2100 !important;
+}
+
+.button-number-theme {
+  background-color: #cf0000 !important;
+}
+
+.popup-header-color-1 {
+  background-color: #044662 !important;
+}
+
+.leisure-box-holder-color label :checked~.icon-box {
+  background-color: #022838 !important;
+}
+
+.leisure-box-holder-color label .icon-box {
+  background-color: #038A99 !important;
+}
+
+.table-colume-color {
+  background-color: #00485f !important;
+  color: white !important;
+  border: none !important;
+}
+
+.rl-passport-hight {
+  height: 55px !important;
+}
+
+.comparing-health-input {
+  background-color: #114a60 !important;
+}
+
+.overflow-class {
+  overflow: hidden;
 }

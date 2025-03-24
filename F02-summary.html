@@ -1,1792 +1,1202 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>F02 Summary</title>
 
-    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="css/theme-change.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F02 Summary</title>
 
-    <link href="css/style.css" rel="stylesheet" />
+  <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="css/theme-change.css" />
 
-    <link href="css/06-family-finance.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
 
-    <link href="css/09liveslinks.css" rel="stylesheet" />
+  <link href="css/06-family-finance.css" rel="stylesheet" />
 
-    <link href="css/02-create-life-with-sdg.css" rel="stylesheet" />
+  <link href="css/09liveslinks.css" rel="stylesheet" />
 
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
+  <link href="css/02-create-life-with-sdg.css" rel="stylesheet" />
 
-  <body>
-    <header class="sticky-top">
-      <nav class="navbar navbar-light navbar-expand-lg navbar-theme">
-        <div class="container-fluid">
-          <div class="d-flex">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#navbarOffcanvasLg"
-              aria-controls="navbarOffcanvasLg"
-            >
-              <i class="fas fa-chevron-left"></i>
-            </button>
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-            <div class="navbar-brand">
-              <div class="header-button">
-                <button class="btn header-btn background-button">
-                  <span class="white-title"> Family Finance</span>
-                </button>
-                <button class="btn header-btn">Business Finance</button>
-              </div>
+<body>
+  <header class="sticky-top">
+    <nav class="navbar navbar-light navbar-expand-lg navbar-theme">
+      <div class="container-fluid">
+        <div class="d-flex">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
+            aria-controls="navbarOffcanvasLg">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+
+          <div class="navbar-brand">
+            <div class="header-button background-popup-color">
+              <button class="btn header-btn background-button">
+                <span class="white-title"> Family Finance</span>
+              </button>
+              <button class="btn header-btn ">
+                <p class="table-theme">Business Finance</p>
+              </button>
             </div>
           </div>
+        </div>
 
-          <!-- <ul class="nav right-nav d-flex">
+        <!-- <ul class="nav right-nav d-flex">
                     <li class="nav-item ">
                         <button class="btn " href="#"><i class="fa fa-times" aria-hidden="true"></i></button>
                     </li>
                 </ul> -->
 
-          <div
-            class="offcanvas offcanvas-start"
-            tabindex="-1"
-            id="navbarOffcanvasLg"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <div>
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                  <img src="images/Logo.svg" alt="Gameplay" />
-                </h5>
-                <p class="offcanvas-title">ThoughtCraft</p>
-              </div>
-              <button
-                type="button"
-                class="btn-close text-reset"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              >
-                <i class="fa fa-times" aria-hidden="true"></i>
-              </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="navbarOffcanvasLg"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <div>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <img src="images/Logo.svg" alt="Gameplay" />
+              </h5>
+              <p class="offcanvas-title">ThoughtCraft</p>
             </div>
-            <div class="offcanvas-body">
-              <ul
-                class="navbar-nav offcanvas-nav justify-content-end flex-grow-1 pe-3 content-font"
-              >
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">
-                    <img src="images/globe-gray.svg" class="me-3" />
-                    <span>
-                      <p class="mb-0">Set Language</p>
-                      <p class="mb-0 fw-light">Set your default language</p>
-                    </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <img src="images/flag.svg" class="me-3" />
-                    <span>
-                      <p class="mb-0">Choose Country</p>
-                      <p class="mb-0 fw-light">
-                        You can choose a different country as your registered
-                        country.
-                      </p>
-                    </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <img src="images/screenn-setting.svg" class="me-3" />
-                    <span>
-                      <p class="mb-0">Born Screen Settings</p>
-                      <p class="mb-0 fw-light">
-                        Select a screen to see in the game
-                      </p>
-                    </span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <img src="images/log-out.svg" class="me-3" /> Log Out
-                  </a>
-                </li>
-              </ul>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav offcanvas-nav justify-content-end flex-grow-1 pe-3 content-font">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <img src="images/globe-gray.svg" class="me-3" />
+                  <span>
+                    <p class="mb-0">Set Language</p>
+                    <p class="mb-0 fw-light">Set your default language</p>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img src="images/flag.svg" class="me-3" />
+                  <span>
+                    <p class="mb-0">Choose Country</p>
+                    <p class="mb-0 fw-light">
+                      You can choose a different country as your registered
+                      country.
+                    </p>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img src="images/screenn-setting.svg" class="me-3" />
+                  <span>
+                    <p class="mb-0">Born Screen Settings</p>
+                    <p class="mb-0 fw-light">
+                      Select a screen to see in the game
+                    </p>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img src="images/log-out.svg" class="me-3" /> Log Out
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="clearfix"></div>
+
+  <main>
+    <section class="container white-title">
+      <section class="tab-section-outer">
+        <div class="tab-panel-inner">
+          <div class="container">
+            <ul class="nav nav-fill nav-justified nav-tabs tabnav-btn" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="activ nav-link tab-color-background  white-title" id="home-tab" data-bs-toggle="tab"
+                  data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                  Summary
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                  role="tab" aria-controls="profile" aria-selected="false">
+                  Expenditures
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button"
+                  role="tab" aria-controls="messages" aria-selected="false">
+                  Investments
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button"
+                  role="tab" aria-controls="settings" aria-selected="false">
+                  Loans
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="tab-content-outer">
+                  <div class="summery-tab-row-outer">
+                    <div class="summery-tab-row-inner box-shadow border-popup-card">
+                      <div class="summery-tab-row-head popup-header-color-1">
+                        <p class="mb-0">Income (Per month)</p>
+                      </div>
+                      <div class="summery-tab-row-content">
+                        <div class="col-6 summery-tab-sumbox">
+                          <p class="fw-medium mb-0">NG</p>
+                          <p class="mb-0">0 NGN</p>
+                        </div>
+                        <div class="col-6 summery-tab-sumbox">
+                          <p class="fw-medium mb-0">IN</p>
+                          <p class="mb-0">0 INR</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="summery-tab-row-inner box-shadow border-popup-card">
+                      <div class="summery-tab-row-head popup-header-color-1">
+                        <p class="mb-0">Cash / Savings (Per year)</p>
+                      </div>
+                      <div class="summery-tab-row-content">
+                        <div class="col-6 summery-tab-sumbox">
+                          <p class="fw-medium mb-0">NG</p>
+                          <p class="mb-0">65.8 K NGN</p>
+                        </div>
+                        <div class="col-6 summery-tab-sumbox">
+                          <p class="fw-medium mb-0">IN</p>
+                          <p class="mb-0">12.0 K INR</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="summery-tab-row-inner box-shadow border-popup-card">
+                      <div class="summery-tab-row-head popup-header-color-1">
+                        <p class="mb-0">Investments</p>
+                      </div>
+                      <div class="summery-tab-row-content">
+                        <div class="col-6 summery-tab-sumbox">
+                          <p class="fw-medium mb-0">NG</p>
+                          <p class="mb-0">0 NGN</p>
+                        </div>
+                        <div class="col-6 summery-tab-sumbox">
+                          <p class="fw-medium mb-0">IN</p>
+                          <p class="mb-0">0 INR</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="summery-tab-row-inner box-shadow border-popup-card">
+                      <div class="summery-tab-row-head popup-header-color-1">
+                        <p class="mb-0">Liabilities / Loans</p>
+                      </div>
+                      <div class="summery-tab-row-content">
+                        <div class="col-6 summery-tab-sumbox">
+                          <p class="fw-medium mb-0">NG</p>
+                          <p class="mb-0">483.3 K NGN</p>
+                        </div>
+                        <div class="col-6 summery-tab-sumbox">
+                          <p class="fw-medium mb-0">IN</p>
+                          <p class="mb-0">87.9 K INR</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="tab-content-outer">
+                  <div class="summery-tab-row-outer">
+                    <div class="summery-tab-row-inner box-shadow">
+                      <div class="summery-tab-row-head background-color-web">
+                        <p class="mb-0">
+                          <img src="images/06-family-finance/money.svg" class="me-1" />
+                          Expenditures (Per month)
+                        </p>
+                      </div>
+                      <div class="summery-tab-row-content">
+                        <div class="col-6 summery-tab-expbox">
+                          <p class="fw-medium mb-0">Diet</p>
+                          <p class="mb-0">Meager: 20,338 NGN</p>
+                        </div>
+                        <div class="col-6 summery-tab-expbox">
+                          <p class="fw-medium mb-0">Charity</p>
+                          <p class="mb-0">Nothing: 0 NGN</p>
+                        </div>
+                        <div class="col-6 summery-tab-expbox">
+                          <p class="fw-medium mb-0">Other</p>
+                          <p class="mb-0">11,439.92 NGN</p>
+                        </div>
+                        <div class="col-6 summery-tab-expbox">
+                          <p class="fw-medium mb-0">Shelter</p>
+                          <p class="mb-0">Simplest Shared: 12,711 NGN</p>
+                        </div>
+                        <div class="col-6 summery-tab-expbox">
+                          <p class="fw-medium mb-0">Consumable Items</p>
+                          <p class="mb-0">Miserly: 1,271 NGN</p>
+                        </div>
+                        <div class="col-6 summery-tab-expbox">
+                          <button class="btn border-0 background-button white-title" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Change Expenditure
+                          </button>
+                        </div>
+                      </div>
+
+                      <div class="summery-tab-row-bottom">
+                        <p class="mb-0">Total expenditures (Per month)</p>
+                        <p class="mb-0 fw-medium">45.8 K NGN</p>
+                        <p class="mb-0 fw-medium">111 USD</p>
+                        <div class="summery-tab-btm-btn">
+                          <button href="F04-get-loan.html" class="btn border-0 background-button white-title"
+                            data-bs-toggle="modal" data-bs-target="#getaloan">
+                            Get A Loan
+                          </button>
+                          <button href="F05-invest-your-money.html" class="btn border-0 background-button white-title"
+                            data-bs-toggle="modal" data-bs-target="#investyourmoney">
+                            Invest Your Money
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+                <div class="tab-content-outer">
+                  <div class="summery-tab-row-outer">
+                    <div class="summery-tab-row-inner box-shadow">
+                      <div class="d-flex justify-content-between summery-tab-row-head background-color-web">
+                        <p class="mb-0">Land</p>
+                        <p class="mb-0">Years Completed: 10</p>
+                      </div>
+                      <div class="summery-tab-row-content">
+                        <div class="summery-tab-sumbox investment-row-outer">
+                          <div class="investment-row-holder mb-2">
+                            <div class="investment-leftlabel">
+                              <label for="totalinvestedamount" class="col-form-label fw-bold">Total Invested
+                                Amount:</label>
+                            </div>
+                            <div class="investment-rightbox">
+                              <input type="text" id="totalinvestedamount" class="form-control"
+                                aria-describedby="investedamountHelpInline" />
+                            </div>
+                          </div>
+
+                          <div class="investment-row-holder mb-2">
+                            <div class="investment-leftlabel">
+                              <label for="totalbalance" class="col-form-label fw-bold">Total Balance:</label>
+                            </div>
+                            <div class="investment-rightbox">
+                              <input type="text" id="totalbalance" class="form-control"
+                                aria-describedby="totalbalanceHelpInline" />
+                            </div>
+                          </div>
+
+                          <div class="investment-row-holder mb-2">
+                            <div class="innvestment-tab-amountholder">
+                              <input type="text" class="form-control" id="enteramount"
+                                placeholder="Please enter amount here..." aria-describedby="investedamountHelpInline" />
+                            </div>
+                            <div class="text-end innvestment-tab-btn">
+                              <button class="btn background-button white-title border-0">
+                                Withdraw
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="summery-tab-row-inner box-shadow">
+                      <div class="d-flex justify-content-between summery-tab-row-head background-color-web">
+                        <p class="mb-0">Medium Risk Stock</p>
+                        <p class="mb-0">Years Completed: 10</p>
+                      </div>
+                      <div class="summery-tab-row-content">
+                        <div class="summery-tab-sumbox investment-row-outer">
+                          <div class="investment-row-holder mb-2">
+                            <div class="investment-leftlabel">
+                              <label for="totalinvestedamount" class="col-form-label fw-bold">Total Invested
+                                Amount:</label>
+                            </div>
+                            <div class="investment-rightbox">
+                              <input type="text" id="totalinvestedamount" class="form-control"
+                                aria-describedby="investedamountHelpInline" />
+                            </div>
+                          </div>
+
+                          <div class="investment-row-holder mb-2">
+                            <div class="investment-leftlabel">
+                              <label for="totalbalance" class="col-form-label fw-bold">Total Balance:</label>
+                            </div>
+                            <div class="investment-rightbox">
+                              <input type="text" id="totalbalance" class="form-control"
+                                aria-describedby="totalbalanceHelpInline" />
+                            </div>
+                          </div>
+
+                          <div class="investment-row-holder mb-2">
+                            <div class="innvestment-tab-amountholder">
+                              <input type="text" class="form-control" id="enteramount"
+                                placeholder="Please enter amount here..." aria-describedby="investedamountHelpInline" />
+                            </div>
+                            <div class="text-end innvestment-tab-btn">
+                              <button class="btn border-0 background-button white-title">
+                                Withdraw
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+                <div class="tab-content-outer">
+                  <p class="tab-content-title">Loans</p>
+
+                  <div class="summery-tab-row-outer">
+                    <div class="dropdown summery-dropdown mb-3">
+                      <button class="btn dropdown-toggle w-100 border-1" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Business Loan
+                      </button>
+                      <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
+                        <li>
+                          <button class="dropdown-item" href="#">SDG</button>
+                        </li>
+                        <li>
+                          <button class="dropdown-item" href="#">
+                            Happiness
+                          </button>
+                        </li>
+                        <li>
+                          <button class="dropdown-item" href="#">
+                            Purchasing Power Parity (PPP)
+                          </button>
+                        </li>
+                        <li>
+                          <button class="dropdown-item" href="#">
+                            Human Development Index (HDI)
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="summery-tab-row-inner box-shadow">
+                      <div class="d-flex justify-content-between summery-tab-row-head background-color-web">
+                        <p class="mb-0">1 Year Commercial</p>
+                        <p class="mb-0">Years Completed: 1</p>
+                      </div>
+                      <div class="summery-tab-row-content">
+                        <div class="summery-tab-sumbox investment-row-outer">
+                          <div class="investment-row-holder mb-2">
+                            <div class="investment-leftlabel">
+                              <label for="totalinvestedamount" class="col-form-label fw-bold">Total Invested
+                                Amount:</label>
+                            </div>
+                            <div class="investment-rightbox">
+                              <input type="text" id="totalinvestedamount" class="form-control"
+                                aria-describedby="investedamountHelpInline" />
+                            </div>
+                          </div>
+
+                          <div class="investment-row-holder mb-2">
+                            <div class="investment-leftlabel">
+                              <label for="totalbalance" class="col-form-label fw-bold">Total Balance:</label>
+                            </div>
+                            <div class="investment-rightbox">
+                              <input type="text" id="totalbalance" class="form-control"
+                                aria-describedby="totalbalanceHelpInline" />
+                            </div>
+                          </div>
+
+                          <div class="investment-row-holder mb-2">
+                            <div class="innvestment-tab-amountholder">
+                              <input type="text" class="form-control" id="enteramount"
+                                placeholder="Please enter amount here..." aria-describedby="investedamountHelpInline" />
+                            </div>
+                            <div class="text-end innvestment-tab-btn">
+                              <button class="btn border-0 background-button white-title">
+                                Pay Off
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <div class="clearfix"></div>
 
-    <main>
-      <section class="container white-title">
-        <section class="tab-section-outer">
-          <div class="tab-panel-inner">
-            <div class="container">
-              <ul
-                class="nav nav-fill nav-justified nav-tabs tabnav-btn"
-                id="myTab"
-                role="tablist"
-              >
-                <li class="nav-item" role="presentation">
-                  <button
-                    class="activ nav-link background-button white-title"
-                    id="home-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#home"
-                    type="button"
-                    role="tab"
-                    aria-controls="home"
-                    aria-selected="true"
-                  >
-                    Summary
-                  </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button
-                    class="nav-link"
-                    id="profile-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#profile"
-                    type="button"
-                    role="tab"
-                    aria-controls="profile"
-                    aria-selected="false"
-                  >
-                    Expenditures
-                  </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button
-                    class="nav-link"
-                    id="messages-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#messages"
-                    type="button"
-                    role="tab"
-                    aria-controls="messages"
-                    aria-selected="false"
-                  >
-                    Investments
-                  </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button
-                    class="nav-link"
-                    id="settings-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#settings"
-                    type="button"
-                    role="tab"
-                    aria-controls="settings"
-                    aria-selected="false"
-                  >
-                    Loans
-                  </button>
-                </li>
-              </ul>
-              <div class="tab-content">
-                <div
-                  class="tab-pane active"
-                  id="home"
-                  role="tabpanel"
-                  aria-labelledby="home-tab"
-                >
-                  <div class="tab-content-outer">
-                    <div class="summery-tab-row-outer">
-                      <div class="summery-tab-row-inner box-shadow">
-                        <div class="summery-tab-row-head background-color-web">
-                          <p class="mb-0">Income (Per month)</p>
-                        </div>
-                        <div class="summery-tab-row-content">
-                          <div class="col-6 summery-tab-sumbox">
-                            <p class="fw-medium mb-0">NG</p>
-                            <p class="mb-0">0 NGN</p>
-                          </div>
-                          <div class="col-6 summery-tab-sumbox">
-                            <p class="fw-medium mb-0">IN</p>
-                            <p class="mb-0">0 INR</p>
-                          </div>
-                        </div>
-                      </div>
+        <!-- Change Expenditure Popup start -->
 
-                      <div class="summery-tab-row-inner box-shadow">
-                        <div class="summery-tab-row-head background-color-web">
-                          <p class="mb-0">Cash / Savings (Per year)</p>
-                        </div>
-                        <div class="summery-tab-row-content">
-                          <div class="col-6 summery-tab-sumbox">
-                            <p class="fw-medium mb-0">NG</p>
-                            <p class="mb-0">65.8 K NGN</p>
-                          </div>
-                          <div class="col-6 summery-tab-sumbox">
-                            <p class="fw-medium mb-0">IN</p>
-                            <p class="mb-0">12.0 K INR</p>
-                          </div>
-                        </div>
-                      </div>
+        <div class="modal fade popup-modal-bg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  X
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel">
+                  <img src="images/Logo.svg" alt="Gameplay" />
+                </h5>
+              </div>
 
-                      <div class="summery-tab-row-inner box-shadow">
-                        <div class="summery-tab-row-head background-color-web">
-                          <p class="mb-0">Investments</p>
-                        </div>
-                        <div class="summery-tab-row-content">
-                          <div class="col-6 summery-tab-sumbox">
-                            <p class="fw-medium mb-0">NG</p>
-                            <p class="mb-0">0 NGN</p>
-                          </div>
-                          <div class="col-6 summery-tab-sumbox">
-                            <p class="fw-medium mb-0">IN</p>
-                            <p class="mb-0">0 INR</p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="summery-tab-row-inner box-shadow">
-                        <div class="summery-tab-row-head background-color-web">
-                          <p class="mb-0">Liabilities / Loans</p>
-                        </div>
-                        <div class="summery-tab-row-content">
-                          <div class="col-6 summery-tab-sumbox">
-                            <p class="fw-medium mb-0">NG</p>
-                            <p class="mb-0">483.3 K NGN</p>
-                          </div>
-                          <div class="col-6 summery-tab-sumbox">
-                            <p class="fw-medium mb-0">IN</p>
-                            <p class="mb-0">87.9 K INR</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              <div class="modal-body text-white">
+                <div class="page-heading">
+                  <p class="mb-2">Change Expenditure</p>
                 </div>
 
-                <div
-                  class="tab-pane"
-                  id="profile"
-                  role="tabpanel"
-                  aria-labelledby="profile-tab"
-                >
-                  <div class="tab-content-outer">
-                    <div class="summery-tab-row-outer">
-                      <div class="summery-tab-row-inner box-shadow">
-                        <div class="summery-tab-row-head background-color-web">
-                          <p class="mb-0">
-                            <img
-                              src="images/06-family-finance/money.svg"
-                              class="me-1"
-                            />
-                            Expenditures (Per month)
-                          </p>
-                        </div>
-                        <div class="summery-tab-row-content">
-                          <div class="col-6 summery-tab-expbox">
-                            <p class="fw-medium mb-0">Diet</p>
-                            <p class="mb-0">Meager: 20,338 NGN</p>
-                          </div>
-                          <div class="col-6 summery-tab-expbox">
-                            <p class="fw-medium mb-0">Charity</p>
-                            <p class="mb-0">Nothing: 0 NGN</p>
-                          </div>
-                          <div class="col-6 summery-tab-expbox">
-                            <p class="fw-medium mb-0">Other</p>
-                            <p class="mb-0">11,439.92 NGN</p>
-                          </div>
-                          <div class="col-6 summery-tab-expbox">
-                            <p class="fw-medium mb-0">Shelter</p>
-                            <p class="mb-0">Simplest Shared: 12,711 NGN</p>
-                          </div>
-                          <div class="col-6 summery-tab-expbox">
-                            <p class="fw-medium mb-0">Consumable Items</p>
-                            <p class="mb-0">Miserly: 1,271 NGN</p>
-                          </div>
-                          <div class="col-6 summery-tab-expbox">
-                            <button
-                              class="btn border-0 background-button white-title"
-                              data-bs-toggle="modal"
-                              data-bs-target="#exampleModal"
-                            >
-                              Change Expenditure
-                            </button>
-                          </div>
-                        </div>
-
-                        <div class="summery-tab-row-bottom">
-                          <p class="mb-0">Total expenditures (Per month)</p>
-                          <p class="mb-0 fw-medium">45.8 K NGN</p>
-                          <p class="mb-0 fw-medium">111 USD</p>
-                          <div class="summery-tab-btm-btn">
-                            <button
-                              href="F04-get-loan.html"
-                              class="btn border-0 background-button white-title"
-                              data-bs-toggle="modal"
-                              data-bs-target="#getaloan"
-                            >
-                              Get A Loan
-                            </button>
-                            <button
-                              href="F05-invest-your-money.html"
-                              class="btn border-0 background-button white-title"
-                              data-bs-toggle="modal"
-                              data-bs-target="#investyourmoney"
-                            >
-                              Invest Your Money
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="page-heading fw-normal content-font pt-2">
+                  <p>Expenses Calculator</p>
                 </div>
 
-                <div
-                  class="tab-pane"
-                  id="messages"
-                  role="tabpanel"
-                  aria-labelledby="messages-tab"
-                >
-                  <div class="tab-content-outer">
-                    <div class="summery-tab-row-outer">
-                      <div class="summery-tab-row-inner box-shadow">
-                        <div
-                          class="d-flex justify-content-between summery-tab-row-head background-color-web"
-                        >
-                          <p class="mb-0">Land</p>
-                          <p class="mb-0">Years Completed: 10</p>
-                        </div>
-                        <div class="summery-tab-row-content">
-                          <div class="summery-tab-sumbox investment-row-outer">
-                            <div class="investment-row-holder mb-2">
-                              <div class="investment-leftlabel">
-                                <label
-                                  for="totalinvestedamount"
-                                  class="col-form-label fw-bold"
-                                  >Total Invested Amount:</label
-                                >
-                              </div>
-                              <div class="investment-rightbox">
-                                <input
-                                  type="text"
-                                  id="totalinvestedamount"
-                                  class="form-control"
-                                  aria-describedby="investedamountHelpInline"
-                                />
-                              </div>
-                            </div>
+                <div class="calculator-table-outer table-responsive">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col">Type</th>
+                        <th scope="col">USD</th>
+                        <th scope="col">INR</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Optimal</td>
+                        <td>838.66</td>
+                        <td>62,723.05</td>
+                      </tr>
+                      <tr>
+                        <td>Moderate</td>
+                        <td>1,677.31</td>
+                        <td>125,466.01</td>
+                      </tr>
+                      <tr>
+                        <td>Token</td>
+                        <td>185.38</td>
+                        <td>13,864.57</td>
+                      </tr>
+                      <tr>
+                        <td>Miserly</td>
+                        <td>6.99</td>
+                        <td>522.78</td>
+                      </tr>
+                      <tr>
+                        <td>Other</td>
+                        <td>2,522.66</td>
+                        <td>188,691.85</td>
+                      </tr>
 
-                            <div class="investment-row-holder mb-2">
-                              <div class="investment-leftlabel">
-                                <label
-                                  for="totalbalance"
-                                  class="col-form-label fw-bold"
-                                  >Total Balance:</label
-                                >
-                              </div>
-                              <div class="investment-rightbox">
-                                <input
-                                  type="text"
-                                  id="totalbalance"
-                                  class="form-control"
-                                  aria-describedby="totalbalanceHelpInline"
-                                />
-                              </div>
-                            </div>
-
-                            <div class="investment-row-holder mb-2">
-                              <div class="innvestment-tab-amountholder">
-                                <input
-                                  type="text"
-                                  class="form-control"
-                                  id="enteramount"
-                                  placeholder="Please enter amount here..."
-                                  aria-describedby="investedamountHelpInline"
-                                />
-                              </div>
-                              <div class="text-end innvestment-tab-btn">
-                                <button
-                                  class="btn background-button white-title border-0"
-                                >
-                                  Withdraw
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="summery-tab-row-inner box-shadow">
-                        <div
-                          class="d-flex justify-content-between summery-tab-row-head background-color-web"
-                        >
-                          <p class="mb-0">Medium Risk Stock</p>
-                          <p class="mb-0">Years Completed: 10</p>
-                        </div>
-                        <div class="summery-tab-row-content">
-                          <div class="summery-tab-sumbox investment-row-outer">
-                            <div class="investment-row-holder mb-2">
-                              <div class="investment-leftlabel">
-                                <label
-                                  for="totalinvestedamount"
-                                  class="col-form-label fw-bold"
-                                  >Total Invested Amount:</label
-                                >
-                              </div>
-                              <div class="investment-rightbox">
-                                <input
-                                  type="text"
-                                  id="totalinvestedamount"
-                                  class="form-control"
-                                  aria-describedby="investedamountHelpInline"
-                                />
-                              </div>
-                            </div>
-
-                            <div class="investment-row-holder mb-2">
-                              <div class="investment-leftlabel">
-                                <label
-                                  for="totalbalance"
-                                  class="col-form-label fw-bold"
-                                  >Total Balance:</label
-                                >
-                              </div>
-                              <div class="investment-rightbox">
-                                <input
-                                  type="text"
-                                  id="totalbalance"
-                                  class="form-control"
-                                  aria-describedby="totalbalanceHelpInline"
-                                />
-                              </div>
-                            </div>
-
-                            <div class="investment-row-holder mb-2">
-                              <div class="innvestment-tab-amountholder">
-                                <input
-                                  type="text"
-                                  class="form-control"
-                                  id="enteramount"
-                                  placeholder="Please enter amount here..."
-                                  aria-describedby="investedamountHelpInline"
-                                />
-                              </div>
-                              <div class="text-end innvestment-tab-btn">
-                                <button
-                                  class="btn border-0 background-button white-title"
-                                >
-                                  Withdraw
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                      <tr class="total-tr">
+                        <td class="total-td">Total</td>
+                        <td class="total-td">5,231</td>
+                        <td class="total-td">391,226.46</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-
-                <div
-                  class="tab-pane"
-                  id="settings"
-                  role="tabpanel"
-                  aria-labelledby="settings-tab"
-                >
-                  <div class="tab-content-outer">
-                    <p class="tab-content-title">Loans</p>
-
-                    <div class="summery-tab-row-outer">
-                      <div class="dropdown summery-dropdown mb-3">
-                        <button
-                          class="btn dropdown-toggle w-100 border-1"
-                          type="button"
-                          id="dropdownMenuButton1"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false"
-                        >
-                          Business Loan
+                <div class="save-bbtn-holder text-end mt-3">
+                  <button class="btn btn-linear-bg border-0">Save</button>
+                </div>
+                <div class="collapse-outer mt-3">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header acn-head-flex" id="headingOne">
+                        <img src="images/Charity/1.svg" class="acn-head-img" />
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Diet
                         </button>
-                        <ul
-                          class="dropdown-menu w-100"
-                          aria-labelledby="dropdownMenuButton1"
-                        >
-                          <li>
-                            <button class="dropdown-item" href="#">SDG</button>
-                          </li>
-                          <li>
-                            <button class="dropdown-item" href="#">
-                              Happiness
-                            </button>
-                          </li>
-                          <li>
-                            <button class="dropdown-item" href="#">
-                              Purchasing Power Parity (PPP)
-                            </button>
-                          </li>
-                          <li>
-                            <button class="dropdown-item" href="#">
-                              Human Development Index (HDI)
-                            </button>
-                          </li>
-                        </ul>
-                      </div>
-
-                      <div class="summery-tab-row-inner box-shadow">
-                        <div
-                          class="d-flex justify-content-between summery-tab-row-head background-color-web"
-                        >
-                          <p class="mb-0">1 Year Commercial</p>
-                          <p class="mb-0">Years Completed: 1</p>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <table class="table border-0">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col">GBP</th>
+                                <th scope="col">WON</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="optimal" />
+                                    <label class="form-check-label" for="optimal">
+                                      Optimal
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                      id="survival" />
+                                    <label class="form-check-label" for="survival">
+                                      Survival
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                      id="starvation" />
+                                    <label class="form-check-label" for="starvation">
+                                      Starvation
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="lavish" />
+                                    <label class="form-check-label" for="lavish">
+                                      Lavish
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="lorem" />
+                                    <label class="form-check-label" for="lorem">
+                                      Lorem
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                            </tbody>
+                          </table>
                         </div>
-                        <div class="summery-tab-row-content">
-                          <div class="summery-tab-sumbox investment-row-outer">
-                            <div class="investment-row-holder mb-2">
-                              <div class="investment-leftlabel">
-                                <label
-                                  for="totalinvestedamount"
-                                  class="col-form-label fw-bold"
-                                  >Total Invested Amount:</label
-                                >
-                              </div>
-                              <div class="investment-rightbox">
-                                <input
-                                  type="text"
-                                  id="totalinvestedamount"
-                                  class="form-control"
-                                  aria-describedby="investedamountHelpInline"
-                                />
-                              </div>
-                            </div>
+                      </div>
+                    </div>
 
-                            <div class="investment-row-holder mb-2">
-                              <div class="investment-leftlabel">
-                                <label
-                                  for="totalbalance"
-                                  class="col-form-label fw-bold"
-                                  >Total Balance:</label
-                                >
-                              </div>
-                              <div class="investment-rightbox">
-                                <input
-                                  type="text"
-                                  id="totalbalance"
-                                  class="form-control"
-                                  aria-describedby="totalbalanceHelpInline"
-                                />
-                              </div>
-                            </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header acn-head-flex" id="headingThree">
+                        <img src="images/Charity/2.svg" class="acn-head-img" />
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Charity
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <table class="table border-0">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col">GBP</th>
+                                <th scope="col">WON</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="optimal" />
+                                    <label class="form-check-label" for="optimal">
+                                      Optimal
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                      id="survival" />
+                                    <label class="form-check-label" for="survival">
+                                      Survival
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                      id="starvation" />
+                                    <label class="form-check-label" for="starvation">
+                                      Starvation
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="lavish" />
+                                    <label class="form-check-label" for="lavish">
+                                      Lavish
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="lorem" />
+                                    <label class="form-check-label" for="lorem">
+                                      Lorem
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
 
-                            <div class="investment-row-holder mb-2">
-                              <div class="innvestment-tab-amountholder">
-                                <input
-                                  type="text"
-                                  class="form-control"
-                                  id="enteramount"
-                                  placeholder="Please enter amount here..."
-                                  aria-describedby="investedamountHelpInline"
-                                />
-                              </div>
-                              <div class="text-end innvestment-tab-btn">
-                                <button
-                                  class="btn border-0 background-button white-title"
-                                >
-                                  Pay Off
-                                </button>
-                              </div>
-                            </div>
-                          </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header acn-head-flex" id="headingFour">
+                        <img src="images/Charity/3.svg" class="acn-head-img" />
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                          Shelter
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <table class="table border-0">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col">GBP</th>
+                                <th scope="col">WON</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="optimal" />
+                                    <label class="form-check-label" for="optimal">
+                                      Optimal
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                      id="survival" />
+                                    <label class="form-check-label" for="survival">
+                                      Survival
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                      id="starvation" />
+                                    <label class="form-check-label" for="starvation">
+                                      Starvation
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="lavish" />
+                                    <label class="form-check-label" for="lavish">
+                                      Lavish
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="lorem" />
+                                    <label class="form-check-label" for="lorem">
+                                      Lorem
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header acn-head-flex" id="headingFive">
+                        <img src="images/Charity/4.svg" class="acn-head-img" />
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          Consumables
+                        </button>
+                      </h2>
+                      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <table class="table border-0">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col">GBP</th>
+                                <th scope="col">WON</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="optimal" />
+                                    <label class="form-check-label" for="optimal">
+                                      Optimal
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                      id="survival" />
+                                    <label class="form-check-label" for="survival">
+                                      Survival
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                      id="starvation" />
+                                    <label class="form-check-label" for="starvation">
+                                      Starvation
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="lavish" />
+                                    <label class="form-check-label" for="lavish">
+                                      Lavish
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="lorem" />
+                                    <label class="form-check-label" for="lorem">
+                                      Lorem
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header acn-head-flex" id="headingFive">
+                        <img src="images/Charity/5.svg" class="acn-head-img" />
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          Other
+                        </button>
+                      </h2>
+                      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <table class="table border-0">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col">GBP</th>
+                                <th scope="col">WON</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="optimal" />
+                                    <label class="form-check-label" for="optimal">
+                                      Optimal
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                      id="survival" />
+                                    <label class="form-check-label" for="survival">
+                                      Survival
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                      id="starvation" />
+                                    <label class="form-check-label" for="starvation">
+                                      Starvation
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="lavish" />
+                                    <label class="form-check-label" for="lavish">
+                                      Lavish
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="lorem" />
+                                    <label class="form-check-label" for="lorem">
+                                      Lorem
+                                    </label>
+                                  </div>
+                                </td>
+                                <td>USD 15,721.53</td>
+                                <td>INR 17,15,721.53</td>
+                              </tr>
+                            </tbody>
+                          </table>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
 
-          <!-- Change Expenditure Popup start -->
-
-          <div
-            class="modal fade popup-modal-bg"
-            id="exampleModal"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
-            <div
-              class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-            >
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    X
-                  </button>
-                  <h5 class="modal-title" id="exampleModalLabel">
-                    <img src="images/Logo.svg" alt="Gameplay" />
-                  </h5>
-                </div>
-
-                <div class="modal-body text-white">
-                  <div class="page-heading">
-                    <p class="mb-2">Change Expenditure</p>
-                  </div>
-
-                  <div class="page-heading fw-normal content-font pt-2">
-                    <p>Expenses Calculator</p>
-                  </div>
-
-                  <div class="calculator-table-outer table-responsive">
-                    <table class="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">Type</th>
-                          <th scope="col">USD</th>
-                          <th scope="col">INR</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Optimal</td>
-                          <td>838.66</td>
-                          <td>62,723.05</td>
-                        </tr>
-                        <tr>
-                          <td>Moderate</td>
-                          <td>1,677.31</td>
-                          <td>125,466.01</td>
-                        </tr>
-                        <tr>
-                          <td>Token</td>
-                          <td>185.38</td>
-                          <td>13,864.57</td>
-                        </tr>
-                        <tr>
-                          <td>Miserly</td>
-                          <td>6.99</td>
-                          <td>522.78</td>
-                        </tr>
-                        <tr>
-                          <td>Other</td>
-                          <td>2,522.66</td>
-                          <td>188,691.85</td>
-                        </tr>
-
-                        <tr class="total-tr">
-                          <td class="total-td">Total</td>
-                          <td class="total-td">5,231</td>
-                          <td class="total-td">391,226.46</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div class="save-bbtn-holder text-end mt-3">
-                    <button class="btn btn-linear-bg border-0">Save</button>
-                  </div>
-                  <div class="collapse-outer mt-3">
-                    <div class="accordion" id="accordionExample">
-                      <div class="accordion-item">
-                        <h2
-                          class="accordion-header acn-head-flex"
-                          id="headingOne"
-                        >
-                          <img
-                            src="images/Charity/1.svg"
-                            class="acn-head-img"
-                          />
-                          <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne"
-                            aria-expanded="false"
-                            aria-controls="collapseOne"
-                          >
-                            Diet
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseOne"
-                          class="accordion-collapse collapse"
-                          aria-labelledby="headingOne"
-                          data-bs-parent="#accordionExample"
-                        >
-                          <div class="accordion-body">
-                            <table class="table border-0">
-                              <thead>
-                                <tr>
-                                  <th scope="col"></th>
-                                  <th scope="col">GBP</th>
-                                  <th scope="col">WON</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="optimal"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="optimal"
-                                      >
-                                        Optimal
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="survival"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="survival"
-                                      >
-                                        Survival
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="starvation"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="starvation"
-                                      >
-                                        Starvation
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="lavish"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="lavish"
-                                      >
-                                        Lavish
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="lorem"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="lorem"
-                                      >
-                                        Lorem
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="accordion-item">
-                        <h2
-                          class="accordion-header acn-head-flex"
-                          id="headingThree"
-                        >
-                          <img
-                            src="images/Charity/2.svg"
-                            class="acn-head-img"
-                          />
-                          <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree"
-                            aria-expanded="false"
-                            aria-controls="collapseThree"
-                          >
-                            Charity
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseThree"
-                          class="accordion-collapse collapse"
-                          aria-labelledby="headingThree"
-                          data-bs-parent="#accordionExample"
-                        >
-                          <div class="accordion-body">
-                            <table class="table border-0">
-                              <thead>
-                                <tr>
-                                  <th scope="col"></th>
-                                  <th scope="col">GBP</th>
-                                  <th scope="col">WON</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="optimal"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="optimal"
-                                      >
-                                        Optimal
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="survival"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="survival"
-                                      >
-                                        Survival
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="starvation"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="starvation"
-                                      >
-                                        Starvation
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="lavish"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="lavish"
-                                      >
-                                        Lavish
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="lorem"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="lorem"
-                                      >
-                                        Lorem
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="accordion-item">
-                        <h2
-                          class="accordion-header acn-head-flex"
-                          id="headingFour"
-                        >
-                          <img
-                            src="images/Charity/3.svg"
-                            class="acn-head-img"
-                          />
-                          <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour"
-                            aria-expanded="true"
-                            aria-controls="collapseFour"
-                          >
-                            Shelter
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseFour"
-                          class="accordion-collapse collapse show"
-                          aria-labelledby="headingFour"
-                          data-bs-parent="#accordionExample"
-                        >
-                          <div class="accordion-body">
-                            <table class="table border-0">
-                              <thead>
-                                <tr>
-                                  <th scope="col"></th>
-                                  <th scope="col">GBP</th>
-                                  <th scope="col">WON</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="optimal"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="optimal"
-                                      >
-                                        Optimal
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="survival"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="survival"
-                                      >
-                                        Survival
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="starvation"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="starvation"
-                                      >
-                                        Starvation
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="lavish"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="lavish"
-                                      >
-                                        Lavish
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="lorem"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="lorem"
-                                      >
-                                        Lorem
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="accordion-item">
-                        <h2
-                          class="accordion-header acn-head-flex"
-                          id="headingFive"
-                        >
-                          <img
-                            src="images/Charity/4.svg"
-                            class="acn-head-img"
-                          />
-                          <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseFive"
-                            aria-expanded="false"
-                            aria-controls="collapseFive"
-                          >
-                            Consumables
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseFive"
-                          class="accordion-collapse collapse"
-                          aria-labelledby="headingFive"
-                          data-bs-parent="#accordionExample"
-                        >
-                          <div class="accordion-body">
-                            <table class="table border-0">
-                              <thead>
-                                <tr>
-                                  <th scope="col"></th>
-                                  <th scope="col">GBP</th>
-                                  <th scope="col">WON</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="optimal"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="optimal"
-                                      >
-                                        Optimal
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="survival"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="survival"
-                                      >
-                                        Survival
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="starvation"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="starvation"
-                                      >
-                                        Starvation
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="lavish"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="lavish"
-                                      >
-                                        Lavish
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="lorem"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="lorem"
-                                      >
-                                        Lorem
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="accordion-item">
-                        <h2
-                          class="accordion-header acn-head-flex"
-                          id="headingFive"
-                        >
-                          <img
-                            src="images/Charity/5.svg"
-                            class="acn-head-img"
-                          />
-                          <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseFive"
-                            aria-expanded="false"
-                            aria-controls="collapseFive"
-                          >
-                            Other
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseFive"
-                          class="accordion-collapse collapse"
-                          aria-labelledby="headingFive"
-                          data-bs-parent="#accordionExample"
-                        >
-                          <div class="accordion-body">
-                            <table class="table border-0">
-                              <thead>
-                                <tr>
-                                  <th scope="col"></th>
-                                  <th scope="col">GBP</th>
-                                  <th scope="col">WON</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="optimal"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="optimal"
-                                      >
-                                        Optimal
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="survival"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="survival"
-                                      >
-                                        Survival
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="starvation"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="starvation"
-                                      >
-                                        Starvation
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="lavish"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="lavish"
-                                      >
-                                        Lavish
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div class="form-check">
-                                      <input
-                                        class="form-check-input"
-                                        type="radio"
-                                        name="flexRadioDefault"
-                                        id="lorem"
-                                      />
-                                      <label
-                                        class="form-check-label"
-                                        for="lorem"
-                                      >
-                                        Lorem
-                                      </label>
-                                    </div>
-                                  </td>
-                                  <td>USD 15,721.53</td>
-                                  <td>INR 17,15,721.53</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- <div class="modal-footer">
+              <!-- <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                 <button type="button" class="btn btn-primary">Save changes</button>
                             </div> -->
-              </div>
             </div>
           </div>
-          <!-- Change Expenditure Popup end -->
+        </div>
+        <!-- Change Expenditure Popup end -->
 
-          <!-- F04 GetLoan Popup start -->
+        <!-- F04 GetLoan Popup start -->
 
-          <div
-            class="modal fade popup-modal-bg"
-            id="getaloan"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
-            <div
-              class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-            >
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    X
-                  </button>
-                  <h5 class="modal-title" id="exampleModalLabel">
-                    <img src="images/Logo.svg" alt="Gameplay" />
-                  </h5>
-                </div>
+        <div class="modal fade popup-modal-bg" id="getaloan" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  X
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel">
+                  <img src="images/Logo.svg" alt="Gameplay" />
+                </h5>
+              </div>
 
-                <div class="modal-body text-white">
-                  <section class="container">
-                    <div class="loan-status-outer mt-3">
-                      <div class="loan-status-holder">
-                        <form>
-                          <div class="loan-range-slider">
-                            <p class="content-font fw-medium mb-1">
-                              Shark Loan (Interest Rate 0)
-                            </p>
-                            <div class="d-flex justify-content-between">
-                              <small class="content-font fw-medium">0</small>
-                              <small class="content-font fw-medium"
-                                >70,781</small
-                              >
-                            </div>
-                            <input
-                              type="range"
-                              class=""
-                              min="0"
-                              max="5"
-                              step="0.5"
-                              id="customRange3"
-                            />
-                            <div class="text-end">
-                              <span
-                                class="content-font fw-bold text-dark-orange"
-                                >0 USD</span
-                              >
-                              <button
-                                class="btn btn-linear-bg-orange loan-status-btn text-white border-0"
-                              >
-                                Loan
-                              </button>
-                            </div>
+              <div class="modal-body text-white">
+                <section class="container">
+                  <div class="loan-status-outer mt-3">
+                    <div class="loan-status-holder">
+                      <form>
+                        <div class="loan-range-slider">
+                          <p class="content-font fw-medium mb-1">
+                            Shark Loan (Interest Rate 0)
+                          </p>
+                          <div class="d-flex justify-content-between">
+                            <small class="content-font fw-medium">0</small>
+                            <small class="content-font fw-medium">70,781</small>
                           </div>
-
-                          <div class="loan-range-slider">
-                            <p class="content-font fw-medium mb-1">
-                              Family Loan (Interest Rate 0)
-                            </p>
-                            <div class="d-flex justify-content-between">
-                              <small class="content-font fw-medium">0</small>
-                              <small class="content-font fw-medium"
-                                >70,781</small
-                              >
-                            </div>
-                            <input
-                              type="range"
-                              class=""
-                              min="0"
-                              max="5"
-                              step="0.5"
-                              id="customRange3"
-                            />
-                            <div class="text-end">
-                              <span class="content-font fw-bold text-dark-blue"
-                                >0 USD</span
-                              >
-                              <button
-                                class="btn btn-linear-bg loan-status-btn border-0"
-                              >
-                                Loan
-                              </button>
-                            </div>
+                          <input type="range" class="" min="0" max="5" step="0.5" id="customRange3" />
+                          <div class="text-end">
+                            <span class="content-font fw-bold text-dark-orange">0 USD</span>
+                            <button class="btn btn-linear-bg-orange loan-status-btn text-white border-0">
+                              Loan
+                            </button>
                           </div>
+                        </div>
 
-                          <div class="loan-range-slider">
-                            <p class="content-font fw-medium mb-1">
-                              1 Year Commercial (Interest Rate 10)
-                            </p>
-                            <div class="d-flex justify-content-between">
-                              <small class="content-font fw-medium">0</small>
-                              <small class="content-font fw-medium"
-                                >70,781</small
-                              >
-                            </div>
-                            <input
-                              type="range"
-                              class=""
-                              min="0"
-                              max="5"
-                              step="0.5"
-                              id="customRange3"
-                            />
-                            <div class="text-end">
-                              <span class="content-font fw-bold text-dark-blue"
-                                >0 USD</span
-                              >
-                              <button
-                                class="btn btn-linear-bg loan-status-btn border-0"
-                              >
-                                Loan
-                              </button>
-                            </div>
+                        <div class="loan-range-slider">
+                          <p class="content-font fw-medium mb-1">
+                            Family Loan (Interest Rate 0)
+                          </p>
+                          <div class="d-flex justify-content-between">
+                            <small class="content-font fw-medium">0</small>
+                            <small class="content-font fw-medium">70,781</small>
                           </div>
+                          <input type="range" class="" min="0" max="5" step="0.5" id="customRange3" />
+                          <div class="text-end">
+                            <span class="content-font fw-bold text-dark-blue">0 USD</span>
+                            <button class="btn btn-linear-bg loan-status-btn border-0">
+                              Loan
+                            </button>
+                          </div>
+                        </div>
 
-                          <div class="loan-range-slider">
-                            <p class="content-font fw-medium mb-1">
-                              2 Year Commercial (Interest Rate 8)
-                            </p>
-                            <div class="d-flex justify-content-between">
-                              <small class="content-font fw-medium">0</small>
-                              <small class="content-font fw-medium"
-                                >70,781</small
-                              >
-                            </div>
-                            <input
-                              type="range"
-                              class=""
-                              min="0"
-                              max="5"
-                              step="0.5"
-                              id="customRange3"
-                            />
-                            <div class="text-end">
-                              <span class="content-font fw-bold text-dark-blue"
-                                >0 USD</span
-                              >
-                              <button
-                                class="btn btn-linear-bg loan-status-btn border-0"
-                              >
-                                Loan
-                              </button>
-                            </div>
+                        <div class="loan-range-slider">
+                          <p class="content-font fw-medium mb-1">
+                            1 Year Commercial (Interest Rate 10)
+                          </p>
+                          <div class="d-flex justify-content-between">
+                            <small class="content-font fw-medium">0</small>
+                            <small class="content-font fw-medium">70,781</small>
                           </div>
-                        </form>
-                      </div>
+                          <input type="range" class="" min="0" max="5" step="0.5" id="customRange3" />
+                          <div class="text-end">
+                            <span class="content-font fw-bold text-dark-blue">0 USD</span>
+                            <button class="btn btn-linear-bg loan-status-btn border-0">
+                              Loan
+                            </button>
+                          </div>
+                        </div>
+
+                        <div class="loan-range-slider">
+                          <p class="content-font fw-medium mb-1">
+                            2 Year Commercial (Interest Rate 8)
+                          </p>
+                          <div class="d-flex justify-content-between">
+                            <small class="content-font fw-medium">0</small>
+                            <small class="content-font fw-medium">70,781</small>
+                          </div>
+                          <input type="range" class="" min="0" max="5" step="0.5" id="customRange3" />
+                          <div class="text-end">
+                            <span class="content-font fw-bold text-dark-blue">0 USD</span>
+                            <button class="btn btn-linear-bg loan-status-btn border-0">
+                              Loan
+                            </button>
+                          </div>
+                        </div>
+                      </form>
                     </div>
-                  </section>
-                </div>
+                  </div>
+                </section>
+              </div>
 
-                <!-- <div class="modal-footer">
+              <!-- <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             <button type="button" class="btn btn-primary">Save changes</button>
                         </div> -->
-              </div>
             </div>
           </div>
-          <!-- F04 Get Loan Popup end -->
+        </div>
+        <!-- F04 Get Loan Popup end -->
 
-          <!-- F05 Invest YourMoney Popup start -->
+        <!-- F05 Invest YourMoney Popup start -->
 
-          <div
-            class="modal fade popup-modal-bg"
-            id="investyourmoney"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
-            <div
-              class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-            >
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    X
-                  </button>
-                  <h5 class="modal-title" id="exampleModalLabel">
-                    <img src="images/Logo.svg" alt="Gameplay" />
-                  </h5>
-                </div>
+        <div class="modal fade popup-modal-bg" id="investyourmoney" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  X
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel">
+                  <img src="images/Logo.svg" alt="Gameplay" />
+                </h5>
+              </div>
 
-                <div class="modal-body text-white">
-                  <section class="container">
-                    <div class="page-heading">
-                      <p class="mb-1">Available Cash to Invest</p>
-                      <p class="fw-bold">110, 686 USD (8,277,832 INR)</p>
+              <div class="modal-body text-white">
+                <section class="container">
+                  <div class="page-heading">
+                    <p class="mb-1">Available Cash to Invest</p>
+                    <p class="fw-bold">110, 686 USD (8,277,832 INR)</p>
+                  </div>
+
+                  <div class="loan-status-outer mt-3">
+                    <div class="loan-status-holder">
+                      <form>
+                        <div class="loan-range-slider">
+                          <p class="content-font fw-medium mb-1">
+                            Bank Account
+                          </p>
+                          <div class="d-flex justify-content-between">
+                            <small class="content-font fw-medium">0</small>
+                            <small class="content-font fw-medium">70,781</small>
+                          </div>
+                          <input type="range" class="" min="0" max="5" step="0.5" id="customRange3" />
+                          <div class="text-end">
+                            <span class="content-font fw-bold text-dark-blue">0 USD</span>
+                            <button class="btn btn-linear-bg loan-status-btn border-0">
+                              Invest
+                            </button>
+                          </div>
+                        </div>
+
+                        <div class="loan-range-slider">
+                          <p class="content-font fw-medium mb-1">Jewelry</p>
+                          <div class="d-flex justify-content-between">
+                            <small class="content-font fw-medium">0</small>
+                            <small class="content-font fw-medium">70,781</small>
+                          </div>
+                          <input type="range" class="" min="0" max="5" step="0.5" id="customRange3" />
+                          <div class="text-end">
+                            <span class="content-font fw-bold text-dark-blue">0 USD</span>
+                            <button class="btn btn-linear-bg loan-status-btn border-0">
+                              Invest
+                            </button>
+                          </div>
+                        </div>
+
+                        <div class="loan-range-slider">
+                          <p class="content-font fw-medium mb-1">Land</p>
+                          <div class="d-flex justify-content-between">
+                            <small class="content-font fw-medium">0</small>
+                            <small class="content-font fw-medium">70,781</small>
+                          </div>
+                          <input type="range" class="" min="0" max="5" step="0.5" id="customRange3" />
+                          <div class="text-end">
+                            <span class="content-font fw-bold text-dark-blue">0 USD</span>
+                            <button class="btn btn-linear-bg loan-status-btn border-0">
+                              Invest
+                            </button>
+                          </div>
+                        </div>
+
+                        <div class="loan-range-slider">
+                          <p class="content-font fw-medium mb-1">
+                            High Risk Stock
+                          </p>
+                          <div class="d-flex justify-content-between">
+                            <small class="content-font fw-medium">0</small>
+                            <small class="content-font fw-medium">70,781</small>
+                          </div>
+                          <input type="range" class="" min="0" max="5" step="0.5" id="customRange3" />
+                          <div class="text-end">
+                            <span class="content-font fw-bold text-dark-blue">0 USD</span>
+                            <button class="btn btn-linear-bg loan-status-btn border-0">
+                              Invest
+                            </button>
+                          </div>
+                        </div>
+
+                        <div class="loan-range-slider">
+                          <p class="content-font fw-medium mb-1">
+                            Medium Risk Stock
+                          </p>
+                          <div class="d-flex justify-content-between">
+                            <small class="content-font fw-medium">0</small>
+                            <small class="content-font fw-medium">70,781</small>
+                          </div>
+                          <input type="range" class="" min="0" max="5" step="0.5" id="customRange3" />
+                          <div class="text-end">
+                            <span class="content-font fw-bold text-dark-blue">0 USD</span>
+                            <button class="btn btn-linear-bg loan-status-btn border-0">
+                              Invest
+                            </button>
+                          </div>
+                        </div>
+                      </form>
                     </div>
+                  </div>
+                </section>
+              </div>
 
-                    <div class="loan-status-outer mt-3">
-                      <div class="loan-status-holder">
-                        <form>
-                          <div class="loan-range-slider">
-                            <p class="content-font fw-medium mb-1">
-                              Bank Account
-                            </p>
-                            <div class="d-flex justify-content-between">
-                              <small class="content-font fw-medium">0</small>
-                              <small class="content-font fw-medium"
-                                >70,781</small
-                              >
-                            </div>
-                            <input
-                              type="range"
-                              class=""
-                              min="0"
-                              max="5"
-                              step="0.5"
-                              id="customRange3"
-                            />
-                            <div class="text-end">
-                              <span class="content-font fw-bold text-dark-blue"
-                                >0 USD</span
-                              >
-                              <button
-                                class="btn btn-linear-bg loan-status-btn border-0"
-                              >
-                                Invest
-                              </button>
-                            </div>
-                          </div>
-
-                          <div class="loan-range-slider">
-                            <p class="content-font fw-medium mb-1">Jewelry</p>
-                            <div class="d-flex justify-content-between">
-                              <small class="content-font fw-medium">0</small>
-                              <small class="content-font fw-medium"
-                                >70,781</small
-                              >
-                            </div>
-                            <input
-                              type="range"
-                              class=""
-                              min="0"
-                              max="5"
-                              step="0.5"
-                              id="customRange3"
-                            />
-                            <div class="text-end">
-                              <span class="content-font fw-bold text-dark-blue"
-                                >0 USD</span
-                              >
-                              <button
-                                class="btn btn-linear-bg loan-status-btn border-0"
-                              >
-                                Invest
-                              </button>
-                            </div>
-                          </div>
-
-                          <div class="loan-range-slider">
-                            <p class="content-font fw-medium mb-1">Land</p>
-                            <div class="d-flex justify-content-between">
-                              <small class="content-font fw-medium">0</small>
-                              <small class="content-font fw-medium"
-                                >70,781</small
-                              >
-                            </div>
-                            <input
-                              type="range"
-                              class=""
-                              min="0"
-                              max="5"
-                              step="0.5"
-                              id="customRange3"
-                            />
-                            <div class="text-end">
-                              <span class="content-font fw-bold text-dark-blue"
-                                >0 USD</span
-                              >
-                              <button
-                                class="btn btn-linear-bg loan-status-btn border-0"
-                              >
-                                Invest
-                              </button>
-                            </div>
-                          </div>
-
-                          <div class="loan-range-slider">
-                            <p class="content-font fw-medium mb-1">
-                              High Risk Stock
-                            </p>
-                            <div class="d-flex justify-content-between">
-                              <small class="content-font fw-medium">0</small>
-                              <small class="content-font fw-medium"
-                                >70,781</small
-                              >
-                            </div>
-                            <input
-                              type="range"
-                              class=""
-                              min="0"
-                              max="5"
-                              step="0.5"
-                              id="customRange3"
-                            />
-                            <div class="text-end">
-                              <span class="content-font fw-bold text-dark-blue"
-                                >0 USD</span
-                              >
-                              <button
-                                class="btn btn-linear-bg loan-status-btn border-0"
-                              >
-                                Invest
-                              </button>
-                            </div>
-                          </div>
-
-                          <div class="loan-range-slider">
-                            <p class="content-font fw-medium mb-1">
-                              Medium Risk Stock
-                            </p>
-                            <div class="d-flex justify-content-between">
-                              <small class="content-font fw-medium">0</small>
-                              <small class="content-font fw-medium"
-                                >70,781</small
-                              >
-                            </div>
-                            <input
-                              type="range"
-                              class=""
-                              min="0"
-                              max="5"
-                              step="0.5"
-                              id="customRange3"
-                            />
-                            <div class="text-end">
-                              <span class="content-font fw-bold text-dark-blue"
-                                >0 USD</span
-                              >
-                              <button
-                                class="btn btn-linear-bg loan-status-btn border-0"
-                              >
-                                Invest
-                              </button>
-                            </div>
-                          </div>
-                        </form>
-                      </div>
-                    </div>
-                  </section>
-                </div>
-
-                <!-- <div class="modal-footer">
+              <!-- <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                 <button type="button" class="btn btn-primary">Save changes</button>
                             </div> -->
-              </div>
             </div>
           </div>
-          <!-- F05 Invest YourMoney Popup end -->
-        </section>
+        </div>
+        <!-- F05 Invest YourMoney Popup end -->
       </section>
-    </main>
+    </section>
+  </main>
 
-    <script src="js/custom.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
+  <script src="js/custom.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
